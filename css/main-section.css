@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbebea;
+  /*overflow: hidden;*/
+}
+
+.main__container {
+  position: relative;
+}
+
+.main__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fbebea;
+  padding: 50px 30px 0;
+}
+
+.header__title {
+  font: 24px Bold;
+}
+
+.main__header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.telephone-number {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main__cake-image {
+  width: 70%;
+  position: absolute;
+  top: 100px;
+  left: 40%;
+  z-index: -1;
+}
+
+.main__content-container {
+  padding: 30px;
+  height: 100%;
+}
+
+.main__title--text {
+  font-size: 78px;
+  font-weight: bold;
+  margin: 90px auto 0;
+}
+
+.main__hand-made--text {
+  font-size: 40px;
+  font-style: italic;
+  margin: 10px auto 0;
+}
+
+.main__button {
+  width: 220px;
+  height: 50px;
+  background-color: #f50049;
+  color: #ffffff;
+  border: hidden;
+  border-radius: 30px;
+  transition: 100ms;
+  margin: 100px auto 0;
+}
+
+.main__button:hover {
+  box-shadow: 0 5px 20px #f50049;
+}
