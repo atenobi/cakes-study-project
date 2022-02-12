@@ -30,6 +30,13 @@
   font-style: normal;
   }  
 
+  @font-face{
+    font-family: 'PlayfairDisplay';
+    src: url('./fonts/PlayfairDisplay-Regular.ttf');
+    src: url('./fonts/PlayfairDisplay-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    }  
 /* Intro Script R */
 
 @font-face{

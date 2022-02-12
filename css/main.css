@@ -1,4 +1,6 @@
-@import url("/css/main-section.css");
+/* imports */
+@import url("../css/fonts.css");
+@import url("../css/main-section.css");
 
 * {
   margin: 0;
