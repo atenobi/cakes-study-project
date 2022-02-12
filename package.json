@@ -16,6 +16,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
+    "fonts.css": "^2.0.0",
     "gh-pages": "^3.2.3"
   }
 }

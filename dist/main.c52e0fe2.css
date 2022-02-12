@@ -52,6 +52,10 @@
   padding: 55px 70px 0;
 }
 
+.resp_decor {
+  display: none;
+}
+
 .main__header {
   display: flex;
   flex-direction: row;
@@ -66,6 +70,10 @@
   font-family: 'PlayfairDisplay';
   font-weight: bold;
   margin: 0px 47px 0 0;
+}
+
+.main_nav_burger-button {
+  display: none;
 }
 
 .main__header__nav {
@@ -177,7 +185,169 @@
   margin-right: 35px;
 }
 
-/* медиа */
+/* design for tablets (768 PX) */
+
+@media only screen and (max-width:768px) {
+  .main__container {
+    width: 86rem;
+    padding: 42px 80px 0;
+  }
+
+  .resp_decor {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-color: var(--general-white);
+    height: 105px;
+  }
+
+  .main__header{
+    background-color: var(--general-white);
+    position: relative;
+  }
+
+  .header__title {
+    font-size: 42px;
+  }
+
+  .main_nav_burger-button {
+    display: block;
+    position: absolute;
+    top: -35px;
+    left: 155px;
+    font-size: 85px;
+    outline: none;
+    border: none;
+    background-color: var(--general-white);
+  }
+
+  .main__header__nav {
+    align-items: self-end;
+  }
+
+  .resp-nav-link {
+    visibility: hidden;
+  }
+
+  .telephone-number {
+    font-size: 27px;
+  }
+
+  .strawbarry_decorations {
+    top: 136px;
+    left: 27%;
+  }
+
+  .main__cake-image {
+    top: 137px;
+    left: 43%;
+  }
+
+  .main__title--text {
+    font-size: 132px;
+    line-height: 91px;
+    margin: 222px auto 0;
+  }
+
+  .main__hand-made--text{
+    font-size: 65px;
+    margin: 42px auto 0;
+  }
+
+  .main__button {
+    width: 410px;
+    height: 91px;
+    font-size: 24px;
+    border-radius: 50px;
+    margin: 84px auto 0;
+  }
+
+  .main__info {
+    width: 75%;
+    margin: 242px 0 0;
+  }
+
+  .svg_item {
+    width: 100px;
+  }
+
+  .main__info--text {
+    font-size: 27px;
+    margin-right: 0px;
+  }
+
+}
+
+/* design for mobile (320 PX) */
+
+@media only screen and (max-width:320px) {
+  .main__container {
+    width: 86rem;
+    padding: 55px 70px 0;
+  }
+
+  .resp_decor {
+    height: 135px;
+  }
+
+  .header__title {
+    font-size: 60px;
+  }
+
+  .main_nav_burger-button {
+    top: -110%;
+    left: 74%;
+    font-size: 108px;
+  }
+
+  .telephone-number {
+    display: none;
+  }
+
+  .strawbarry_decorations {
+    display: none;
+  }
+
+  .main__cake-image {
+    top: -538px;
+    left: -9%;
+    z-index: -2;
+    width: 100%;
+    transform: rotateZ(17deg);
+  }
+
+  .main__content-container {
+    padding: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .main__title--text {
+    font-size: 178px;
+    line-height: 120px;
+    margin: 500px auto 0;
+    text-align: center;
+  }
+
+  .main__hand-made--text {
+    font-size: 82px;
+    margin: 60px auto 0;
+  }
+
+  .main__button{
+    width: 795px;
+    height: 170px;
+    font-size: 45px;
+    border-radius: 80px;
+    margin: 480px auto 0;
+  }  
+}
 /* imports */
 
 * {
