@@ -184,7 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/main-section.css":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/fonts.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./fonts\\Circe-Regular.eot":[["Circe-Regular.4627a3f8.eot","css/fonts/Circe-Regular.eot"],"css/fonts/Circe-Regular.eot"],"./fonts\\Circe-Regular.woff":[["Circe-Regular.cdd0ffdc.woff","css/fonts/Circe-Regular.woff"],"css/fonts/Circe-Regular.woff"],"./fonts\\Circe-Regular.ttf":[["Circe-Regular.3b5a2a7e.ttf","css/fonts/Circe-Regular.ttf"],"css/fonts/Circe-Regular.ttf"],"./fonts\\Circe-Bold.eot":[["Circe-Bold.024ae2c7.eot","css/fonts/Circe-Bold.eot"],"css/fonts/Circe-Bold.eot"],"./fonts\\Circe-Bold.woff":[["Circe-Bold.a672ada1.woff","css/fonts/Circe-Bold.woff"],"css/fonts/Circe-Bold.woff"],"./fonts\\Circe-Bold.ttf":[["Circe-Bold.f0e8a7c2.ttf","css/fonts/Circe-Bold.ttf"],"css/fonts/Circe-Bold.ttf"],"./fonts\\PlayfairDisplay-Bold.ttf":[["PlayfairDisplay-Bold.71bb95b8.ttf","css/fonts/PlayfairDisplay-Bold.ttf"],"css/fonts/PlayfairDisplay-Bold.ttf"],"./fonts\\PlayfairDisplay-Regular.ttf":[["PlayfairDisplay-Regular.9b0c28f4.ttf","css/fonts/PlayfairDisplay-Regular.ttf"],"css/fonts/PlayfairDisplay-Regular.ttf"],"./fonts\\IntroScriptR.woff":[["IntroScriptR.0c53e174.woff","css/fonts/IntroScriptR.woff"],"css/fonts/IntroScriptR.woff"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/main-section.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -194,7 +199,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/css/main-section.css":"css/main-section.css","_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../css/fonts.css":"css/fonts.css","../css/main-section.css":"css/main-section.css","_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -222,7 +227,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64116" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56407" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
