@@ -1,0 +1,41 @@
+/* Circe */
+
+@font-face{
+  font-family: 'Circe';
+  src: url('./fonts/Circe-Regular.eot');
+  src: url('./fonts/Circe-Regular.eot?iefix') format('eot'),
+  url('./fonts/Circe-Regular.woff') format('woff'),
+  url('./fonts/Circe-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face{
+  font-family: 'Circe';
+  src: url('./fonts/Circe-Bold.eot');
+  src: url('./fonts/Circe-Bold.eot?iefix') format('eot'),
+  url('./fonts/Circe-Bold.woff') format('woff'),
+  url('./fonts/Circe-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  }
+
+/* PlayfairDisplay */
+
+@font-face{
+  font-family: 'PlayfairDisplay';
+  src: url('./fonts/PlayfairDisplay-Bold.ttf');
+  src: url('./fonts/PlayfairDisplay-Bold.ttf?iefix') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+  }  
+
+/* Intro Script R */
+
+@font-face{
+  font-family: 'IntroScriptR';
+  src: url('./fonts/IntroScriptR.woff');
+  src: url('./fonts/IntroScriptR.woff?iefix') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  } 

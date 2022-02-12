@@ -1,31 +1,35 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+@import url("fonts.css");
+@import url("main-section.css");
 
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+:root{
+    --general-white: #FFFFFF;
+    --primary-text: #2d2829;
+    --secondary-text: #f50049;
+  
+    --background: #fbebea;
+}
+
+
+body {
+  background-color: var(--background);
+  overflow-x: hidden;
+}
+
+.sprite {
+  display: none;
+}
 
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
 
 ::-moz-selection {
   background: #b3d4fc;
