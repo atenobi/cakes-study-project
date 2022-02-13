@@ -23,16 +23,16 @@
     </symbol>
   </svg> 
 
-<main class="main__container">
+<main class="container">
   
   <div class="resp_decor"></div>
 
   <header class="main__header">
     <h1 class="header__title">Cakes</h1>
 
-  <button class="main_nav_burger-button">&#8801;</button>  
+  <button class="main_nav_burger-button" id="js-responsive-menu-button">&#8801;</button>  
 
-    <nav class="main__header__nav nav">
+    <nav class="main__header__nav nav" id="js-nav-menu">
       <!-- in this section I have added descriptions of each link, for better accessibility  -->
       <a href="#" class="nav-link resp-nav-link" itemprop="our cakes">НАШИ ТОРТЫ</a>
       <a href="#" class="nav-link resp-nav-link" itemprop="individual order">ИНДИВИДУАЛЬНЫЙ ЗАКАЗ</a>
@@ -57,16 +57,17 @@
     <button class="main__button" itemprop="select cake button">ВЫБРАТЬ ТОРТ</button>
     
     <div class="main__info">
-   
+      <div class="main__info--item">
         <svg class="svg_item svg_plant"><use href="#plant"></use></svg>
         <p class="main__info--text">Натуральные <br> ингредиенты</p>
-  
-   
-       <svg class="svg_item svg_gift_box"><use href="#gift_box"></use></svg>
-       <p class="main__info--text">Доставка бесплатно <br> при заказе от 2000 рублей*</p>
-  
+      </div>
       
-    </div>
+      <div class="main__info--item">
+        <svg class="svg_item svg_gift_box"><use href="#gift_box"></use></svg>
+        <p class="main__info--text">Доставка бесплатно <br> при заказе от 2000 рублей*</p>
+      </div> 
+
+      </div>
    </div>
 
 </main>
@@ -78,6 +79,8 @@
 <footer>
   <h1>footer</h1>
 </footer> -->
+
+<script src="./js/index.js"></script>
 </body>
 
 </html>

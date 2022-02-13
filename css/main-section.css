@@ -1,6 +1,6 @@
-.main__container {
+.container {
   position: relative;
-  width: 85rem;
+  width: 100vw;
   padding: 55px 70px 0;
 }
 
@@ -77,6 +77,7 @@
 
 .main__content-container {
   padding: 0;
+  width: 100%;
 }
 
 .main__title--text {
@@ -125,6 +126,13 @@
   margin: 80px 0 0;
 }
 
+.main__info--item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .svg_item {
   width: 53px;
   fill: var(--secondary-text);
@@ -134,14 +142,14 @@
   font-family: 'Circe';
   font-weight: bold;
   font-size: 14px;
-  margin-right: 35px;
+  margin-left: 20px;
 }
 
-/* design for tablets (768 PX) */
+/* design for tablets (1240 PX) */
 
-@media only screen and (max-width:768px) {
-  .main__container {
-    width: 86rem;
+@media only screen and (max-width:1240px) {
+  .container {
+    width: 85rem;
     padding: 42px 80px 0;
   }
 
@@ -150,7 +158,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100rem;
     z-index: -1;
     background-color: var(--general-white);
     height: 105px;
@@ -176,12 +184,39 @@
     background-color: var(--general-white);
   }
 
+  .main_nav_burger-button:hover {
+    color: var(--secondary-text);
+  }
+
+  .main_nav_burger-button:active {
+    color: var(--secondary-text);
+  }
+
   .main__header__nav {
     align-items: self-end;
   }
 
   .resp-nav-link {
     visibility: hidden;
+  }
+
+  .mobile-menu {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 20%;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    border-radius: 1%;
+    background-color: var(--general-white);
+  }
+
+  .mobile-menu > a {
+    display: inline;
+    visibility: visible;
+    font-size: 40px;
+    margin: 0;
   }
 
   .telephone-number {
@@ -233,12 +268,13 @@
 
 }
 
-/* design for mobile (320 PX) */
+/* design for mobile (480 PX) */
 
-@media only screen and (max-width:320px) {
-  .main__container {
-    width: 86rem;
+@media only screen and (max-width:480px) {
+  .container {
+    width: 80rem;
     padding: 55px 70px 0;
+    position: relative;
   }
 
   .resp_decor {
@@ -250,9 +286,14 @@
   }
 
   .main_nav_burger-button {
-    top: -110%;
-    left: 74%;
+    top: -105%;
+    left: 95%;
     font-size: 108px;
+  }
+
+  .mobile-menu {
+    width: 65%;
+    left: 25%;
   }
 
   .telephone-number {
@@ -265,7 +306,7 @@
 
   .main__cake-image {
     top: -538px;
-    left: -9%;
+    left: -1%;
     z-index: -2;
     width: 100%;
     transform: rotateZ(17deg);
@@ -273,7 +314,6 @@
 
   .main__content-container {
     padding: 0;
-    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -290,6 +330,22 @@
   .main__hand-made--text {
     font-size: 82px;
     margin: 60px auto 0;
+  }
+
+  .main__info {
+    position: absolute;
+    flex-direction: column;
+    top: 65%;
+    left: 20%;
+    margin: 0;
+  }
+
+  .main__info--item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
   }
 
   .main__button{
