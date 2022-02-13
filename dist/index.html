@@ -23,18 +23,23 @@
     </symbol>
   </svg> 
 
-<main class="main__container">
+<main class="container">
+  
+  <div class="resp_decor"></div>
+
   <header class="main__header">
     <h1 class="header__title">Cakes</h1>
 
-    <nav class="main__header__nav nav">
+  <button class="main_nav_burger-button" id="js-responsive-menu-button">&#8801;</button>  
+
+    <nav class="main__header__nav nav" id="js-nav-menu">
       <!-- in this section I have added descriptions of each link, for better accessibility  -->
-      <a href="#" class="nav-link" itemprop="our cakes">НАШИ ТОРТЫ</a>
-      <a href="#" class="nav-link" itemprop="individual order">ИНДИВИДУАЛЬНЫЙ ЗАКАЗ</a>
-      <a href="#" class="nav-link" itemprop="reviews">ОТЗЫВЫ</a>
-      <a href="#" class="nav-link" itemprop="about us">О НАС</a>
-      <a href="#" class="nav-link" itemprop="how to order">КАК ЗАКАЗАТЬ</a>
-      <a href="#" class="nav-link" itemprop="contacts">КОНТАКТЫ</a>
+      <a href="#" class="nav-link resp-nav-link" itemprop="our cakes">НАШИ ТОРТЫ</a>
+      <a href="#" class="nav-link resp-nav-link" itemprop="individual order">ИНДИВИДУАЛЬНЫЙ ЗАКАЗ</a>
+      <a href="#" class="nav-link resp-nav-link" itemprop="reviews">ОТЗЫВЫ</a>
+      <a href="#" class="nav-link resp-nav-link" itemprop="about us">О НАС</a>
+      <a href="#" class="nav-link resp-nav-link" itemprop="how to order">КАК ЗАКАЗАТЬ</a>
+      <a href="#" class="nav-link resp-nav-link" itemprop="contacts">КОНТАКТЫ</a>
       <a href="tel:+79068999296" class="nav-link telephone-number" itemprop="phone number">+7 906 899 92 96</a>
     </nav>
     
@@ -52,16 +57,17 @@
     <button class="main__button" itemprop="select cake button">ВЫБРАТЬ ТОРТ</button>
     
     <div class="main__info">
-   
+      <div class="main__info--item">
         <svg class="svg_item svg_plant"><use href="#plant"></use></svg>
         <p class="main__info--text">Натуральные <br> ингредиенты</p>
-  
-   
-       <svg class="svg_item svg_gift_box"><use href="#gift_box"></use></svg>
-       <p class="main__info--text">Доставка бесплатно <br> при заказе от 2000 рублей*</p>
-  
+      </div>
       
-    </div>
+      <div class="main__info--item">
+        <svg class="svg_item svg_gift_box"><use href="#gift_box"></use></svg>
+        <p class="main__info--text">Доставка бесплатно <br> при заказе от 2000 рублей*</p>
+      </div> 
+
+      </div>
    </div>
 
 </main>
@@ -73,6 +79,8 @@
 <footer>
   <h1>footer</h1>
 </footer> -->
+
+<script src="/js.00a46daa.js"></script>
 </body>
 
 </html>
