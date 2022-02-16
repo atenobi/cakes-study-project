@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body class="container">
   <!-- svg sprite / potentialy I can add all svg icons here -->
   <svg class="sprite" xmlns="http://www.w3.org/2000/svg">
     <symbol id="gift_box" viewbox="0 0 512 512">
@@ -23,7 +23,7 @@
     </symbol>
   </svg> 
 
-<main class="main-section container">
+<main class="main-section"> 
   <!-- decor for mobile (white bg) -->
 
 
@@ -74,61 +74,67 @@
 
 </main>
 
-<div class="container-exp">
-  container
-  <div class="exp-lg-col">large 100%</div>
+<!-- section 2 our cakes -->
 
-  <div class="exp-md-col">
-    
-  </div>
+<section id="our-cakes" class="our-cakes-section">
+  <div class="content-container">
+    <h1 class="our-cakes--title-text">НАШИ ТОРТЫ</h1>
+
+    <div class="gallery-container">
+      <!-- big image -->
+      <div class="col-md image-card solid-image-wrapper">
+        <h5 class="cake-name-text">Классические</h5>
+        <p class="cake-counter-text">24 вида</p>
+        <img class="cake-image" src="./img/classic_cake.png" alt="classic cake">
+        <button class="look-button">Смотреть  &rarr;</button>
+      </div>
   
-  <div class="exp-md-col">
-    <div class="exp-lg-col">
-      
-    </div>
-
-    <div class="exp-lg-col">
-      
-    </div>
-  </div>
-
-
-  <div class="exp-md-col">
-    <div class="exp-lg-col">
-    </div>
-
-    <div class="exp-lg-col">
-    </div>
-  </div>
-
-  <div class="exp-md-col">
-  </div>
-
-</div>
-
-<!-- <section id="our-cakes" class="our-cakes-section container">
-  <h1 class="our-cakes--title-text">НАШИ ТОРТЫ</h1>
-
-  <div class="our-cakes__container">
-    <div class="big-image-wrapper">
-      <p>классические</p>
-      <p>24 вида</p>
-      <button class="look-button">Смотреть  &rarr;</button>
-    </div>
-
-    <div class="group-image-wrapper">
-      <div class="little-image-wrapper">
-        <p>муссовые</p>
-        <img class="litle-image" src="./img/myss_cake.png" alt="myss cake">
-      </div>
-
-      <div class="little-image-wrapper">
-        <p>свадебные</p>
-        <img class="litle-image" src="./img/wedness_day_cake.png" alt="wedness-day cake">
+      <div class="col-sm split-image-wrapper">
+        <!-- 2 little images -->
+        <div class="col-lg image-card splited-image-card">
+          <h5 class="cake-name-text">Муссовые</h5>
+          <p class="cake-counter-text">12 видов</p>
+          <img class="cake-image" src="./img/myss_cake.png" alt="myss cake">
+          <button class="look-button">&rarr;</button>
+        </div>
+  
+        <div class="col-lg image-card splited-image-card">
+          <h5 class="cake-name-text">Свадебные</h5>
+          <p class="cake-counter-text">20 видов</p>
+          <img class="cake-image" src="./img/wednes_day_cake.png" alt="wedness-day cake">
+          <button class="look-button">&rarr;</button>
+        </div>
       </div>
     </div>
+
+    <div class="gallery-container">
+      <div class="col-sm split-image-wrapper">
+        <!-- 2 little images -->
+        <div class="col-lg image-card splited-image-card">
+          <h5 class="cake-name-text">Мужчинам</h5>
+          <p class="cake-counter-text">12 видов</p>
+          <img class="cake-image medium-image" src="./img/mans_cake.png" alt="mans cake">
+          <button class="look-button">&rarr;</button>
+        </div>
+  
+        <div class="col-lg image-card splited-image-card">
+          <h5 class="cake-name-text">Женщинам</h5>
+          <p class="cake-counter-text">16 видов</p>
+          <img class="cake-image medium-image" src="./img/womans_cake.png" alt="womans cake">
+          <button class="look-button">&rarr;</button>
+        </div>
+      </div>
+
+      <div class="col-md image-card solid-image-wrapper">
+        <!-- big image -->
+        <h5 class="cake-name-text">Детские</h5>
+        <p class="cake-counter-text">18 видов</p>
+        <img class="cake-image big-image" src="./img/childrens_cake.png" alt="childrens cake">
+        <button class="look-button">Смотреть  &rarr;</button>
+      </div>
+    </div>
   </div>
-</section> -->
+</section>
 
  <!-- <footer>
   <h1>footer</h1>
