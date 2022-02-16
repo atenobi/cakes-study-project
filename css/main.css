@@ -15,6 +15,7 @@
   --primary-text: #2d2829;
   --secondary-text: #f50049;
   --background: #fbebea;
+  --invisible-bg: #ffffff00;
 }
 
 body {

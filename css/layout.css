@@ -1,58 +1,22 @@
-.container-exp {
-    width: 100vw;
-    background-color: aquamarine;
-    padding: 20px 40px;
-    box-sizing: border-box;
-}
 
-div[class^="exp-"] {
+div[class^="col-"] {
     float: left;
-    border: 1px dashed green;
 }
 
-.exp-lg-col {
+.col-lg {
     width: 100%;
-    background-color: rgb(187, 112, 14);
 }
 
-.exp-md-col {
-    width: 50%;
-    background-color: blueviolet;
+.col-md {
+    width: 59%;
 }
 
-.exp-sm-col {
-    width: 33%;
-    background-color: blue;
+.col-sm {
+    width: 39%;
 }
 
-
-.image {
-    max-width: 100%;
-}
-
-
-@media only screen and (max-width:1240px){
-    .exp-sm-col {
-        width: 50%;
-        background-color: blueviolet;
-    }
-}
-
-@media only screen and (max-width:760px){
-    .exp-sm-col {
-        width: 50%;
-        background-color: rgb(56, 48, 65);
-    }
-
-    .exp-md-col {
+@media only screen and (max-width:480px){
+    div[class^="col-"] {
         width: 100%;
-        background-color: blueviolet;
-    }
-}
-
-@media only screen and (max-width:760px){
-    .exp-sm-col {
-        width: 100%;
-        background-color: rgb(40, 9, 70);
     }
 }
