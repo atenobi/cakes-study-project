@@ -1,0 +1,79 @@
+.our-cakes-section {
+    margin-top: 165px;
+}
+
+.gallery-container {
+    margin: 20px 0;
+}
+
+.image-card {
+    padding: 25px 0px 0 25px;
+    font-size: 30px;
+}
+
+.cake-name-text, .cake-counter-text {
+    font-size: calc(100vw / 40);
+    line-height: calc((100vw / 15) / 2);
+    position: relative;
+    z-index: 1;
+}
+
+.cake-image {
+    width: -webkit-fill-available;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.solid-image-wrapper, .split-image-wrapper {
+    height: calc(100vw / 2);
+    margin: 5px;
+}
+
+.splited-image-card {
+    height: 49%;
+    margin-bottom: 15px;
+}
+
+.solid-image-wrapper, .splited-image-card {
+    overflow: hidden;
+    position: relative;
+    background-color: var(--general-white);
+}
+
+.look-button {
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+    font-size: calc(100vw / 40);
+    line-height: calc((100vw / 15) / 2);
+    background-color: var(--invisible-bg);
+    backface-visibility: hidden;
+    border: hidden;
+    outline: none;
+}
+
+.look-button:hover {
+    color: var(--secondary-text);
+}
+
+/* media for mobile */
+@media only screen and (max-width:480px) {
+    .solid-image-wrapper, .split-image-wrapper {
+        min-height: max-content;
+    }
+
+    .splited-image-card {
+        height: 49%;
+        margin-bottom: 5px;
+    }
+
+    .cake-image {
+        top: -25px;
+        left: 20px;
+    }
+
+    .look-button {
+       display: none;
+    }
+}

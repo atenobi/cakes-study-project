@@ -1,0 +1,22 @@
+
+div[class^="col-"] {
+    float: left;
+}
+
+.col-lg {
+    width: 100%;
+}
+
+.col-md {
+    width: 59%;
+}
+
+.col-sm {
+    width: 39%;
+}
+
+@media only screen and (max-width:480px){
+    div[class^="col-"] {
+        width: 100%;
+    }
+}
