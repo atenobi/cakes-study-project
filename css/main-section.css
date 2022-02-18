@@ -1,11 +1,5 @@
-.container {
-  position: relative;
-  width: 100vw;
-  padding: 55px 70px 0;
-}
-
-.resp_decor {
-  display: none;
+.header__container {
+  padding: 35px 70px 35px;
 }
 
 .main__header {
@@ -33,13 +27,13 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 91%;
+  width: 100%;
 }
 
 .nav-link {
   text-decoration: none;
   color: var(--primary-text);
-  font-size: 13px;
+  font-size: calc(100vw / 90);
   font-family: 'Circe';
 }
 
@@ -56,11 +50,11 @@
   font-size: 14px;
   font-weight: bold;
   font-family: 'Circe';
-  margin-left: 200px;
+  margin-left: 10%;
 }
 
 .strawbarry_decorations {
-  max-width: 100%;
+  max-width: calc(100vw / 3);
   position: absolute;
   top: 90px;
   left: 24%;
@@ -76,34 +70,35 @@
 }
 
 .main__content-container {
-  padding: 0;
+  margin-top: 10%;
   width: 100%;
 }
 
 .main__title--text {
-  font-size: 96px;
-  line-height: 67px;
+  font-size: calc(100vw / 14);
+  line-height: calc((100vw / 10) / 2);
   font-family: 'PlayfairDisplay';
   font-weight: bold;
-  margin: 152px auto 0;
+  margin-bottom: 0;
 }
 
 .main__hand-made--text {
-  font-size: 41px;
+  font-size: calc(100vw / 31);
+  line-height: calc((100vw / 10) / 2);
   font-family: 'IntroScriptR';
-  margin: 20px auto 0;
+  margin-top: 20px;
 }
 
 .main__button {
-  width: 230px;
-  height: 56px;
+  width: calc(100vw / 6);
+  height: calc(100vw / 27);
   background-color: var(--secondary-text);
   color: var(--general-white);
   font-family: 'Circe';
   font-weight: normal;
-  font-size: 13px;
+  font-size: calc(100vw / 100);
   border: hidden;
-  border-radius: 30px;
+  border-radius: 50px;
   transition: 100ms;
   margin: 50px auto 0;
 }
@@ -118,7 +113,7 @@
 }
 
 .main__info {
-  width: 41%;
+  width: 45%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -134,34 +129,22 @@
 }
 
 .svg_item {
-  width: 53px;
+  width: calc(100vw /20);
   fill: var(--secondary-text);
 }
 
 .main__info--text {
   font-family: 'Circe';
   font-weight: bold;
-  font-size: 14px;
+  font-size: calc(100vw / 100);
   margin-left: 20px;
 }
 
-/* design for tablets (1240 PX) */
+/* design for tablets (768 PX) */
 
-@media only screen and (max-width:1240px) {
-  .container {
-    width: 85rem;
-    padding: 42px 80px 0;
-  }
-
-  .resp_decor {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100rem;
-    z-index: -1;
+@media only screen and (max-width:768px) {
+  .header__container {
     background-color: var(--general-white);
-    height: 105px;
   }
 
   .main__header{
@@ -170,14 +153,14 @@
   }
 
   .header__title {
-    font-size: 42px;
+    font-size: 37px;
   }
 
   .main_nav_burger-button {
     display: block;
     position: absolute;
-    top: -35px;
-    left: 155px;
+    top: -36px;
+    left: 136px;
     font-size: 85px;
     outline: none;
     border: none;
@@ -194,17 +177,18 @@
 
   .main__header__nav {
     align-items: self-end;
+    flex-direction: column;
   }
 
   .resp-nav-link {
-    visibility: hidden;
+    display: none;
   }
-
+  
   .mobile-menu {
-    width: 50%;
+    width: max-content;
     position: absolute;
-    top: 0;
-    left: 20%;
+    top: 70px;
+    left: 13%;
     flex-direction: column;
     align-items: start;
     padding: 10px;
@@ -215,12 +199,12 @@
   .mobile-menu > a {
     display: inline;
     visibility: visible;
-    font-size: 40px;
+    font-size: calc(100vw / 30);
     margin: 0;
   }
 
   .telephone-number {
-    font-size: 27px;
+    font-size: 20px;
   }
 
   .strawbarry_decorations {
@@ -233,67 +217,42 @@
     left: 43%;
   }
 
-  .main__title--text {
-    font-size: 132px;
-    line-height: 91px;
-    margin: 222px auto 0;
-  }
-
-  .main__hand-made--text{
-    font-size: 65px;
-    margin: 42px auto 0;
-  }
-
   .main__button {
-    width: 410px;
-    height: 91px;
-    font-size: 24px;
-    border-radius: 50px;
-    margin: 84px auto 0;
+    width: calc(100vw / 4);
+    height: calc(100vw / 13);
+    font-size: calc(100vw / 50);
   }
 
   .main__info {
-    width: 75%;
-    margin: 242px 0 0;
-  }
-
-  .svg_item {
-    width: 100px;
+    width: 50%;
   }
 
   .main__info--text {
-    font-size: 27px;
-    margin-right: 0px;
+    margin-left: 10px;
   }
-
 }
 
 /* design for mobile (480 PX) */
 
 @media only screen and (max-width:480px) {
-  .container {
-    width: 80rem;
-    padding: 55px 70px 0;
-    position: relative;
+  .header__container {
+    padding: 15px 27px 14px;
   }
-
-  .resp_decor {
-    height: 135px;
-  }
-
+  
   .header__title {
-    font-size: 60px;
+    font-size: 28px;
   }
 
   .main_nav_burger-button {
-    top: -105%;
-    left: 95%;
-    font-size: 108px;
+    top: -45%;
+    left: 93%;
+    font-size: 52px;
   }
 
   .mobile-menu {
-    width: 65%;
-    left: 25%;
+    width: 70%;
+    left: 30%;
+    font-size: calc(100vw / 25);
   }
 
   .telephone-number {
@@ -305,54 +264,56 @@
   }
 
   .main__cake-image {
-    top: -538px;
-    left: -1%;
+    top: -241px;
+    left: -13%;
     z-index: -2;
-    width: 100%;
+    max-width: 126vw;
     transform: rotateZ(17deg);
   }
 
   .main__content-container {
+    margin-top: 32%;
+    width: 100%;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
   }
 
   .main__title--text {
-    font-size: 178px;
-    line-height: 120px;
-    margin: 500px auto 0;
     text-align: center;
+    font-size: calc(100vw / 7);
+    line-height: calc((100vw / 5) / 2);
   }
 
   .main__hand-made--text {
-    font-size: 82px;
-    margin: 60px auto 0;
+    font-size: calc(100vw / 15);
+    line-height: calc((100vw / 4) / 2);
+  }
+
+  .main__button {
+    width: calc(100vw / 1.5);
+    height: calc(100vw / 7);
+    font-size: calc(100vw / 26);
+    margin: 25px auto;
   }
 
   .main__info {
-    position: absolute;
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    top: 65%;
-    left: 20%;
+    align-items: start;
     margin: 0;
   }
 
-  .main__info--item {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
+  .svg_item {
+    width: calc(100vw / 10);
+    height: calc(100vw / 5);
   }
 
-  .main__button{
-    width: 795px;
-    height: 170px;
-    font-size: 45px;
-    border-radius: 80px;
-    margin: 480px auto 0;
-  }  
+  .main__info--text {
+    font-size: calc(100vw / 25);
+    margin-left: 20px;
+  }
 }

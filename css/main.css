@@ -1,6 +1,8 @@
 /* imports */
 @import url("../css/fonts.css");
+@import url("../css/layout.css");
 @import url("../css/main-section.css");
+@import url("../css/our-cakes-section.css");
 
 * {
   margin: 0;
@@ -13,17 +15,27 @@
   --primary-text: #2d2829;
   --secondary-text: #f50049;
   --background: #fbebea;
+  --invisible-bg: #ffffff00;
 }
-
 
 body {
   background-color: var(--background);
-  overflow-x: hidden;
 }
 
 .sprite {
   display: none;
 }
+
+.container {
+  position: relative;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.content-container {
+  padding: 0 70px;
+}
+
 
 html {
   color: #222;
