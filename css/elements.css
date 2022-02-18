@@ -1,0 +1,54 @@
+.main__button {
+    width: 226px;
+    height: 50px;
+    background-color: var(--secondary-text);
+    color: var(--general-white);
+    font-family: 'Circe';
+    font-weight: normal;
+    font-size: 13px;
+    border: hidden;
+    border-radius: 50px;
+    transition: 100ms;
+    margin: 76px 0 0 7px;
+    cursor: pointer; 
+  }
+  
+  .main__button:hover {
+    box-shadow: 0 5px 10px var(--button-shadow);
+  }
+  
+  .main__button:focus {
+    box-shadow: 0 5px 10px var(--button-shadow);
+    outline: none;
+  }
+
+  .section-title--text {
+      font-size: 45px;
+  }
+
+  .section-subtitle--text {
+    font-size: 40px;
+    line-height: 14px;
+    font-family: 'IntroScriptR';
+    font-style: normal;
+  }
+
+
+  /* for tablets  */
+@media only screen and (max-width:768px) {
+  .main__button {
+    width: calc(100vw / 4);
+    height: calc(100vw / 13);
+    font-size: calc(100vw / 50);
+    }
+}
+
+/* for mobile */
+@media only screen and (max-width:768px) {
+  .main__button {
+    width: calc(100vw / 1.5);
+    height: calc(100vw / 7);
+    font-size: calc(100vw / 26);
+    margin: 25px auto;
+ }
+}

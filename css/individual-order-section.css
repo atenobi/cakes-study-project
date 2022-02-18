@@ -1,0 +1,18 @@
+.individual-order-section {
+    margin-top: 50px;
+}
+
+.subtitle-text {
+    font-family: 'IntroScriptR';
+}
+
+.button-arow {
+    background-color: var(--invisible-bg);
+    outline: none;
+    border: hidden;
+}
+
+.button-arow__svg-el {
+    width: 35px;
+    fill: var(--secondary-text);
+}
