@@ -7,6 +7,10 @@ div[class^="col-"] {
     width: 100%;
 }
 
+.col-80-lg {
+    width: 80%;
+}
+
 .col-md {
     width: 59%;
 }
@@ -15,8 +19,13 @@ div[class^="col-"] {
     width: 39%;
 }
 
+.col-25-sm {
+    width: 25%;
+}
+
 @media only screen and (max-width:480px){
     div[class^="col-"] {
         width: 100%;
     }
 }
+
