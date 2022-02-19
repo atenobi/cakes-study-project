@@ -1,9 +1,46 @@
 .individual-order-section {
-    margin-top: 50px;
+    padding: 50px 65px 0;
 }
 
-.subtitle-text {
-    font-family: 'IntroScriptR';
+.individual-order--title {
+    margin: 32px 0 0 0;
+}
+
+.individual-order--subtitle {
+    font-size: 35px;
+    margin: 15px 0 0 0;
+}
+
+.individual-order__block {
+    background-color: var(--general-white);
+    margin: 60px 0 0 0;
+    padding: 20px 90px 60px;
+}
+
+.individual-order__block--number {
+    font-size: 60px;
+    margin: 27px 0 0 0;
+    color: var(--secondary-text);
+}
+
+.individual-order__block--title {
+    color: var(--secondary-text);
+    margin: -10px 0 0 0;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.individual-order__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* __________ fill __________ */
+.fill-container {
+    margin-top: -90px;
 }
 
 .button-arow {
@@ -13,6 +50,121 @@
 }
 
 .button-arow__svg-el {
-    width: 35px;
+    width: 30px;
     fill: var(--secondary-text);
+}
+
+.fill-image__container {
+    width: 340px;
+    height: 400px;
+    background-color: var(--background);
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 0 65px;
+}
+
+.fill-image {
+    position: absolute;
+    top: 153px;
+    left: 0;
+    max-width: 670px;
+}
+
+.fill-name--text {
+    font-family: "Circe";
+    padding-top: 62px;
+    font-size: 20px;
+}
+
+.fill-description--text {
+    font-family: "Circe";
+    font-size: 16px;
+}
+
+.fill-price--text {
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 23px;
+    margin: 16px 0 0 0;
+}
+
+.cake-filling-counter--text {
+    text-align: end;
+    font-size: 18px;
+    font-family: 'Circe';
+}
+
+
+/* __________ size __________ */
+.size-container {
+    width: 92%;
+    padding: 0 0 85px 110px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.button-weight {
+    border: 5px dotted var(--primary-text);
+    border-radius: 50%;
+    outline: none;
+    background-color: var(--general-white);
+    font-family: 'Circe';
+    font-size: 15px;
+}
+
+.button-weight__container *:hover {
+    border: 5px dotted var(--secondary-text);
+}
+
+.button-weight__container *:focus {
+    border: 5px dotted var(--secondary-text);
+}
+
+.kg-1 {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 30px;
+}
+
+.kg-2 {
+    max-width: 120px;
+    max-height: 120px;
+    padding: 45px;
+}
+
+.kg-5 {
+    max-width: 180px;
+    max-height: 180px;
+    padding: 45px;
+}
+
+.kg-8 {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 30px;
+}
+
+.border-item {
+    padding: 20px;
+    border: 5px dotted var(--primary-text);
+    border-radius: 50%;
+}
+
+.button-weight--description {
+    font-size: 20px;
+    margin-top: 17px;
+    font-family: "Circe";
+    color: var(--primary-text);
+    cursor: pointer;
+}
+
+.button-weight--description:hover {
+    border: hidden;
+    color: var(--secondary-text);
+}
+
+
+/* __________ decoration __________ */
+.decoration-container {
+    flex-direction: row;
 }

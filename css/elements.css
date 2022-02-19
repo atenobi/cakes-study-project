@@ -1,3 +1,7 @@
+button {
+  cursor: pointer;
+}
+
 .main__button {
     width: 226px;
     height: 50px;
@@ -10,7 +14,6 @@
     border-radius: 50px;
     transition: 100ms;
     margin: 76px 0 0 7px;
-    cursor: pointer; 
   }
   
   .main__button:hover {
@@ -23,7 +26,7 @@
   }
 
   .section-title--text {
-      font-size: 45px;
+      font-size: 44px;
   }
 
   .section-subtitle--text {
