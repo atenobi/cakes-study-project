@@ -540,7 +540,7 @@ button {
 
 .individual-order__block {
     background-color: var(--general-white);
-    margin: 60px 0 0 0;
+    margin: 55px 0 0 0;
     padding: 20px 90px 60px;
 }
 
@@ -631,7 +631,8 @@ button {
 }
 
 .button-weight {
-    border: 5px dotted var(--primary-text);
+    padding: 5px;
+    border: none;
     border-radius: 50%;
     outline: none;
     background-color: var(--general-white);
@@ -639,36 +640,30 @@ button {
     font-size: 15px;
 }
 
-.button-weight__container *:hover {
-    border: 5px dotted var(--secondary-text);
+.button-weight:hover {
+    /* box-shadow: 0px 5px 14px var(--button-size-shadow); */
+    box-shadow: 0px 5px 14px var(--button-shadow);
 }
 
-.button-weight__container *:focus {
-    border: 5px dotted var(--secondary-text);
+.button-weight:focus {
+    /* box-shadow: 0px 5px 14px var(--button-size-shadow); */
+    box-shadow: 0px 5px 14px var(--button-shadow);
 }
 
 .kg-1 {
-    max-width: 100px;
-    max-height: 100px;
-    padding: 30px;
+    padding: 20px;
 }
 
 .kg-2 {
-    max-width: 120px;
-    max-height: 120px;
-    padding: 45px;
+    padding: 35px;
 }
 
 .kg-5 {
-    max-width: 180px;
-    max-height: 180px;
-    padding: 45px;
+    padding: 30px;
 }
 
 .kg-8 {
-    max-width: 200px;
-    max-height: 200px;
-    padding: 30px;
+    padding: 8px;
 }
 
 .border-item {
@@ -685,15 +680,46 @@ button {
     cursor: pointer;
 }
 
-.button-weight--description:hover {
-    border: hidden;
-    color: var(--secondary-text);
-}
-
-
 /* __________ decoration __________ */
 .decoration-container {
-    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.decoration-content__container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.decor-image__container {
+    align-items: center;
+    text-align: center;
+    width: 45%;
+    min-height: 330px;
+    box-shadow: 0px 5px 14px var(--button-size-shadow);
+}
+
+.decor-image__card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 250px;
+}
+
+.decor--cake-photo {
+    position: absolute;
+    top: -100px;
+    left: -30px;
+}
+
+.decor--photo-name {
+    font-family: "Circe";
+    font-size: 20px;
+}
+
+.decor--photo-price {
+    font-size: 23px;
 }
 /* imports */
 
@@ -711,6 +737,7 @@ button {
   --primary-text: #2d2829;
   --secondary-text: #f50049;
   --button-shadow: #f50049a3;
+  --button-size-shadow: #f0e7ea;
   --background: #fbebea;
   --invisible-bg: #ffffff00;
 }
