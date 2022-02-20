@@ -67,8 +67,8 @@ div[class^="col-"] {
     width: 39%;
 }
 
-.col-25-sm {
-    width: 25%;
+.col-20-sm {
+    width: 20%;
 }
 
 @media only screen and (max-width:480px){
@@ -677,7 +677,6 @@ button {
     margin-top: 17px;
     font-family: "Circe";
     color: var(--primary-text);
-    cursor: pointer;
 }
 
 /* __________ decoration __________ */
@@ -720,6 +719,56 @@ button {
 
 .decor--photo-price {
     font-size: 23px;
+}
+
+/* __________ form __________ */
+.order-form__container {
+    padding: 0 80px 119px;
+    margin: -30px auto;
+    background-color: var(--general-white);
+}
+
+.order-form--title {
+    font-style: normal;
+    font-size: 29px;
+}
+
+.order-form {
+    width: 100%;
+    margin: 30px auto 0;
+    display: flex;
+}
+
+.order-form--form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-form__col {
+    width: 20%;
+    float: left;
+}
+
+.order-button {
+    margin: 0;
+}
+
+.order-form--label {
+    font-family: 'IntroScriptR';
+    color: var(--secondary-text);
+    font-size: 26px;
+}
+
+.order-form--input {
+    font-family: "Circe";
+    font-style: normal;
+    font-size: 18px;
+    outline: none;
+    border: hidden;
+    border-bottom: 1px solid var(--primary-text);
+    margin-top: 10px;
 }
 /* imports */
 

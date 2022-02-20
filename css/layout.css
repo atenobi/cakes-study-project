@@ -19,8 +19,8 @@ div[class^="col-"] {
     width: 39%;
 }
 
-.col-25-sm {
-    width: 25%;
+.col-20-sm {
+    width: 20%;
 }
 
 @media only screen and (max-width:480px){
