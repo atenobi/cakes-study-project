@@ -150,6 +150,7 @@
     <h1 class="section-title--text text-center individual-order--title">Индивидуальный заказ</h1>
     <p class="section-subtitle--text text-center individual-order--subtitle">Соберите торт в 3 шага</p>
 
+
     <!-- -----------------  filling ----------------- -->
     <div class="col-lg individual-order__block">
       <h1 class="individual-order__block--number">01</h1>
@@ -170,7 +171,6 @@
           </div>
           
           <h3 class="fill-name--text">Шоколадный ганаш</h3>
-
           <p class="fill-description--text">Ароматный шоколадный бисквит, 
             густой шоколадный крем – самый
             шоколадный из всех возможных десертов!
@@ -184,13 +184,11 @@
           <!-- next button -->
           <svg class="button-arow__svg-el"><use href="#arrow-right"></use></svg>
         </button>
-
       </div>
-     
-
       <!-- cake filling counter -->
       <p class="cake-filling-counter--text">1/12</p>
     </div>
+
 
     <!-- -----------------  size -----------------  -->
     <div class="col-lg individual-order__block">
@@ -241,7 +239,6 @@
           </button>
           <p class="button-weight--description">Три яруса 30, 25 и 18 см</br>25-30 персон</p>
         </div>
-        
       </div> <!-- size-container-->
     </div>
 
@@ -285,33 +282,34 @@
        <!-- cake filling counter -->
        <p class="cake-filling-counter--text">2/35</p>
     </div>
+  </div>
 
+   <!-- ----------------- form -----------------  -->
+   <div class="order-form__container">
+    <h2 class="order-form--title">Ваш выбор</h2>
 
-    <!-- -----------------  form -----------------  -->
-    <div class="col-lg">
-      <h3>Ваш выбор</h3>
-      <form>
-        <div class="col-25-sm">
-          <label for="cake-fill">Начинка</label>
-          <input id="cake-fill" type="text" placeholder="Шоколадный ганаш">
+    <div class="order-form">
+      <form class="order-form--form">
+        <div class="order-form__col">
+          <label for="cake-fill" class="order-form--label">Начинка</label>
+          <input id="cake-fill" type="text" placeholder="Шоколадный ганаш" class="order-form--input">
         </div>
-
-        <div class="col-25-sm">
-          <label for="cake-size">Размер</label>
-          <input id="cake-size" type="text" placeholder="2 кг">
+  
+        <div class="order-form__col">
+          <label for="cake-size" class="order-form--label">Размер</label>
+          <input id="cake-size" type="text" placeholder="2 кг" class="order-form--input">
         </div>
-
-        <div class="col-25-sm">
-          <label for="cake-decor">Оформление</label>
-          <input id="cake-decor" type="text" placeholder="Маршмеллоу">
+  
+        <div class="order-form__col">
+          <label for="cake-decor" class="order-form--label">Оформление</label>
+          <input id="cake-decor" type="text" placeholder="Маршмеллоу" class="order-form--input">
         </div>
-
-        <div class="col-25-sm">
-          <button type="submit" class="main__button">заказать торт</button>
+  
+        <div class="order-form__col">
+          <button type="submit" class="main__button order-button">заказать торт</button>
         </div>
       </form>
     </div>
-
   </div>
 </section>
 
