@@ -1,0 +1,69 @@
+.reviews-section {
+    padding: 120px 65px 0;
+    background-image: url(../img/reviews_illustration.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: -65px;
+    background-position-y: -120px;
+    /* background-color: var(--invisible-bg); */
+    
+}
+
+.reviews-title--text {
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+}
+
+.reviews-container {
+    width: 70%;
+    margin: 30px auto 0;
+}
+
+.person-photo__container {
+    border-radius: 50%;
+    margin: 0 60px;
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.pesson-photo--image {
+    position: absolute;
+    top: -70px;
+    left: -65px;
+    max-width: 400px
+}
+
+.person-name--text,
+.person-profession--text,
+.person-review--text,
+.open-reviev--link {
+    font-family: "Circe";
+}
+
+.person-name--text {
+    font-size: 28px;
+}
+
+.person-profession--text {
+    font-size: 19px;
+}
+
+.person-review--text {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.open-reviev--link {
+    font-size: 20px;
+    font-style: italic;
+    color: var(--secondary-text);
+}
+
+.review-counter--text {
+    width: 83%;
+    color: var(--secondary-text);
+}

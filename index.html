@@ -40,9 +40,9 @@
           <!-- in this section I have added descriptions of each link, for better accessibility  -->
           <a  href="#our-cakes" class="nav-link resp-nav-link" itemprop="our cakes">НАШИ ТОРТЫ</a>
           <a href="#individual-order" class="nav-link resp-nav-link" itemprop="individual order">ИНДИВИДУАЛЬНЫЙ ЗАКАЗ</a>
-          <a href="#" class="nav-link resp-nav-link" itemprop="reviews">ОТЗЫВЫ</a>
-          <a href="#" class="nav-link resp-nav-link" itemprop="about us">О НАС</a>
-          <a href="#" class="nav-link resp-nav-link" itemprop="how to order">КАК ЗАКАЗАТЬ</a>
+          <a href="#reviews" class="nav-link resp-nav-link" itemprop="reviews">ОТЗЫВЫ</a>
+          <a href="#about-us" class="nav-link resp-nav-link" itemprop="about us">О НАС</a>
+          <a href="#how-order" class="nav-link resp-nav-link" itemprop="how to order">КАК ЗАКАЗАТЬ</a>
           <a href="#" class="nav-link resp-nav-link" itemprop="contacts">КОНТАКТЫ</a>
           <a href="tel:+79068999296" class="nav-link telephone-number" itemprop="phone number">+7 906 899 92 96</a>
         </nav>
@@ -156,7 +156,7 @@
       <h1 class="individual-order__block--number">01</h1>
       <h1 class="individual-order__block--title">Выберите <br/> начинку</h1>
 
-      <div class="individual-order__content fill-container">
+      <div class="content-container--img-text-buttons fill-container">
 
         <button class="button-arow">
           <!-- previous button -->
@@ -186,7 +186,7 @@
         </button>
       </div>
       <!-- cake filling counter -->
-      <p class="cake-filling-counter--text">1/12</p>
+      <p class="cake-counter--text">1/12</p>
     </div>
 
 
@@ -196,7 +196,7 @@
       <h1 class="individual-order__block--number">02</h1>
       <h1 class="individual-order__block--title">Размер</h1>
       
-      <div class="individual-order__content size-container">
+      <div class="content-container--img-text-buttons size-container">
         <div class="button-weight__container">
           <button class="button-weight">
             <div class="border-item">
@@ -248,7 +248,7 @@
       <h1 class="individual-order__block--number">03</h1>
       <h1 class="individual-order__block--title">Оформление</h1>
 
-      <div class="individual-order__content decoration-container">
+      <div class="content-container--img-text-buttons decoration-container">
         <img src="./img/decoration_ilusration.png" alt="decoration peace of cake">
 
         <div class="decoration-content__container">
@@ -279,8 +279,8 @@
           </button>
         </div>
       </div>
-       <!-- cake filling counter -->
-       <p class="cake-filling-counter--text">2/35</p>
+       <!-- decor counter -->
+       <p class="cake-counter--text">2/35</p>
     </div>
   </div>
 
@@ -311,6 +311,193 @@
       </form>
     </div>
   </div>
+</section>
+
+
+<!--  4 section reviews -->
+
+<section id="reviews" class="section reviews-section">
+  <div class="content-container">
+    <h1 class="reviews-title--text">Отзывы</h1>
+
+    <div class="content-container--img-text-buttons reviews-container">
+
+      <button class="button-arow">
+        <!-- previous button -->
+        <svg class="button-arow__svg-el"><use href="#arrow-left"></use></svg>
+      </button>
+
+
+      <!-- review from users -->
+      <article>
+        <div class="person-photo__container">
+          <img src="./img/Maria_photo.png"
+          alt="user photo: Maria"
+          class="pesson-photo--image">
+        </div>
+        
+        <h3 class="person-name--text">Мария</h3>
+        <h3 class="person-profession--text">юрист, 33 года</h3>
+        <p class="person-review--text">Заказывала торт брауни на юбилей мужа.
+          Гости были в восторге! Отдельное спасибо за своевременную доставку!
+          Теперь будем заказывать торты только у вас для наших семейных праздников:)
+          <a href="#" class="open-reviev--link">Развернуть</a>
+        </p>
+      </article>
+
+      <button class="button-arow">
+        <!-- next button -->
+        <svg class="button-arow__svg-el"><use href="#arrow-right"></use></svg>
+      </button>
+    </div>
+    <!-- article counter -->
+     <p class="cake-counter--text review-counter--text">1/26</p>
+    </div> <!-- content container -->
+</section>
+
+<section id="about-us" class="section-about-us">
+  <div class="content__container">
+    <h1 class="about-us-title--text">О нас</h1>
+    <h2 class="section-subtitle--text about-us-subtitle--text">О кондитере</h2>
+
+    <div class="content-container--img-text-buttons">
+
+      <!-- about us info -->
+      <article class="about-us__container">
+        <!-- photo container -->
+        <div class="about-us-photo__container">
+          <img src="./img/conditier_image.png"
+          alt="photo: conditier"
+          class="about-us-photo--image">
+        </div>
+        <!-- text container -->
+        <div class="about-us-text__container">
+            <strong class="article--subtitle">Кондитер - как призвание</strong>
+          <p class="article--text">Павел — профессиональный повар в различных гастрономических
+            областях, но однажды его сердце покорило кондитерское искусство.
+            С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как кондитер. 
+          </p>
+        </div>
+          
+        <div class="about-us-text__container">
+          <strong class="article--subtitle">Принцип - натуральные ингредиенты</strong>
+          <p class="article--text">Сегодня Павел радует изделиями не только близких, но и тех,
+            кто предпочитает качественную продукцию для торжества, а главным принципом является выбор
+            натуральных ингредиентов. 
+          </p>
+        </div>
+        <!-- icons container -->
+        <div class="about-us-icons__container">
+          <!-- insta -->
+          <a href="https://www.instagram.com/" class="about-us--social-icons" target="_blank"></a>
+          <!-- vk -->
+          <a href="https://vk.com/" class="about-us--social-icons" target="_blank"></a>
+          <!-- twitter -->
+          <a href="https://twitter.com/" class="about-us--social-icons" target="_blank"></a>
+        </div>
+      </article>
+    </div>
+
+    <div class="text-center">
+      <h1 class="quote--symbol">"</h1>
+      <p class="quote--text">Я за простые рецепты. В Италии это называют cucina povera: когда обычные ингредиенты 
+      превращаются в божественное блюдо.</p>
+      <img src="./img/signature_image.png" alt="signature" class="quote--signature-image">
+    </div>
+  </div>
+</section>
+
+
+
+
+ <!-- Our advantages -->
+ <section class="our-advantages">
+  <div class="content__container">
+    <h1 class="about-us-title--text text-center">Наши преимущества</h1>
+    <h2 class="section-subtitle--text about-us-subtitle--text text-center">Почему нас выбирают?</h2>
+
+    <div class="content-container--img-text-buttons our-advantages__content-container">
+
+      <!-- aur advantages article -->
+      <article class="our-advantages__article">
+        <!-- text container -->
+
+          <div class="our-advantages__article-row">
+            <svg class="svg_item svg_plant"><use href="#plant"></use></svg>
+            <div class="our-advantages-text__container">
+              <strong class="article--subtitle">Без искуственных добавок</strong>
+              <p class="article--text">
+                Работаем с натуральными ингредиентами и свежими продуктами
+              </p>
+            </div>
+          </div>
+          
+          <div class="our-advantages__article-row">
+            <svg class="svg_item svg_gift_box"><use href="#gift_box"></use></svg>
+              <div class="our-advantages-text__container">
+                <strong class="article--subtitle">Свежий торт в день торжества</strong>
+                <p class="article--text">
+                  Торты изготавливаются в течении суток до отправки
+                </p>
+              </div>
+          </div>
+              
+      </article>
+    </div> <!-- our-advantages__content-container -->
+  </div> <!-- content container -->
+</section>
+
+
+
+<!-- customer care -->
+<section class="customer_care">
+  <div class="content__container">
+    <h1 class="about-us-title--text">Забота о клиентах</h1>
+    <h2 class="section-subtitle--text about-us-subtitle--text">Для нас важно</h2>
+    <p class="customer_care--text article--text">
+      Нам важно чтобы каждый торт был безупречным,
+      как внутри, так и снаружи, чтобы он был создан 
+      исключительно для вас и для вашего события.
+    </p>
+</section>
+
+
+
+<!-- how order -->
+<section id="how-order" class="how-order">
+  <div class="content__container">
+    <h1 class="about-us-title--text text-center">Наши преимущества</h1>
+    <h2 class="section-subtitle--text about-us-subtitle--text text-center">Почему нас выбирают?</h2>
+
+    <div class="content-container--img-text-buttons our-advantages__content-container">
+
+      <!-- aur advantages article -->
+      <article class="our-advantages__article">
+        <!-- text container -->
+
+          <div class="our-advantages__article-row">
+            <svg class="svg_item svg_plant"><use href="#plant"></use></svg>
+            <div class="our-advantages-text__container">
+              <strong class="article--subtitle">Без искусственных добавок</strong>
+              <p class="article--text">
+                Работаем с натуральными ингредиентами и свежими продуктами
+              </p>
+            </div>
+          </div>
+          
+          <div class="our-advantages__article-row">
+            <svg class="svg_item svg_gift_box"><use href="#gift_box"></use></svg>
+              <div class="our-advantages-text__container">
+                <strong class="article--subtitle">Свежий торт в день торжества</strong>
+                <p class="article--text">
+                  Торты изготавливаются в течении суток до отправки
+                </p>
+              </div>
+          </div>
+              
+      </article>
+    </div> <!-- our-advantages__content-container -->
+  </div> <!-- content container -->
 </section>
 
  <!-- <footer>
