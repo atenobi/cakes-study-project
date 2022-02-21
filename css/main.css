@@ -4,10 +4,14 @@
 @import url("../css/elements.css");
 
 /* sections */
-@import url("../css/main-section.css");
-@import url("../css/our-cakes-section.css");
-@import url("../css/individual-order-section.css");
-
+@import url("../css/section-main.css");
+@import url("../css/section-our-cakes.css");
+@import url("../css/section-individual-order.css");
+@import url("../css/section-reviews.css");
+@import url("../css/section-about-us.css");
+@import url("../css/section-advantages.css");
+@import url("../css/section-customer-care.css");
+@import url("../css/section-how-order.css");
 
 * {
   margin: 0;

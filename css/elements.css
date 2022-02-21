@@ -12,7 +12,7 @@ button {
     font-size: 13px;
     border: hidden;
     border-radius: 50px;
-    transition: 100ms;
+    transition: 500ms;
     margin: 76px 0 0 7px;
   }
   
@@ -36,6 +36,38 @@ button {
     font-style: normal;
   }
 
+.article--subtitle,
+.article--text {
+    font-size: 20px;
+    font-family: "Circe";
+}
+
+  /* container for image and description ( < image name description > ) */
+  .content-container--img-text-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* arrow svg button */
+.button-arow {
+  background-color: var(--invisible-bg);
+  outline: none;
+  border: hidden;
+}
+
+.button-arow__svg-el {
+  width: 30px;
+  fill: var(--secondary-text);
+}
+
+/* counter right bottom corner */
+.cake-counter--text {
+  text-align: end;
+  font-size: 18px;
+  font-family: 'Circe';
+}
 
   /* for tablets  */
 @media only screen and (max-width:768px) {

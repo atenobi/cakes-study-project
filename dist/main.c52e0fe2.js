@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./fonts\\Circe-Regular.eot":[["Circe-Regular.4627a3f8.eot","css/fonts/Circe-Regular.eot"],"css/fonts/Circe-Regular.eot"],"./fonts\\Circe-Regular.woff":[["Circe-Regular.cdd0ffdc.woff","css/fonts/Circe-Regular.woff"],"css/fonts/Circe-Regular.woff"],"./fonts\\Circe-Regular.ttf":[["Circe-Regular.3b5a2a7e.ttf","css/fonts/Circe-Regular.ttf"],"css/fonts/Circe-Regular.ttf"],"./fonts\\Circe-Bold.eot":[["Circe-Bold.024ae2c7.eot","css/fonts/Circe-Bold.eot"],"css/fonts/Circe-Bold.eot"],"./fonts\\Circe-Bold.woff":[["Circe-Bold.a672ada1.woff","css/fonts/Circe-Bold.woff"],"css/fonts/Circe-Bold.woff"],"./fonts\\Circe-Bold.ttf":[["Circe-Bold.f0e8a7c2.ttf","css/fonts/Circe-Bold.ttf"],"css/fonts/Circe-Bold.ttf"],"./fonts\\PlayfairDisplay-Bold.ttf":[["PlayfairDisplay-Bold.71bb95b8.ttf","css/fonts/PlayfairDisplay-Bold.ttf"],"css/fonts/PlayfairDisplay-Bold.ttf"],"./fonts\\PlayfairDisplay-Regular.ttf":[["PlayfairDisplay-Regular.9b0c28f4.ttf","css/fonts/PlayfairDisplay-Regular.ttf"],"css/fonts/PlayfairDisplay-Regular.ttf"],"./fonts\\IntroScriptR.woff":[["IntroScriptR.0c53e174.woff","css/fonts/IntroScriptR.woff"],"css/fonts/IntroScriptR.woff"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/layout.css":[function(require,module,exports) {
+},{"./fonts\\Circe-Regular.eot":[["Circe-Regular.4627a3f8.eot","css/fonts/Circe-Regular.eot"],"css/fonts/Circe-Regular.eot"],"./fonts\\Circe-Regular.woff":[["Circe-Regular.cdd0ffdc.woff","css/fonts/Circe-Regular.woff"],"css/fonts/Circe-Regular.woff"],"./fonts\\Circe-Regular.ttf":[["Circe-Regular.3b5a2a7e.ttf","css/fonts/Circe-Regular.ttf"],"css/fonts/Circe-Regular.ttf"],"./fonts\\Circe-Bold.eot":[["Circe-Bold.024ae2c7.eot","css/fonts/Circe-Bold.eot"],"css/fonts/Circe-Bold.eot"],"./fonts\\Circe-Bold.woff":[["Circe-Bold.a672ada1.woff","css/fonts/Circe-Bold.woff"],"css/fonts/Circe-Bold.woff"],"./fonts\\Circe-Bold.ttf":[["Circe-Bold.f0e8a7c2.ttf","css/fonts/Circe-Bold.ttf"],"css/fonts/Circe-Bold.ttf"],"./fonts\\PlayfairDisplay-Bold.ttf":[["PlayfairDisplay-Bold.71bb95b8.ttf","css/fonts/PlayfairDisplay-Bold.ttf"],"css/fonts/PlayfairDisplay-Bold.ttf"],"./fonts\\PlayfairDisplay-Regular.ttf":[["PlayfairDisplay-Regular.9b0c28f4.ttf","css/fonts/PlayfairDisplay-Regular.ttf"],"css/fonts/PlayfairDisplay-Regular.ttf"],"./fonts\\IntroScriptR.woff":[["IntroScriptR.0c53e174.woff","css/fonts/IntroScriptR.woff"],"css/fonts/IntroScriptR.woff"],"./fonts\\icomoon.ttf":[["icomoon.0d7726d4.ttf","css/fonts/icomoon.ttf"],"css/fonts/icomoon.ttf"],"./fonts\\icomoon.eot":[["icomoon.01190e37.eot","css/fonts/icomoon.eot"],"css/fonts/icomoon.eot"],"./fonts\\icomoon.woff":[["icomoon.b16e6fba.woff","css/fonts/icomoon.woff"],"css/fonts/icomoon.woff"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/layout.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -199,27 +199,52 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/main-section.css":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/section-main.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\main_section_bg_image.png":[["main_section_bg_image.3eeb86dc.png","img/main_section_bg_image.png"],"img/main_section_bg_image.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/our-cakes-section.css":[function(require,module,exports) {
+},{"./..\\img\\main_section_bg_image.png":[["main_section_bg_image.3eeb86dc.png","img/main_section_bg_image.png"],"img/main_section_bg_image.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/section-our-cakes.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/individual-order-section.css":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/section-individual-order.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/main.css":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/section-reviews.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"../css/fonts.css":"css/fonts.css","../css/layout.css":"css/layout.css","../css/elements.css":"css/elements.css","../css/main-section.css":"css/main-section.css","../css/our-cakes-section.css":"css/our-cakes-section.css","../css/individual-order-section.css":"css/individual-order-section.css","_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\img\\reviews_illustration.png":[["reviews_illustration.2d7e6175.png","img/reviews_illustration.png"],"img/reviews_illustration.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/section-about-us.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/section-advantages.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\img\\berry_bg.png":[["berry_bg.763b6145.png","img/berry_bg.png"],"img/berry_bg.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/section-customer-care.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\img\\cake_bg.png":[["cake_bg.07cd8b90.png","img/cake_bg.png"],"img/cake_bg.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/section-how-order.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\img\\hand_box_card.png":[["hand_box_card.71b4ab20.png","img/hand_box_card.png"],"img/hand_box_card.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/main.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"../css/fonts.css":"css/fonts.css","../css/layout.css":"css/layout.css","../css/elements.css":"css/elements.css","../css/section-main.css":"css/section-main.css","../css/section-our-cakes.css":"css/section-our-cakes.css","../css/section-individual-order.css":"css/section-individual-order.css","../css/section-reviews.css":"css/section-reviews.css","../css/section-about-us.css":"css/section-about-us.css","../css/section-advantages.css":"css/section-advantages.css","../css/section-customer-care.css":"css/section-customer-care.css","../css/section-how-order.css":"css/section-how-order.css","_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -247,7 +272,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64035" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55024" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
