@@ -1,0 +1,60 @@
+.section-contacts {
+    padding: 35px 65px 250px;
+    background-image: url(../img/contacts-strawberry-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-y: 165px;
+}
+
+.contacts__content-container {
+    width: 100%;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.contacts--form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contacts-form--input {
+    outline: none;
+    float: left;
+    border: hidden;
+    color: var(--opasity-50-text);
+    border-bottom: 1px solid var(--opasity-50-text);
+    background-color: var(--invisible-bg);
+    margin-top: 70px;
+}
+
+.contacts-link__container {
+    width: 45%;
+    margin-left: 10%;
+}
+
+.contacts-link--text {
+    margin: 20px 0;
+}
+
+.contacts--link {
+    text-decoration: none;
+    font-family: 'Circe';
+    color: var(--primary-text);
+}
+
+
+.contacts--link:hover {
+  color: var(--secondary-text);
+}
+  
+.contacts--link:focus {
+ color: var(--secondary-text);
+    outline: none;
+}
+
+.contacts-icon {
+    padding: 15px;
+    font-size: 25px;
+    margin-right: 30px;
+}

@@ -239,12 +239,22 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\hand_box_card.png":[["hand_box_card.71b4ab20.png","img/hand_box_card.png"],"img/hand_box_card.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/main.css":[function(require,module,exports) {
+},{"./..\\img\\hand_box_card.png":[["hand_box_card.71b4ab20.png","img/hand_box_card.png"],"img/hand_box_card.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/section-contacts.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"../css/fonts.css":"css/fonts.css","../css/layout.css":"css/layout.css","../css/elements.css":"css/elements.css","../css/section-main.css":"css/section-main.css","../css/section-our-cakes.css":"css/section-our-cakes.css","../css/section-individual-order.css":"css/section-individual-order.css","../css/section-reviews.css":"css/section-reviews.css","../css/section-about-us.css":"css/section-about-us.css","../css/section-advantages.css":"css/section-advantages.css","../css/section-customer-care.css":"css/section-customer-care.css","../css/section-how-order.css":"css/section-how-order.css","_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\img\\contacts-strawberry-bg.png":[["contacts-strawberry-bg.5d2fc26c.png","img/contacts-strawberry-bg.png"],"img/contacts-strawberry-bg.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/footer.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/main.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"../css/fonts.css":"css/fonts.css","../css/layout.css":"css/layout.css","../css/elements.css":"css/elements.css","../css/section-main.css":"css/section-main.css","../css/section-our-cakes.css":"css/section-our-cakes.css","../css/section-individual-order.css":"css/section-individual-order.css","../css/section-reviews.css":"css/section-reviews.css","../css/section-about-us.css":"css/section-about-us.css","../css/section-advantages.css":"css/section-advantages.css","../css/section-customer-care.css":"css/section-customer-care.css","../css/section-how-order.css":"css/section-how-order.css","../css/section-contacts.css":"css/section-contacts.css","../css/footer.css":"css/footer.css","_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -272,7 +282,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55024" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51107" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

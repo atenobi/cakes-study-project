@@ -43,26 +43,6 @@
     margin-top: 15px;
 }
 
-.about-us--social-icons {
-    padding: 10px;
-    max-width: 40px;
-    border-radius: 50%;
-    background-color: var(--general-white);
-    font-size: 18px;
-    color: var(--secondary-text);
-    text-decoration: none;
-    font-family: "icomoon";
-    transition: 500ms;
-}
-
-.about-us--social-icons:hover {
-    background-color: var(--background);
-}
-
-.about-us--social-icons:focus {
-    background-color: var(--background); 
-}
-
 .quote__container {
     text-align: center;
 }
