@@ -2,6 +2,7 @@ button {
   cursor: pointer;
 }
 
+/* main button */
 .main__button {
     width: 226px;
     height: 50px;
@@ -12,7 +13,7 @@ button {
     font-size: 13px;
     border: hidden;
     border-radius: 50px;
-    transition: 100ms;
+    transition: 500ms;
     margin: 76px 0 0 7px;
   }
   
@@ -24,6 +25,29 @@ button {
     box-shadow: 0 5px 10px var(--button-shadow);
     outline: none;
   }
+/* ___________________________________ */
+
+/* icon social web */
+.social-icons {
+  padding: 10px;
+  max-width: 40px;
+  border-radius: 50%;
+  background-color: var(--general-white);
+  font-size: 18px;
+  color: var(--secondary-text);
+  text-decoration: none;
+  font-family: "icomoon";
+  transition: 500ms;
+}
+
+.social-icons:hover {
+  background-color: var(--background);
+}
+
+.social-icons:focus {
+  background-color: var(--background); 
+}
+/* ___________________________________ */
 
   .section-title--text {
       font-size: 44px;
@@ -36,6 +60,38 @@ button {
     font-style: normal;
   }
 
+.article--subtitle,
+.article--text {
+    font-size: 20px;
+    font-family: "Circe";
+}
+
+  /* container for image and description ( < image name description > ) */
+  .content-container--img-text-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* arrow svg button */
+.button-arow {
+  background-color: var(--invisible-bg);
+  outline: none;
+  border: hidden;
+}
+
+.button-arow__svg-el {
+  width: 30px;
+  fill: var(--secondary-text);
+}
+
+/* counter right bottom corner */
+.cake-counter--text {
+  text-align: end;
+  font-size: 18px;
+  font-family: 'Circe';
+}
 
   /* for tablets  */
 @media only screen and (max-width:768px) {

@@ -4,9 +4,16 @@
 @import url("../css/elements.css");
 
 /* sections */
-@import url("../css/main-section.css");
-@import url("../css/our-cakes-section.css");
-@import url("../css/individual-order-section.css");
+@import url("../css/section-main.css");
+@import url("../css/section-our-cakes.css");
+@import url("../css/section-individual-order.css");
+@import url("../css/section-reviews.css");
+@import url("../css/section-about-us.css");
+@import url("../css/section-advantages.css");
+@import url("../css/section-customer-care.css");
+@import url("../css/section-how-order.css");
+@import url("../css/section-contacts.css");
+@import url("../css/footer.css");
 
 
 * {
@@ -23,6 +30,8 @@
   --button-size-shadow: #f0e7ea;
   --background: #fbebea;
   --invisible-bg: #ffffff00;
+  --opasity-50-text: #2d282978;
+  --footer-color: #e8e8e8;
 }
 
 body {
