@@ -1,0 +1,18 @@
+.section-footer,
+.footer-header {
+    background-color: var(--footer-color);
+}
+
+.footer-social-link__container {
+    margin-left: 10%;
+}
+
+.footer--icon {
+    color: var(--opasity-50-text);
+    background-color: var(--invisible-bg);
+}
+
+.footer--line,
+.footer--copiright {
+    color: var(--opasity-50-text);
+}

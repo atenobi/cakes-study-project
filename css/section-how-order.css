@@ -1,7 +1,47 @@
 .how-order {
-    margin-top: -70px;
-    padding: 235px 70px 220px;
+    margin-top: 0px;
+    padding: 15px 70px 40px;
     background-image: url(../img/hand_box_card.png);
     background-repeat: no-repeat;
     background-size: auto;
+    background-position-y: -82px;
+    background-position-x: -221px;
+    color: var(--general-white);
+}
+
+.how-order--title-text {
+    width: 40%;
+    margin: 5% 0 0 62%;
+}
+
+.how-order__content-container {
+    width: 60%;
+    margin-left: 40%;
+}
+
+.how-order--title-number {
+    font-family: "PlayfairDisplay", serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+.how-order__article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20%;
+}
+
+.how-order__article-row {
+    width: 80%;
+    margin: 25px 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.how-order-text__container {
+    width: 100%;
+    margin-left: 22px;
 }

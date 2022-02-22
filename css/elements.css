@@ -2,6 +2,7 @@ button {
   cursor: pointer;
 }
 
+/* main button */
 .main__button {
     width: 226px;
     height: 50px;
@@ -24,6 +25,29 @@ button {
     box-shadow: 0 5px 10px var(--button-shadow);
     outline: none;
   }
+/* ___________________________________ */
+
+/* icon social web */
+.social-icons {
+  padding: 10px;
+  max-width: 40px;
+  border-radius: 50%;
+  background-color: var(--general-white);
+  font-size: 18px;
+  color: var(--secondary-text);
+  text-decoration: none;
+  font-family: "icomoon";
+  transition: 500ms;
+}
+
+.social-icons:hover {
+  background-color: var(--background);
+}
+
+.social-icons:focus {
+  background-color: var(--background); 
+}
+/* ___________________________________ */
 
   .section-title--text {
       font-size: 44px;
