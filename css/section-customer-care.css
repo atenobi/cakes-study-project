@@ -1,0 +1,12 @@
+.customer_care {
+    margin-top: -70px;
+    padding: 235px 70px 220px;
+    background-image: url(../img/cake_bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.customer_care--text {
+    width: 40%;
+    margin: 20px 0;
+}

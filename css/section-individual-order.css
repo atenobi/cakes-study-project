@@ -30,28 +30,9 @@
     line-height: 30px;
 }
 
-.individual-order__content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-
 /* __________ fill __________ */
 .fill-container {
     margin-top: -90px;
-}
-
-.button-arow {
-    background-color: var(--invisible-bg);
-    outline: none;
-    border: hidden;
-}
-
-.button-arow__svg-el {
-    width: 30px;
-    fill: var(--secondary-text);
 }
 
 .fill-image__container {
@@ -87,13 +68,6 @@
     font-size: 23px;
     margin: 16px 0 0 0;
 }
-
-.cake-filling-counter--text {
-    text-align: end;
-    font-size: 18px;
-    font-family: 'Circe';
-}
-
 
 /* __________ size __________ */
 .size-container {

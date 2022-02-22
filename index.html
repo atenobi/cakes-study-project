@@ -40,10 +40,10 @@
           <!-- in this section I have added descriptions of each link, for better accessibility  -->
           <a  href="#our-cakes" class="nav-link resp-nav-link" itemprop="our cakes">НАШИ ТОРТЫ</a>
           <a href="#individual-order" class="nav-link resp-nav-link" itemprop="individual order">ИНДИВИДУАЛЬНЫЙ ЗАКАЗ</a>
-          <a href="#" class="nav-link resp-nav-link" itemprop="reviews">ОТЗЫВЫ</a>
-          <a href="#" class="nav-link resp-nav-link" itemprop="about us">О НАС</a>
-          <a href="#" class="nav-link resp-nav-link" itemprop="how to order">КАК ЗАКАЗАТЬ</a>
-          <a href="#" class="nav-link resp-nav-link" itemprop="contacts">КОНТАКТЫ</a>
+          <a href="#reviews" class="nav-link resp-nav-link" itemprop="reviews">ОТЗЫВЫ</a>
+          <a href="#about-us" class="nav-link resp-nav-link" itemprop="about us">О НАС</a>
+          <a href="#how-order" class="nav-link resp-nav-link" itemprop="how to order">КАК ЗАКАЗАТЬ</a>
+          <a href="#contacts" class="nav-link resp-nav-link" itemprop="contacts">КОНТАКТЫ</a>
           <a href="tel:+79068999296" class="nav-link telephone-number" itemprop="phone number">+7 906 899 92 96</a>
         </nav>
       
@@ -156,7 +156,7 @@
       <h1 class="individual-order__block--number">01</h1>
       <h1 class="individual-order__block--title">Выберите <br/> начинку</h1>
 
-      <div class="individual-order__content fill-container">
+      <div class="content-container--img-text-buttons fill-container">
 
         <button class="button-arow">
           <!-- previous button -->
@@ -186,7 +186,7 @@
         </button>
       </div>
       <!-- cake filling counter -->
-      <p class="cake-filling-counter--text">1/12</p>
+      <p class="cake-counter--text">1/12</p>
     </div>
 
 
@@ -196,7 +196,7 @@
       <h1 class="individual-order__block--number">02</h1>
       <h1 class="individual-order__block--title">Размер</h1>
       
-      <div class="individual-order__content size-container">
+      <div class="content-container--img-text-buttons size-container">
         <div class="button-weight__container">
           <button class="button-weight">
             <div class="border-item">
@@ -248,7 +248,7 @@
       <h1 class="individual-order__block--number">03</h1>
       <h1 class="individual-order__block--title">Оформление</h1>
 
-      <div class="individual-order__content decoration-container">
+      <div class="content-container--img-text-buttons decoration-container">
         <img src="./img/decoration_ilusration.png" alt="decoration peace of cake">
 
         <div class="decoration-content__container">
@@ -279,8 +279,8 @@
           </button>
         </div>
       </div>
-       <!-- cake filling counter -->
-       <p class="cake-filling-counter--text">2/35</p>
+       <!-- decor counter -->
+       <p class="cake-counter--text">2/35</p>
     </div>
   </div>
 
@@ -313,9 +313,282 @@
   </div>
 </section>
 
- <!-- <footer>
-  <h1>footer</h1>
-</footer> -->
+
+<!--  4 section reviews -->
+
+<section id="reviews" class="section reviews-section">
+  <div class="content-container">
+    <h1 class="reviews-title--text">Отзывы</h1>
+
+    <div class="content-container--img-text-buttons reviews-container">
+
+      <button class="button-arow">
+        <!-- previous button -->
+        <svg class="button-arow__svg-el"><use href="#arrow-left"></use></svg>
+      </button>
+
+
+      <!-- review from users -->
+      <article>
+        <div class="person-photo__container">
+          <img src="./img/Maria_photo.png"
+          alt="user photo: Maria"
+          class="pesson-photo--image">
+        </div>
+        
+        <h3 class="person-name--text">Мария</h3>
+        <h3 class="person-profession--text">юрист, 33 года</h3>
+        <p class="person-review--text">Заказывала торт брауни на юбилей мужа.
+          Гости были в восторге! Отдельное спасибо за своевременную доставку!
+          Теперь будем заказывать торты только у вас для наших семейных праздников:)
+          <a href="#" class="open-reviev--link">Развернуть</a>
+        </p>
+      </article>
+
+      <button class="button-arow">
+        <!-- next button -->
+        <svg class="button-arow__svg-el"><use href="#arrow-right"></use></svg>
+      </button>
+    </div>
+    <!-- article counter -->
+     <p class="cake-counter--text review-counter--text">1/26</p>
+    </div> <!-- content container -->
+</section>
+
+
+
+<!--  5 section about us -->
+
+<section id="about-us" class="section section-about-us">
+  <div class="content__container">
+    <h1 class="about-us-title--text">О нас</h1>
+    <h2 class="section-subtitle--text about-us-subtitle--text">О кондитере</h2>
+
+    <div class="content-container--img-text-buttons">
+
+      <!-- about us info -->
+      <article class="about-us__container">
+        <!-- photo container -->
+        <div class="about-us-photo__container">
+          <img src="./img/conditier_image.png"
+          alt="photo: conditier"
+          class="about-us-photo--image">
+        </div>
+        <!-- text container -->
+        <div class="about-us-text__container">
+            <strong class="article--subtitle">Кондитер - как призвание</strong>
+          <p class="article--text">Павел — профессиональный повар в различных гастрономических
+            областях, но однажды его сердце покорило кондитерское искусство.
+            С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как кондитер. 
+          </p>
+        </div>
+          
+        <div class="about-us-text__container">
+          <strong class="article--subtitle">Принцип - натуральные ингредиенты</strong>
+          <p class="article--text">Сегодня Павел радует изделиями не только близких, но и тех,
+            кто предпочитает качественную продукцию для торжества, а главным принципом является выбор
+            натуральных ингредиентов. 
+          </p>
+        </div>
+        <!-- icons container -->
+        <div class="about-us-icons__container">
+          <!-- insta -->
+          <a href="https://www.instagram.com/" class="social-icons" target="_blank"></a>
+          <!-- vk -->
+          <a href="https://vk.com/" class="social-icons" target="_blank"></a>
+          <!-- twitter -->
+          <a href="https://twitter.com/" class="social-icons" target="_blank"></a>
+        </div>
+      </article>
+    </div>
+
+    <div class="text-center">
+      <h1 class="quote--symbol">"</h1>
+      <p class="quote--text">Я за простые рецепты. В Италии это называют cucina povera: когда обычные ингредиенты 
+      превращаются в божественное блюдо.</p>
+      <img src="./img/signature_image.png" alt="signature" class="quote--signature-image">
+    </div>
+  </div>
+</section>
+
+
+
+ <!--  6 section our advantages -->
+
+ <section class="section our-advantages">
+  <div class="content__container">
+    <h1 class="about-us-title--text text-center">Наши преимущества</h1>
+    <h2 class="section-subtitle--text about-us-subtitle--text text-center">Почему нас выбирают?</h2>
+
+    <div class="content-container--img-text-buttons our-advantages__content-container">
+
+      <!-- aur advantages article -->
+      <article class="our-advantages__article">
+        <!-- text container -->
+
+          <div class="our-advantages__article-row">
+            <svg class="svg_item svg_plant"><use href="#plant"></use></svg>
+            <div class="our-advantages-text__container">
+              <strong class="article--subtitle">Без искуственных добавок</strong>
+              <p class="article--text">
+                Работаем с натуральными ингредиентами и свежими продуктами
+              </p>
+            </div>
+          </div>
+          
+          <div class="our-advantages__article-row">
+            <svg class="svg_item svg_gift_box"><use href="#gift_box"></use></svg>
+              <div class="our-advantages-text__container">
+                <strong class="article--subtitle">Свежий торт в день торжества</strong>
+                <p class="article--text">
+                  Торты изготавливаются в течении суток до отправки
+                </p>
+              </div>
+          </div>
+              
+      </article>
+    </div> <!-- our-advantages__content-container -->
+  </div> <!-- content container -->
+</section>
+
+
+
+<!-- 7 section customer care -->
+
+<section class="section customer_care">
+  <div class="content__container">
+    <h1 class="about-us-title--text">Забота о клиентах</h1>
+    <h2 class="section-subtitle--text about-us-subtitle--text">Для нас важно</h2>
+    <p class="customer_care--text article--text">
+      Нам важно чтобы каждый торт был безупречным,
+      как внутри, так и снаружи, чтобы он был создан 
+      исключительно для вас и для вашего события.
+    </p>
+</section>
+
+
+
+<!-- 8 section how order -->
+
+<section id="how-order" class="section how-order">
+  <div class="content__container">
+    <h1 class="section-title--text how-order--title-text">Как заказать</h1>
+
+    <div class="content-container--img-text-buttons how-order__content-container">
+
+      <!-- aur advantages article -->
+      <article class="how-order__article">
+        <!-- text container -->
+
+          <div class="how-order__article-row">
+            <h1 class="how-order--title-number">1</h1>
+            <div class="how-order-text__container">
+              <strong class="article--subtitle">Срок заказа</strong>
+              <p class="article--text">
+                Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю. 
+              </p>
+            </div>
+          </div>
+          
+          <div class="how-order__article-row">
+            <h1 class="how-order--title-number">2</h1>
+              <div class="how-order-text__container">
+                <strong class="article--subtitle">Доставка по городу</strong>
+                <p class="article--text">
+                  Доставка в пределах города 200 рублей , при заказе на сумму более 2000  доставка бесплатно.
+                </p>
+              </div>
+          </div>
+
+          <div class="how-order__article-row">
+            <h1 class="how-order--title-number">3</h1>
+              <div class="how-order-text__container">
+                <strong class="article--subtitle">Доставка за городом</strong>
+                <p class="article--text">
+                  Доставка за пределами города рассчитывается индивидуально.
+                </p>
+              </div>
+          </div>
+              
+      </article>
+    </div> <!-- how-order__content-container -->
+  </div> <!-- content container -->
+</section>
+
+
+
+<!-- 8 section contacts -->
+
+<section id="contacts" class="section section-contacts">
+  <div class="content__container">
+    <h1 class="section-title--text contacts--title-text">Контакты</h1>
+    <h1 class="section-subtitle--text contacts--title-text">Остались вопросы?</h1>
+
+    <div class="content-container--img-text-buttons contacts__content-container">
+      <form action="submit" class="contacts--form">
+        <input type="text" placeholder="Ваше имя" class="contacts-form--input">
+        <input type="text" placeholder="Email адресс" class="contacts-form--input">
+        <input type="text" placeholder="Ваш вопрос" class="contacts-form--input">
+        <button type="submit" class="main__button">Отправить</button>
+      </form>
+
+      <div class="contacts-link__container">
+        <p class="article--text contacts-link--text">
+          <a href="tel:+79068999296" itemprop="phone number" class="contacts--link">
+            Или позвоните по телефону:</br> +7 906 899 92 96
+          </a>
+        </p>
+
+        <p class="article--text contacts-link--text">
+          <a href="mail:bakerybypavel@mail.ru" class="contacts--link">
+            Наша почта: bakerybypavel@mail.ru
+          </a>
+        </p>
+
+        <p class="article--text contacts-link--text">Мы в соц. сетях:</p>
+        <!-- insta -->
+        <a href="https://www.instagram.com/" class="social-icons contacts-icon" target="_blank"></a>
+        <!-- vk -->
+        <a href="https://vk.com/" class="social-icons contacts-icon" target="_blank"></a>
+
+      </div>
+
+    </div> <!-- contacts__content-container -->
+  </div> <!-- content container -->
+</section>
+
+
+
+<!-- footer -->
+
+<footer class="section section-footer">
+  <div class="header__container">
+    <header class="main__header footer-header">
+        <h1 class="header__title">Cakes</h1>
+    <!-- menu button (burger) it`s invisible in desktop, anabled in mobile version -->
+      <button class="main_nav_burger-button" id="js-responsive-menu-button">&#8801;</button>  
+
+        <nav class="main__header__nav nav" id="js-nav-menu">
+          <!-- in this section I have added descriptions of each link, for better accessibility  -->
+          <a  href="#our-cakes" class="nav-link resp-nav-link" itemprop="our cakes">Наши торты</a>
+          <a href="#individual-order" class="nav-link resp-nav-link" itemprop="individual order">Индивидуальный заказ</a>
+          <a href="#reviews" class="nav-link resp-nav-link" itemprop="reviews">Отзывы</a>
+          <a href="#about-us" class="nav-link resp-nav-link" itemprop="about us">О нас</a>
+          <a href="#how-order" class="nav-link resp-nav-link" itemprop="how to order">Как заказать</a>
+          <a href="#contacts" class="nav-link resp-nav-link" itemprop="contacts">Контакты</a>
+        
+          <div class="footer-social-link__container">
+            <!-- insta -->
+            <a href="https://www.instagram.com/" class="social-icons footer--icon" target="_blank"></a>
+            <!-- vk -->
+            <a href="https://vk.com/" class="social-icons footer--icon" target="_blank"></a>
+          </div>
+        </nav>
+      </header>
+    <hr class="footer--line">
+    <p class="footer--copiright text-center article--text">&copy;  2018 Cakes</p>
+</div>
+</footer>
 
 <script src="./js/index.js"></script>
 </body>
