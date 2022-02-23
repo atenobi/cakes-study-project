@@ -28,3 +28,26 @@
     width: 100%;
     margin-left: 40px;
 }
+
+
+
+@media only screen and (max-width:768px) {
+    .our-advantages {
+        padding: 18px 0px 120px;
+        background-size: 103%;
+        background-position-y: 24px;
+    }
+
+    .our-advantages__article {
+        margin: 53px 0 0px 33%;
+    }
+
+    .our-advantages__article-row {
+        margin: 0px 0 17px 0px;
+    }
+
+    .our-advantages--svg {
+        height: 50px;
+    }
+
+}

@@ -45,3 +45,35 @@
     width: 100%;
     margin-left: 22px;
 }
+
+
+
+
+
+
+/* design for tablets (768 PX) */
+@media only screen and (max-width:768px) {
+    .how-order {
+        padding: 15px 70px 73px;
+        background-size: 148%;
+        background-position-y: -21px;
+        background-position-x: -331px;
+    }
+
+    .how-order--title-text {
+        width: 45%;
+        margin: 26px 0 0 253px;
+        font-size: 31px;
+    }
+
+    .how-order__article {
+        align-items: flex-start;
+        margin-left: 0;
+    }
+
+    .how-order--title-number {
+        font-family: "PlayfairDisplay", serif;
+        font-size: 33px;
+        margin: 0;
+    }
+}

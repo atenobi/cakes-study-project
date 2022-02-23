@@ -56,7 +56,7 @@
       <p class="section-subtitle--text main__hand-made--text">Ручная работа</p>
    
     <!-- button -->
-    <button class="main__button" itemprop="select cake button">ВЫБРАТЬ ТОРТ</button>
+    <button class="main__button section-main--button" itemprop="select cake button">ВЫБРАТЬ ТОРТ</button>
     
     <div class="main__info">
       <div class="main__info--item">
@@ -86,14 +86,14 @@
 
     <div class="gallery-container">
       <!-- big image -->
-      <div class="col-md image-card solid-image-wrapper">
+      <div class="image-card solid-image-wrapper">
         <p class="cake-name-text">Классические</p>
         <p class="cake-counter-text">24 вида</p>
         <img class="cake-image" src="/classic_cake.95dddff7.png" alt="classic cake">
         <button class="look-button">Смотреть &rarr;</button>
       </div>
   
-      <div class="col-sm split-image-wrapper">
+      <div class="split-image-wrapper">
         <!-- 2 little images -->
         <div class="col-lg image-card splited-image-card">
           <p class="cake-name-text">Муссовые</p>
@@ -175,7 +175,7 @@
           </p>
 
           <h3 class="fill-price--text">1000 руб/кг</h3>
-          <button class="main__button">ВЫБРАТЬ</button>
+          <button class="main__button fill--button">ВЫБРАТЬ</button>
         </figure>
   
         <button class="button-arow">
@@ -247,7 +247,7 @@
       <h1 class="individual-order__block--title">Оформление</h1>
 
       <div class="content-container--img-text-buttons decoration-container">
-        <img src="/decoration_ilusration.d55b8780.png" alt="decoration peace of cake">
+        <img src="/decoration_ilusration.d55b8780.png" alt="decoration peace of cake" class="decoration--image">
 
         <div class="decoration-content__container">
           <button class="button-arow">
@@ -421,7 +421,7 @@
         <!-- text container -->
 
           <div class="our-advantages__article-row">
-            <svg class="svg_item svg_plant"><use href="#plant"></use></svg>
+            <svg class="svg_item svg_plant our-advantages--svg"><use href="#plant"></use></svg>
             <div class="our-advantages-text__container">
               <strong class="article--subtitle">Без искуственных добавок</strong>
               <p class="article--text">
@@ -431,7 +431,7 @@
           </div>
           
           <div class="our-advantages__article-row">
-            <svg class="svg_item svg_gift_box"><use href="#gift_box"></use></svg>
+            <svg class="svg_item svg_gift_box our-advantages--svg"><use href="#gift_box"></use></svg>
               <div class="our-advantages-text__container">
                 <strong class="article--subtitle">Свежий торт в день торжества</strong>
                 <p class="article--text">
@@ -516,14 +516,16 @@
 <section id="contacts" class="section section-contacts">
   <div class="content__container">
     <h1 class="section-title--text contacts--title-text">Контакты</h1>
-    <h1 class="section-subtitle--text contacts--title-text">Остались вопросы?</h1>
+    <h1 class="section-subtitle--text contacts--subtitle-text">Остались вопросы?</h1>
+    
 
     <div class="content-container--img-text-buttons contacts__content-container">
       <form action="submit" class="contacts--form">
+        <p class="article--text contacts-text">Заполните форму ниже и наш кондитер свяжется с Вами</p>
         <input type="text" placeholder="Ваше имя" class="contacts-form--input">
         <input type="text" placeholder="Email адресс" class="contacts-form--input">
         <input type="text" placeholder="Ваш вопрос" class="contacts-form--input">
-        <button type="submit" class="main__button">Отправить</button>
+        <button type="submit" class="main__button contacts__form--button">Отправить</button>
       </form>
 
       <div class="contacts-link__container">
@@ -556,20 +558,19 @@
 <!-- footer -->
 
 <footer class="section section-footer">
-  <div class="header__container">
+  <div class="footer__container">
     <header class="main__header footer-header">
         <h1 class="header__title">Cakes</h1>
     <!-- menu button (burger) it`s invisible in desktop, anabled in mobile version -->
-      <button class="main_nav_burger-button" id="js-responsive-menu-button">&#8801;</button>  
 
-        <nav class="main__header__nav nav" id="js-nav-menu">
+        <nav class="footer__nav nav">
           <!-- in this section I have added descriptions of each link, for better accessibility  -->
-          <a href="#our-cakes" class="nav-link resp-nav-link" itemprop="our cakes">Наши торты</a>
-          <a href="#individual-order" class="nav-link resp-nav-link" itemprop="individual order">Индивидуальный заказ</a>
-          <a href="#reviews" class="nav-link resp-nav-link" itemprop="reviews">Отзывы</a>
-          <a href="#about-us" class="nav-link resp-nav-link" itemprop="about us">О нас</a>
-          <a href="#how-order" class="nav-link resp-nav-link" itemprop="how to order">Как заказать</a>
-          <a href="#contacts" class="nav-link resp-nav-link" itemprop="contacts">Контакты</a>
+          <a href="#our-cakes" class="nav-link footer-nav-link" itemprop="our cakes">Наши торты</a>
+          <a href="#individual-order" class="nav-link footer-nav-link" itemprop="individual order">Индивидуальный заказ</a>
+          <a href="#reviews" class="nav-link footer-nav-link" itemprop="reviews">Отзывы</a>
+          <a href="#about-us" class="nav-link footer-nav-link" itemprop="about us">О нас</a>
+          <a href="#how-order" class="nav-link footer-nav-link" itemprop="how to order">Как заказать</a>
+          <a href="#contacts" class="nav-link footer-nav-link" itemprop="contacts">Контакты</a>
         
           <div class="footer-social-link__container">
             <!-- insta -->
@@ -580,7 +581,15 @@
         </nav>
       </header>
     <hr class="footer--line">
-    <p class="footer--copiright text-center article--text">&copy;  2018 Cakes</p>
+    <p class="footer--copiright text-center article--text">&copy;  2018 Cakes
+    
+      <!-- insta -->
+      <span class="footer__social-web--icon"></span>
+      <!-- vk -->
+      <span class="footer__social-web--icon"></span>
+    </p>
+  
+   
 </div>
 </footer>
 

@@ -4,17 +4,13 @@ button {
 
 /* main button */
 .main__button {
-    width: 226px;
-    height: 50px;
     background-color: var(--secondary-text);
     color: var(--general-white);
     font-family: 'Circe';
     font-weight: normal;
-    font-size: 13px;
     border: hidden;
     border-radius: 50px;
     transition: 500ms;
-    margin: 76px 0 0 7px;
   }
   
   .main__button:hover {
@@ -95,19 +91,15 @@ button {
 
   /* for tablets  */
 @media only screen and (max-width:768px) {
-  .main__button {
-    width: calc(100vw / 4);
-    height: calc(100vw / 13);
-    font-size: calc(100vw / 50);
-    }
+  .content-container--img-text-buttons {
+      flex-direction: column;
+      width: 100%;
+  }
 }
 
 /* for mobile */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:480px) {
   .main__button {
-    width: calc(100vw / 1.5);
-    height: calc(100vw / 7);
-    font-size: calc(100vw / 26);
     margin: 25px auto;
  }
 }
