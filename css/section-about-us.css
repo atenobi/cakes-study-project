@@ -72,3 +72,56 @@
 }
 
 
+
+
+  /* for tablets  */
+  @media only screen and (max-width:768px) {
+    .section-about-us {
+        padding: 97px 45px 0;
+    }
+
+    .about-us-title--text {
+        font-size: 30px;
+        margin: 20px 0 0 0;
+    }
+
+    .about-us-photo__container {
+        width: 300px;
+        height: 300px;      
+        margin-top: -80px;
+    }
+
+    .about-us-subtitle--text {
+        font-size: 26px;
+        line-height: 16px;
+        font-weight: inherit;
+        margin: 8px 0 0 0;
+    }
+
+    .article--subtitle, .article--text {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .social-icons {
+        padding: 8px;
+        margin: 0 0 0 10px;
+        max-width: 40px;
+    }
+
+    .quote--symbol {
+        margin: 10px 0 0 0;
+        font-size: 60px;
+    }
+
+    .quote--text {
+        width: 58%;
+        margin: -21px auto;  
+        font-size: 16px;
+    }
+    
+    .quote--signature-image {
+        width: 17%;
+        margin: 20px auto 0;
+    }
+  }
