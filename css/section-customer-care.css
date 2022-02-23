@@ -10,3 +10,19 @@
     width: 40%;
     margin: 20px 0;
 }
+
+
+
+
+
+
+/* design for tablets (768 PX) */
+@media only screen and (max-width:768px) {
+    .customer_care {
+        margin-top: -70px;
+        padding: 120px 43px 88px;
+        background-size: 101%;
+        background-position-x: 23px;
+        background-position-y: -29px;
+    }
+}

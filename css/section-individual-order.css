@@ -69,6 +69,13 @@
     margin: 16px 0 0 0;
 }
 
+.fill--button {
+    width: 185px;
+    height: 48px;
+    font-size: 14px;
+    margin: 85px 0 0 0;
+}
+
 /* __________ size __________ */
 .size-container {
     width: 92%;
@@ -132,6 +139,10 @@
     width: 100%;
 }
 
+.decoration--image {
+    max-width: 230px;
+}
+
 .decoration-content__container {
     display: flex;
     align-items: center;
@@ -142,7 +153,7 @@
     align-items: center;
     text-align: center;
     width: 45%;
-    min-height: 330px;
+    height: 330px;
     box-shadow: 0px 5px 14px var(--button-size-shadow);
 }
 
@@ -150,13 +161,14 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-height: 250px;
+    height: 250px;
 }
 
 .decor--cake-photo {
     position: absolute;
     top: -100px;
-    left: -30px;
+    left: 0;
+    max-width: 100%;
 }
 
 .decor--photo-name {
@@ -217,3 +229,193 @@
     border-bottom: 1px solid var(--primary-text);
     margin-top: 10px;
 }
+
+.order-button {
+    width: 224px;
+    height: 49px;
+    font-size: 17px;
+    margin: 15px 0 0 -15px;
+}
+
+
+  /* for tablets  */
+  @media only screen and (max-width:768px) {
+    .individual-order-section {
+        padding: 0 20px 0;
+    }
+
+    .individual-order--title {
+        font-size: 31px;
+        margin: 18px 0 0 0;
+    }
+
+    .individual-order--subtitle {
+        font-size: 26px;
+        margin: 12px 0 0 0;
+    }
+
+    .individual-order__block {
+        margin: 38px 0 0 0;
+        padding: 0 45px 60px;
+    }
+
+    .individual-order__block--number {
+        font-size: 35px;
+    }
+
+    .individual-order__block--title {
+        margin: -6px 0 0 0;
+        font-size: 20px;
+        line-height: 19px;
+    }
+
+    .fill-container {
+        margin-top: -55px;
+        flex-direction: row;
+        padding: 0 0 0 50px;
+    }
+
+    .fill-image__container {
+        width: 210px;
+        height: 234px;
+        margin: 0px 37px;
+    }
+
+    .fill-image {
+        top: 10px;
+        left: 0;
+        max-width: 445px;
+    }
+
+    .fill-name--text {
+        padding-top: 17px;
+        font-size: 18px;
+    }
+
+    .fill-description--text {
+        font-size: 15px;
+    }
+
+    .fill-price--text {
+        font-family: serif;
+        font-size: 21px;
+        margin: 0px 0 0 0;
+    }
+
+    .fill--button {
+        width: 133px;
+        height: 47px;
+        font-size: 10px;
+        margin: 11px 0 0 0;
+    }
+
+    .cake-counter--text {
+        font-size: 13px;
+    }
+
+    .size-container {
+        width: 100%;
+        padding: 10px 10px;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    /* .button-weight__container {
+        text-align: center;
+    } */
+
+    .border-item {
+        padding: 11px;
+        border: 4px dotted var(--primary-text);
+    }
+
+    .kg-1 {
+        padding: 16px;
+    }
+
+    .kg-2 {
+        padding: 26px;
+    }
+
+    .kg-5 {
+        padding: 19px;
+    }
+
+    .button-weight--description {
+        font-size: 13px;
+        margin-top: 6px;
+    }
+
+    .decoration-container {
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: row;
+        margin: -64px 0 0 0;
+    }
+
+    .decoration--image {
+        max-width: 120px;
+        margin-left: -45px;
+    }
+
+    .decor-image__container {
+        height: 270px;
+    }
+    
+    .decor--photo-name {
+        font-size: 15px;
+        margin: 15px 0 0 0;
+    }
+
+    .decor--photo-price {
+        font-size: 17px;
+    }
+
+    .decor-image__card {
+        height: 200px;
+    }
+
+    .decor--cake-photo {
+        top: 20px;
+    }
+
+    .order-form__container {
+        padding: 0 45px 40px;
+        margin: -37px auto;
+    }
+
+    .order-form--title {
+        font-style: normal;
+        font-size: 20px;
+    }
+
+    .order-form--form {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .order-form--label {
+        font-size: 19px;
+    }
+
+    .order-form__col {
+        width: 15%;
+    }
+
+    .order-form--input {
+        font-size: 13px;
+        padding: 5px;
+        text-align: center;
+        width: 135px;
+        border: 1px solid var(--opasity-50-text);
+        border-radius: 50px; 
+        margin-top: 10px;
+    }
+
+    .order-button {
+        width: 121px;
+        height: 45px;
+        font-size: 14px;
+        margin: 15px 0 0 -15px;
+    }
+  }
