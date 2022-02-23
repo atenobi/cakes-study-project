@@ -67,3 +67,53 @@
     width: 83%;
     color: var(--secondary-text);
 }
+
+/* for tablets  */
+@media only screen and (max-width:768px) {
+    .reviews-section {
+        padding: 70px 90px 0;
+        background-size: 105%;
+        background-position-x: 0;
+        background-position-y: -47px;
+    }
+    
+    .reviews-container {
+        flex-direction: row;
+        width: 100%;
+        margin: 30px 0 0;
+    }
+
+    .reviews-title--text {
+        font-size: 32px;
+    }
+
+    .person-photo__container {
+        border-radius: 50%;
+        margin: 15px 25px 0 60px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .pesson-photo--image {
+        top: -58px;
+        left: -58px;
+        max-width: 230px;
+    }
+
+    .person-name--text {
+        font-size: 16px;
+    }
+
+    .person-profession--text {
+        font-size: 14px;
+    }
+
+    .person-review--text {
+        padding-top: 20px;
+        font-size: 13px;
+    }
+
+    .open-reviev--link {
+        font-size: 13px;
+    }
+}

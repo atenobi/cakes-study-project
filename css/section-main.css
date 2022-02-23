@@ -92,6 +92,13 @@
   margin: 40px 0 0 10px;
 }
 
+.section-main--button {
+  width: 200px;
+  height: 45px;
+  font-size: 15px;
+  margin: 60px 0 0 0px;
+}
+
 .main__info {
   width: 38%;
   display: flex;
@@ -116,9 +123,13 @@
 .main__info--text {
   font-family: 'Circe';
   font-weight: bold;
-  font-size: calc(100vw / 100);
+  font-size: 15px;
   margin-left: 20px;
 }
+
+
+
+
 
 
 /* design for desktop (1240px) */
@@ -128,11 +139,17 @@
   }
 }
 
+
+
+
 /* design for tablets (768 PX) */
 
 @media only screen and (max-width:768px) {
   .header__container {
     background-color: var(--general-white);
+    padding: 14px 44px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .main__header{
@@ -141,15 +158,15 @@
   }
 
   .header__title {
-    font-size: 37px;
+    font-size: 24px;
   }
 
   .main_nav_burger-button {
     display: block;
     position: absolute;
-    top: -36px;
-    left: 136px;
-    font-size: 85px;
+    top: -14px;
+    left: 85px;
+    font-size: 53px;
     outline: none;
     border: none;
     background-color: var(--invisible-bg);
@@ -192,21 +209,36 @@
   }
 
   .telephone-number {
-    font-size: 20px;
+    font-size: 15px;
   }
 
-  .strawbarry_decorations {
-    top: 136px;
-    left: 27%;
+  .main__content-container {
+    padding: 58px 45px 130px;
+    background-size: 97%;
+    background-position-x: 176px;
+    background-position-y: -8px;
   }
 
-  .main__cake-image {
-    top: 137px;
-    left: 43%;
+  .main__title--text {
+    font-size: 73px;
+    line-height: 54px;
+  }
+
+  .main__hand-made--text {
+    margin: 34px 0 0 0;
+    font-size: 37px;
+}
+
+  .section-main--button {
+    width: 227px;
+    height: 50px;
+    font-size: 13px;
+    margin: 65px 0 0 0;
   }
 
   .main__info {
-    width: 50%;
+    width: 69%;
+    margin: 105px 0 0 0;
   }
 
   .main__info--text {
