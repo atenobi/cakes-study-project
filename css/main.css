@@ -33,6 +33,7 @@
   --opasity-50-text: #2d282978;
   --footer-color: #e8e8e8;
   --footer-tablet-color: #898989;
+  --mobile-carusel: #8d8c8c78;
 }
 
 body {
@@ -51,11 +52,6 @@ body {
 
 .section {
   max-width: 100%;
-}
-
-.content-container {
-  display: flow-root;
-  /* заставляет блок создавать отдельный блочный контекст форматирования. Без побочных эффектов. */
 }
 
 .section--title-text {

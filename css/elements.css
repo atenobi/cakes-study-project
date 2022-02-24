@@ -1,3 +1,8 @@
+.content-container {
+  display: flow-root;
+  /* заставляет блок создавать отдельный блочный контекст форматирования. Без побочных эффектов. */
+}
+
 button {
   cursor: pointer;
 }
@@ -89,17 +94,82 @@ button {
   font-family: 'Circe';
 }
 
+.mobile-carusel,
+.mobile-carusel--item {
+  display: none;
+}
+
+.mobile--only {
+  display: none;
+}
+
   /* for tablets  */
 @media only screen and (max-width:768px) {
+    .mobile--only {
+      display: none;
+  }
+
   .content-container--img-text-buttons {
       flex-direction: column;
       width: 100%;
   }
+
+  .mobile-carusel,
+  .mobile-carusel--item {
+  display: none;
+}
 }
 
 /* for mobile */
 @media only screen and (max-width:480px) {
+    .mobile--only {
+      display: block;
+  }
+
+  .mobile--hidden {
+    display: none;
+}
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
   .main__button {
     margin: 25px auto;
  }
+
+  .article--subtitle,
+  .article--text {
+    font-size: 10px;
+    font-family: "Circe";
+}
+
+  .button-arow {
+    display: none;
+  }
+
+  .mobile-carusel {
+    display: block;
+    text-align: center;
+  }
+
+  .mobile-carusel--item {
+    margin: 0 2px 0;
+    padding: 5px;
+    font-size: 1px;
+    line-height: 5px;
+    color: var(--invisible-bg);
+    background-color: var(--mobile-carusel);
+    border-radius: 50%;
+    display: inline;
+}
+
+  .mobile-carusel--item:hover {
+    background-color: var(--secondary-text);
+  }
+
+  .mobile-carusel--item:focus {
+    background-color: var(--secondary-text);
+  }
 }
