@@ -238,6 +238,9 @@
 }
 
 
+
+
+
   /* for tablets  */
   @media only screen and (max-width:768px) {
     .individual-order-section {
@@ -319,10 +322,6 @@
         justify-content: space-between;
         flex-direction: row;
     }
-
-    /* .button-weight__container {
-        text-align: center;
-    } */
 
     .border-item {
         padding: 11px;
@@ -418,4 +417,126 @@
         font-size: 14px;
         margin: 15px 0 0 -15px;
     }
-  }
+}
+
+
+
+
+
+
+/* for mobile  */
+@media only screen and (max-width:480px) {
+  .individual-order__block {
+        margin: 30px 0 0 0;
+        padding: 0 33px 35px;
+    }
+
+    .individual-order--title {
+        font-size: 42px;
+        line-height: 45px;
+        margin: 12px 0 0 0;
+    }
+
+    .individual-order--subtitle {
+        font-size: 35px;
+        margin: 23px 0 0 0;
+    }
+
+    .individual-order__block--number {
+        font-size: 35px;
+        float: left;
+    }
+
+    .individual-order__block--title {
+        margin: 40px 0 0 50px;
+        font-size: 28px;
+        line-height: 19px;
+        width: 100%;
+    }
+
+    .line-gap {
+        display: none;
+    }
+
+    .fill-container {
+        padding: 0;
+    }
+
+    .fill-image__container {
+        width: 370px;
+        height: 175px;
+        margin: 17px auto;
+    }
+
+    .fill-name--text {
+        padding-top: 14px;
+        font-size: 25px;
+    }
+
+    .fill-description--text {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    .fill-price--text {
+        text-align: center;
+        font-size: 30px;
+        margin: 16px 0 0 0;
+    }
+
+    .fill--button {
+        width: 279px;
+        height: 78px;
+        font-size: 20px;
+        margin: 30px 0 0 47px;
+    }
+
+    .cake-counter--text {
+        display: none;
+    }
+
+    .size-container {
+        width: 100%;
+        padding: 0;
+        margin: 65px 0 0 0;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .button-weight__container {
+        text-align: center;
+    }
+
+    .button-weight {
+        margin: 0 0 60px 0;
+    }
+
+    .kg-1 {
+        padding: 60px;
+        font-size: 24px;
+    }
+
+    .border-item {
+        padding: 5px;
+    }
+
+    .button-weight--description {
+        font-size: 23px;
+        margin-top: 13px;
+        text-align: center;
+    }
+
+    .size--button {
+        width: 279px;
+        height: 78px;
+        font-size: 20px;
+        margin: 80px 0 0 0;
+    }
+
+
+    .order-form {
+        width: 65%;
+        margin: 30px auto 0;
+        display: flex;
+    }
+}
