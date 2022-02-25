@@ -68,6 +68,10 @@
     color: var(--secondary-text);
 }
 
+
+
+
+
 /* for tablets  */
 @media only screen and (max-width:768px) {
     .reviews-section {
@@ -115,5 +119,63 @@
 
     .open-reviev--link {
         font-size: 13px;
+    }
+}
+
+
+
+/* for mobile  */
+@media only screen and (max-width: 480px) {
+    .reviews-section {
+        padding: 75px 35px 0;
+        background-size: 105%;
+        background-position-x: 0;
+        background-position-y: -47px;
+    }
+
+    .reviews-title--text {
+        font-size: 40px;
+    }
+
+    .reviews-container {
+        margin: 0;
+    }
+
+    .reviews__article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .person-photo__container {
+        margin: 23px auto 0;
+        width: 90px;
+        height: 90px;
+    }
+
+    .pesson-photo--image {
+        top: -47px;
+        left: -48px;
+        max-width: 189px;
+    }
+
+    .person-name--text {
+        font-size: 22px;
+        margin: 6px 0 0;
+    }
+
+    .person-profession--text {
+        font-size: 19px;
+    }
+
+    .person-review--text {
+        padding: 0 0 7px 0;
+        line-height: 23px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .open-reviev--link {
+        font-size: 20px;
     }
 }
