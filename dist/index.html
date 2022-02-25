@@ -269,7 +269,7 @@
       <h1 class="individual-order__block--title">Оформление</h1>
 
       <div class="content-container--img-text-buttons decoration-container">
-        <img src="/decoration_ilusration.d55b8780.png" alt="decoration peace of cake" class="decoration--image">
+        <img src="/decoration_ilusration.d55b8780.png" alt="decoration peace of cake" class="decoration--image mobile--hidden">
 
         <div class="decoration-content__container">
           <button class="button-arow">
@@ -277,7 +277,7 @@
             <svg class="button-arow__svg-el"><use href="#arrow-left"></use></svg>
           </button>
 
-          <div class="decor-image__container">
+          <div class="decor-image__container mobile--hidden">
             <div class="decor-image__card">
               <img src="/berry-cake.4f7fa12e.png" alt="berry assorty cake" class="decor--cake-photo">
             </div>
@@ -288,11 +288,24 @@
           <div class="decor-image__container">
             <div class="decor-image__card">
               <img src="/marshmalow_cake.691d6645.png" alt="marshmallow cake" class="decor--cake-photo">
-              </div>
+            </div>
+
+            <!-- carusel for mobile devises -->
+            <p class="mobile-carusel">
+              <span class="mobile-carusel--item">.</span>
+              <span class="mobile-carusel--item">.</span>
+              <span class="mobile-carusel--item">.</span>
+              <span class="mobile-carusel--item">.</span>
+              <span class="mobile-carusel--item">.</span>
+            </p>
+
               <p class="decor--photo-name">Маршмэллоу</p>
               <h4 class="decor--photo-price">600 руб/кг</h4>
+
+               <!-- button visible only on mobile devises -->
+          <button class="main__button decor--button mobile--only">ВЫБРАТЬ</button>
           </div>
-  
+
           <button class="button-arow">
             <!-- next button -->
             <svg class="button-arow__svg-el"><use href="#arrow-right"></use></svg>
@@ -349,7 +362,7 @@
 
 
       <!-- review from users -->
-      <article>
+      <article class="reviews__article">
         <div class="person-photo__container">
           <img src="/Maria_photo.a64982f3.png" alt="user photo: Maria" class="pesson-photo--image">
         </div>
@@ -360,6 +373,15 @@
           Гости были в восторге! Отдельное спасибо за своевременную доставку!
           Теперь будем заказывать торты только у вас для наших семейных праздников:)
           <a href="#" class="open-reviev--link">Развернуть</a>
+        </p>
+
+         <!-- carusel for mobile devises -->
+         <p class="mobile-carusel">
+          <span class="mobile-carusel--item">.</span>
+          <span class="mobile-carusel--item">.</span>
+          <span class="mobile-carusel--item">.</span>
+          <span class="mobile-carusel--item">.</span>
+          <span class="mobile-carusel--item">.</span>
         </p>
       </article>
 
@@ -380,7 +402,7 @@
 <section id="about-us" class="section section-about-us">
   <div class="content__container">
     <h1 class="about-us-title--text">О нас</h1>
-    <h2 class="section-subtitle--text about-us-subtitle--text">О кондитере</h2>
+    <h2 class="section-subtitle--text about-us-subtitle--text mobile--hidden">О кондитере</h2>
 
     <div class="content-container--img-text-buttons">
 
@@ -390,6 +412,8 @@
         <div class="about-us-photo__container">
           <img src="/conditier_image.41f7de0e.png" alt="photo: conditier" class="about-us-photo--image">
         </div>
+
+        <h2 class="section-subtitle--text about-us-subtitle--text mobile--only">О кондитере</h2>
         <!-- text container -->
         <div class="about-us-text__container">
             <strong class="article--subtitle">Кондитер - как призвание</strong>
@@ -500,7 +524,7 @@
             <h1 class="how-order--title-number">1</h1>
             <div class="how-order-text__container">
               <strong class="article--subtitle">Срок заказа</strong>
-              <p class="article--text">
+              <p class="article--text how-order--main-text">
                 Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю. 
               </p>
             </div>
@@ -510,7 +534,7 @@
             <h1 class="how-order--title-number">2</h1>
               <div class="how-order-text__container">
                 <strong class="article--subtitle">Доставка по городу</strong>
-                <p class="article--text">
+                <p class="article--text how-order--main-text">
                   Доставка в пределах города 200 рублей , при заказе на сумму более 2000  доставка бесплатно.
                 </p>
               </div>
@@ -520,7 +544,7 @@
             <h1 class="how-order--title-number">3</h1>
               <div class="how-order-text__container">
                 <strong class="article--subtitle">Доставка за городом</strong>
-                <p class="article--text">
+                <p class="article--text how-order--main-text">
                   Доставка за пределами города рассчитывается индивидуально.
                 </p>
               </div>
@@ -546,7 +570,7 @@
         <p class="article--text contacts-text">Заполните форму ниже и наш кондитер свяжется с Вами</p>
         <input type="text" placeholder="Ваше имя" class="contacts-form--input">
         <input type="text" placeholder="Email адресс" class="contacts-form--input">
-        <input type="text" placeholder="Ваш вопрос" class="contacts-form--input">
+        <input type="text" placeholder="Ваш вопрос" class="contacts-form--input">  <!-- here need to reformat to text area? -->
         <button type="submit" class="main__button contacts__form--button">Отправить</button>
       </form>
 
@@ -582,7 +606,7 @@
 <footer class="section section-footer">
   <div class="footer__container">
     <header class="main__header footer-header">
-        <h1 class="header__title">Cakes</h1>
+        <h1 class="header__title footer--title">Cakes</h1>
     <!-- menu button (burger) it`s invisible in desktop, anabled in mobile version -->
 
         <nav class="footer__nav nav">
@@ -593,7 +617,12 @@
           <a href="#about-us" class="nav-link footer-nav-link" itemprop="about us">О нас</a>
           <a href="#how-order" class="nav-link footer-nav-link" itemprop="how to order">Как заказать</a>
           <a href="#contacts" class="nav-link footer-nav-link" itemprop="contacts">Контакты</a>
-        
+
+          <!-- visible only on mobile devices -->
+          <a href="tel:+79068999296" class="nav-link telephone-number footer-nav-link mobile--only" itemprop="phone number">
+            +7 906 899 92 96
+          </a>
+
           <div class="footer-social-link__container">
             <!-- insta -->
             <a href="https://www.instagram.com/" class="social-icons footer--icon" target="_blank"></a>

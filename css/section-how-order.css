@@ -77,3 +77,38 @@
         margin: 0;
     }
 }
+
+
+
+
+/* design for mobile */
+@media only screen and (max-width:480px) {
+    .how-order {
+        padding: 15px 70px 235px;
+        background-size: 151%;
+        background-color: #E73940;
+        background-position-y: 477px;
+        background-position-x: -28px;
+    }
+
+    .how-order--title-text {
+        width: 100%;
+        margin: 24px 0 0 0;
+        font-size: 41px;
+        text-align: center;
+    }
+
+    .how-order__content-container {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .how-order__article-row {
+        width: 100%;
+        margin: 40px 0 0;
+    }
+
+    .how-order--main-text {
+        line-height: 18px;
+    }
+}

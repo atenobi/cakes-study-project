@@ -533,10 +533,88 @@
         margin: 80px 0 0 0;
     }
 
+    .decoration-content__container {
+        width: 100%;
+        height: 600px;
+        align-items: baseline;
+    }
+
+    .decor-image__container {
+        width: 100%;
+        height: 270px;
+    }
+
+    .decor-image__card {
+        height: 100%;
+        width: 100%;
+        margin: 0 0 60px 0;
+    }
+
+    .decor--cake-photo {
+        top: -45px;
+        left: 7px;
+        max-width: 100%;
+    }
+
+    .decor--photo-name {
+        font-size: 22px;
+        margin: 20px 0 0 0;
+    }
+
+    .decor--photo-price {
+        font-size: 31px;
+        margin: 0;
+    }
+
+    .decor--button {
+        width: 279px;
+        height: 78px;
+        font-size: 20px;
+        margin: 40px 0 0 47px;
+    }
+
+    .order-form__container {
+        padding: 0 30px 50px;
+        margin: -15px auto;
+    }
+
+    .order-form--title {
+        font-style: normal;
+        font-size: 37px;
+    }
 
     .order-form {
-        width: 65%;
-        margin: 30px auto 0;
-        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .order-form--form {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0 0 0;
+    }
+
+    .order-form__col {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+
+    .order-form--label {
+        font-size: 30px;
+    }
+
+    .order-form--input {
+        font-size: 23px;
+        padding: 10px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .order-button {
+        width: 349px;
+        height: 78px;
+        font-size: 26px;
+        margin: 37px 0 0 0;
     }
 }

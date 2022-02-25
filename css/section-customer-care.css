@@ -26,3 +26,22 @@
         background-position-y: -29px;
     }
 }
+
+
+
+
+/* design for mobile */
+@media only screen and (max-width:480px) {
+    .customer_care {
+        margin-top: -70px;
+        padding: 87px 16px 265px;
+        background-size: 250%;
+        background-position-x: -620px;
+        background-position-y: 300px;
+    }
+
+    .customer_care--text {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+}
