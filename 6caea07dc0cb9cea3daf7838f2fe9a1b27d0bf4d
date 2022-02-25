@@ -1,0 +1,198 @@
+[33mcommit 4c0581c14742119ed58aacb8f344ccd97e38593d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: f8fdc17 6caea07
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Wed Feb 23 20:24:53 2022 +0300
+
+    Merge pull request #8 from atenobi/tablet-design
+    
+    design for 768px ready checked with pixel perfect
+
+[33mcommit 6caea07dc0cb9cea3daf7838f2fe9a1b27d0bf4d[m[33m ([m[1;31morigin/tablet-design[m[33m, [m[1;32mtablet-design[m[33m)[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Wed Feb 23 20:23:53 2022 +0300
+
+    design for 768px ready checked with pixel perfect
+
+[33mcommit f8fdc1754d5b3eb5628ed6b67e4740fe5dbf65c5[m
+Merge: 266dfe9 81660ae
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Tue Feb 22 18:03:38 2022 +0300
+
+    Merge pull request #7 from atenobi/section-4
+    
+    desktop version ready
+
+[33mcommit 81660ae6cefeb41f08d0924ca3faa6f7754d3d67[m[33m ([m[1;31morigin/section-4[m[33m, [m[1;32msection-4[m[33m)[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Tue Feb 22 18:02:29 2022 +0300
+
+    ready all desktop wersion
+
+[33mcommit 4a1f31ddfb3bcb81d6570a9f3a50bcb52aa20d4e[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Mon Feb 21 22:52:42 2022 +0300
+
+    4 5 6 sections +
+
+[33mcommit 266dfe9506ba7a4f3082a242c41bbb96e426dbfd[m
+Merge: fff4cff 1deeac7
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sun Feb 20 21:38:51 2022 +0300
+
+    Merge pull request #6 from atenobi/section-3
+    
+    3 sections design for desktop
+
+[33mcommit 1deeac7ba13b9155bf03eff437e9a2f2596cc5a6[m[33m ([m[1;31morigin/section-3[m[33m, [m[1;32msection-3[m[33m)[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sun Feb 20 21:35:56 2022 +0300
+
+    3 section early version for desktop
+
+[33mcommit c5fec98c75958f899cded596b7f3e20599fdbf2f[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sun Feb 20 20:05:57 2022 +0300
+
+    3 section (desktop-design) ready
+
+[33mcommit e1100a5cdbad54fe15dd67e1ea2b9701702e2ba1[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 19 15:59:21 2022 +0300
+
+    start realisation 3 part of section ind order for desktop
+
+[33mcommit 14eac262e66b3d2a8b28e337a0784e7fa5dfccc3[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Fri Feb 18 23:39:33 2022 +0300
+
+    fix: container size / nain section bg image / font sizes / button cursor
+
+[33mcommit fff4cffbb6e47a7554728a6189c9065e4b8370ff[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Fri Feb 18 13:13:47 2022 +0300
+
+    save main after merge 2 section
+
+[33mcommit e0e6fea33b9a606005e0fbb2b8fbef2fa9c5ae3a[m
+Merge: 776b8e4 0499e68
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Fri Feb 18 12:55:04 2022 +0300
+
+    Merge pull request #5 from atenobi/section-2
+    
+    fix of top-section responsive design + layout
+
+[33mcommit 0499e687386086d25f641fc6258db353d08e0b98[m[33m ([m[1;31morigin/section-2[m[33m, [m[1;32msection-2[m[33m)[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Wed Feb 16 20:19:54 2022 +0300
+
+    2 section our-cakes first-version
+
+[33mcommit 650381540f63eed8f0788f6debcb84323e1ed18d[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Tue Feb 15 22:28:30 2022 +0300
+
+    fix responsive design of main-section / try to write grid sistem
+
+[33mcommit 5f716d30a0d3b48d444189362d188bc3bc7ee690[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sun Feb 13 20:40:45 2022 +0300
+
+    start to write 2 section base + images(experiments)
+
+[33mcommit 776b8e45e15f947100abc4e5e3232d1f9ac7f8b7[m
+Merge: 1c5653a 6712517
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sun Feb 13 19:10:17 2022 +0300
+
+    Merge pull request #4 from atenobi/top-section-responsive
+    
+    1.fix almost all main section design problems
+     2.add js button menu
+
+[33mcommit 671251766501cfb5b0700c665580b25d9f6125d1[m[33m ([m[1;31morigin/top-section-responsive[m[33m, [m[1;32mtop-section-responsive[m[33m)[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sun Feb 13 19:07:26 2022 +0300
+
+    main section responsive + little js
+
+[33mcommit 613c19a768613f6a71e7a844b1e881f03b634b2b[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 12 21:18:57 2022 +0300
+
+    try to wtite responsive design for main section
+
+[33mcommit 1c5653ad3a44df266358b0850a2666a2747cec4f[m
+Merge: 7dc3d1c 19ad6e6
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 12 16:12:33 2022 +0300
+
+    Merge pull request #3 from atenobi/cakes-pages2
+    
+    Cakes pages2
+
+[33mcommit 19ad6e66d84798e625e7936f7af6d7de0751fe5f[m[33m ([m[1;31morigin/cakes-pages2[m[33m, [m[1;32mcakes-pages2[m[33m)[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 12 16:07:53 2022 +0300
+
+    fix dist
+
+[33mcommit 00555041b7c1657fab8bec34e77e470cd4e01f1a[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 12 16:03:30 2022 +0300
+
+    fix fonts
+
+[33mcommit 3d7472071d721a70f3bc1b089d2f452c1405bbb6[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 12 15:47:00 2022 +0300
+
+    6 try
+
+[33mcommit 7dc3d1cec75759ea37e32cc588f216797619eb4b[m
+Merge: c752540 b55fd2f
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 12 15:29:39 2022 +0300
+
+    Merge pull request #2 from atenobi/cakes-pages
+    
+    3 try
+
+[33mcommit b55fd2f277acd38b5d05158dc71e998b7f5e56a9[m[33m ([m[1;31morigin/cakes-pages[m[33m, [m[1;32mcakes-pages[m[33m)[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 12 15:27:45 2022 +0300
+
+    3 try
+
+[33mcommit c752540dcd14aeaf27c47ad4889bbac66b3cde70[m
+Merge: df31ad0 9989f92
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 12 15:22:13 2022 +0300
+
+    Merge pull request #1 from atenobi/cakes-pages
+    
+    create local session / git pages ready and work
+
+[33mcommit 9989f924a97b3aabcffa1173d52aaa99a91703de[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 12 15:19:45 2022 +0300
+
+    create local session / git pages ready and work
+
+[33mcommit df31ad0fc778e1022980fa53e04799fe20c91f67[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Sat Feb 12 14:56:21 2022 +0300
+
+    create remote repo
+
+[33mcommit a0de33240b0255c1cecf2131f3b863bcf636a5cc[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Wed Feb 9 22:42:04 2022 +0300
+
+    made main section / install css comb / add some styles for desktop
+
+[33mcommit e48c05b634b84dd55b72c1f8b5118c8fbde0a2ad[m
+Author: atenobi <79144475+atenobi@users.noreply.github.com>
+Date:   Wed Feb 9 15:08:44 2022 +0300
+
+    initial commit
