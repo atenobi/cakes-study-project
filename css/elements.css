@@ -124,11 +124,11 @@ button {
 @media only screen and (max-width:480px) {
     .mobile--only {
       display: block;
-  }
-
-  .mobile--hidden {
-    display: none;
 }
+
+    .mobile--hidden {
+      display: none;
+  }
 
   .content-container {
     display: flex;
@@ -173,3 +173,4 @@ button {
     background-color: var(--secondary-text);
   }
 }
+
