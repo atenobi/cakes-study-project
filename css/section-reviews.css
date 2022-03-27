@@ -1,181 +1,174 @@
 .reviews-section {
-    padding: 120px 65px 0;
-    background-image: url(../img/reviews_illustration.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position-x: -65px;
-    background-position-y: -120px;
-    /* background-color: var(--invisible-bg); */
-    
+  padding: 120px 65px 0;
+  background-image: url(../img/reviews_illustration.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: -65px;
+  background-position-y: -120px;
+  /* background-color: var(--invisible-bg); */
 }
 
 .reviews-title--text {
-    font-size: 45px;
-    margin: 0;
-    text-align: center;
+  font-size: 45px;
+  margin: 0;
+  text-align: center;
 }
 
 .reviews-container {
-    width: 70%;
-    margin: 30px auto 0;
+  width: 70%;
+  margin: 30px auto 0;
 }
 
 .person-photo__container {
-    border-radius: 50%;
-    margin: 0 60px;
-    width: 240px;
-    height: 240px;
-    overflow: hidden;
-    position: relative;
-    float: left;
+  border-radius: 50%;
+  margin: 0 60px;
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+  float: left;
 }
 
 .pesson-photo--image {
-    position: absolute;
-    top: -70px;
-    left: -65px;
-    max-width: 400px
+  position: absolute;
+  top: -70px;
+  left: -65px;
+  max-width: 400px;
 }
 
 .person-name--text,
 .person-profession--text,
 .person-review--text,
 .open-reviev--link {
-    font-family: "Circe";
+  font-family: "Circe";
 }
 
 .person-name--text {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .person-profession--text {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 .person-review--text {
-    padding-top: 20px;
-    font-size: 20px;
+  padding-top: 20px;
+  font-size: 20px;
 }
 
 .open-reviev--link {
-    font-size: 20px;
-    font-style: italic;
-    color: var(--secondary-text);
+  font-size: 20px;
+  font-style: italic;
+  color: var(--secondary-text);
 }
 
 .review-counter--text {
-    width: 83%;
-    color: var(--secondary-text);
+  width: 83%;
+  color: var(--secondary-text);
 }
-
-
-
-
 
 /* for tablets  */
-@media only screen and (max-width:768px) {
-    .reviews-section {
-        padding: 70px 90px 0;
-        background-size: 105%;
-        background-position-x: 0;
-        background-position-y: -47px;
-    }
-    
-    .reviews-container {
-        flex-direction: row;
-        width: 100%;
-        margin: 30px 0 0;
-    }
+@media only screen and (max-width: 768px) {
+  .reviews-section {
+    padding: 70px 90px 0;
+    background-size: 105%;
+    background-position-x: 0;
+    background-position-y: -47px;
+  }
 
-    .reviews-title--text {
-        font-size: 32px;
-    }
+  .reviews-container {
+    flex-direction: row;
+    width: 100%;
+    margin: 30px 0 0;
+  }
 
-    .person-photo__container {
-        border-radius: 50%;
-        margin: 15px 25px 0 60px;
-        width: 110px;
-        height: 110px;
-    }
+  .reviews-title--text {
+    font-size: 32px;
+  }
 
-    .pesson-photo--image {
-        top: -58px;
-        left: -58px;
-        max-width: 230px;
-    }
+  .person-photo__container {
+    border-radius: 50%;
+    margin: 15px 25px 0 60px;
+    width: 110px;
+    height: 110px;
+  }
 
-    .person-name--text {
-        font-size: 16px;
-    }
+  .pesson-photo--image {
+    top: -58px;
+    left: -58px;
+    max-width: 230px;
+  }
 
-    .person-profession--text {
-        font-size: 14px;
-    }
+  .person-name--text {
+    font-size: 16px;
+  }
 
-    .person-review--text {
-        padding-top: 20px;
-        font-size: 13px;
-    }
+  .person-profession--text {
+    font-size: 14px;
+  }
 
-    .open-reviev--link {
-        font-size: 13px;
-    }
+  .person-review--text {
+    padding-top: 20px;
+    font-size: 13px;
+  }
+
+  .open-reviev--link {
+    font-size: 13px;
+  }
 }
-
-
 
 /* for mobile  */
 @media only screen and (max-width: 480px) {
-    .reviews-section {
-        padding: 75px 35px 0;
-        background-size: 105%;
-        background-position-x: 0;
-        background-position-y: -47px;
-    }
+  .reviews-section {
+    padding: 75px 35px 0;
+    background-size: 105%;
+    background-position-x: 0;
+    background-position-y: -47px;
+  }
 
-    .reviews-title--text {
-        font-size: 40px;
-    }
+  .reviews-title--text {
+    font-size: 40px;
+  }
 
-    .reviews-container {
-        margin: 0;
-    }
+  .reviews-container {
+    margin: 0;
+  }
 
-    .reviews__article {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .reviews__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .person-photo__container {
-        margin: 23px auto 0;
-        width: 90px;
-        height: 90px;
-    }
+  .person-photo__container {
+    margin: 23px auto 0;
+    width: 90px;
+    height: 90px;
+  }
 
-    .pesson-photo--image {
-        top: -47px;
-        left: -48px;
-        max-width: 189px;
-    }
+  .pesson-photo--image {
+    top: -47px;
+    left: -48px;
+    max-width: 189px;
+  }
 
-    .person-name--text {
-        font-size: 22px;
-        margin: 6px 0 0;
-    }
+  .person-name--text {
+    font-size: 22px;
+    margin: 6px 0 0;
+  }
 
-    .person-profession--text {
-        font-size: 19px;
-    }
+  .person-profession--text {
+    font-size: 19px;
+  }
 
-    .person-review--text {
-        padding: 0 0 7px 0;
-        line-height: 23px;
-        font-size: 20px;
-        text-align: center;
-    }
+  .person-review--text {
+    padding: 0 0 7px 0;
+    line-height: 23px;
+    font-size: 20px;
+    text-align: center;
+  }
 
-    .open-reviev--link {
-        font-size: 20px;
-    }
+  .open-reviev--link {
+    font-size: 20px;
+  }
 }

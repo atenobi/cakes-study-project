@@ -1,620 +1,611 @@
 .individual-order-section {
-    padding: 50px 65px 0;
+  padding: 50px 65px 0;
 }
 
 .individual-order--title {
-    margin: 32px 0 0 0;
+  margin: 32px 0 0 0;
 }
 
 .individual-order--subtitle {
-    font-size: 35px;
-    margin: 15px 0 0 0;
+  font-size: 35px;
+  margin: 15px 0 0 0;
 }
 
 .individual-order__block {
-    background-color: var(--general-white);
-    margin: 55px 0 0 0;
-    padding: 20px 90px 60px;
+  background-color: var(--general-white);
+  margin: 55px 0 0 0;
+  padding: 20px 90px 60px;
 }
 
 .individual-order__block--number {
-    font-size: 60px;
-    margin: 27px 0 0 0;
-    color: var(--secondary-text);
+  font-size: 60px;
+  margin: 27px 0 0 0;
+  color: var(--secondary-text);
 }
 
 .individual-order__block--title {
-    color: var(--secondary-text);
-    margin: -10px 0 0 0;
-    font-size: 30px;
-    line-height: 30px;
+  color: var(--secondary-text);
+  margin: -10px 0 0 0;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 /* __________ fill __________ */
 .fill-container {
-    margin-top: -90px;
+  margin-top: -90px;
 }
 
 .fill-image__container {
-    width: 340px;
-    height: 400px;
-    background-color: var(--background);
-    overflow: hidden;
-    position: relative;
-    float: left;
-    margin: 0 65px;
+  width: 340px;
+  height: 400px;
+  background-color: var(--background);
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin: 0 65px;
 }
 
 .fill-image {
-    position: absolute;
-    top: 153px;
-    left: 0;
-    max-width: 670px;
+  position: absolute;
+  top: 153px;
+  left: 0;
+  max-width: 670px;
 }
 
 .fill-name--text {
-    font-family: "Circe";
-    padding-top: 62px;
-    font-size: 20px;
+  font-family: "Circe";
+  padding-top: 62px;
+  font-size: 20px;
 }
 
 .fill-description--text {
-    font-family: "Circe";
-    font-size: 16px;
+  font-family: "Circe";
+  font-size: 16px;
 }
 
 .fill-price--text {
-    font-family: 'PlayfairDisplay', sans-serif;
-    font-size: 23px;
-    margin: 16px 0 0 0;
+  font-family: "PlayfairDisplay", sans-serif;
+  font-size: 23px;
+  margin: 16px 0 0 0;
 }
 
 .fill--button {
-    width: 185px;
-    height: 48px;
-    font-size: 14px;
-    margin: 85px 0 0 0;
+  width: 185px;
+  height: 48px;
+  font-size: 14px;
+  margin: 85px 0 0 0;
 }
 
 /* __________ size __________ */
 .size-container {
-    width: 92%;
-    padding: 0 0 85px 110px;
-    justify-content: space-between;
-    align-items: end;
+  width: 92%;
+  padding: 0 0 85px 110px;
+  justify-content: space-between;
+  align-items: end;
 }
 
 .button-weight {
-    padding: 5px;
-    border: none;
-    border-radius: 50%;
-    outline: none;
-    background-color: var(--general-white);
-    font-family: 'Circe';
-    font-size: 15px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: var(--general-white);
+  font-family: "Circe";
+  font-size: 15px;
 }
 
 .button-weight:hover {
-    /* box-shadow: 0px 5px 14px var(--button-size-shadow); */
-    box-shadow: 0px 5px 14px var(--button-shadow);
+  /* box-shadow: 0px 5px 14px var(--button-size-shadow); */
+  box-shadow: 0px 5px 14px var(--button-shadow);
 }
 
 .button-weight:focus {
-    /* box-shadow: 0px 5px 14px var(--button-size-shadow); */
-    box-shadow: 0px 5px 14px var(--button-shadow);
+  /* box-shadow: 0px 5px 14px var(--button-size-shadow); */
+  box-shadow: 0px 5px 14px var(--button-shadow);
 }
 
 .kg-1 {
-    padding: 20px;
+  padding: 20px;
 }
 
 .kg-2 {
-    padding: 35px;
+  padding: 35px;
 }
 
 .kg-5 {
-    padding: 30px;
+  padding: 30px;
 }
 
 .kg-8 {
-    padding: 8px;
+  padding: 8px;
 }
 
 .border-item {
-    padding: 20px;
-    border: 5px dotted var(--primary-text);
-    border-radius: 50%;
+  padding: 20px;
+  border: 5px dotted var(--primary-text);
+  border-radius: 50%;
 }
 
 .button-weight--description {
-    font-size: 20px;
-    margin-top: 17px;
-    font-family: "Circe";
-    color: var(--primary-text);
+  font-size: 20px;
+  margin-top: 17px;
+  font-family: "Circe";
+  color: var(--primary-text);
 }
 
 /* __________ decoration __________ */
 .decoration-container {
-    justify-content: space-between;
-    width: 100%;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .decoration--image {
-    max-width: 230px;
+  max-width: 230px;
 }
 
 .decoration-content__container {
-    display: flex;
-    align-items: center;
-    width: 80%;
+  display: flex;
+  align-items: center;
+  width: 80%;
 }
 
 .decor-image__container {
-    align-items: center;
-    text-align: center;
-    width: 45%;
-    height: 330px;
-    box-shadow: 0px 5px 14px var(--button-size-shadow);
+  align-items: center;
+  text-align: center;
+  width: 45%;
+  height: 330px;
+  box-shadow: 0px 5px 14px var(--button-size-shadow);
 }
 
 .decor-image__card {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 250px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
 }
 
 .decor--cake-photo {
-    position: absolute;
-    top: -100px;
-    left: 0;
-    max-width: 100%;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  max-width: 100%;
 }
 
 .decor--photo-name {
-    font-family: "Circe";
-    font-size: 20px;
+  font-family: "Circe";
+  font-size: 20px;
 }
 
 .decor--photo-price {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 /* __________ form __________ */
 .order-form__container {
-    padding: 0 80px 119px;
-    margin: -30px auto;
-    background-color: var(--general-white);
+  padding: 0 80px 119px;
+  margin: -30px auto;
+  background-color: var(--general-white);
 }
 
 .order-form--title {
-    font-style: normal;
-    font-size: 29px;
+  font-style: normal;
+  font-size: 29px;
 }
 
 .order-form {
-    width: 100%;
-    margin: 30px auto 0;
-    display: flex;
+  width: 100%;
+  margin: 30px auto 0;
+  display: flex;
 }
 
 .order-form--form {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .order-form__col {
-    width: 20%;
-    float: left;
+  width: 20%;
+  float: left;
 }
 
 .order-button {
-    margin: 0;
+  margin: 0;
 }
 
 .order-form--label {
-    font-family: 'IntroScriptR';
-    color: var(--secondary-text);
-    font-size: 26px;
+  font-family: "IntroScriptR";
+  color: var(--secondary-text);
+  font-size: 26px;
 }
 
 .order-form--input {
-    font-family: "Circe";
-    font-style: normal;
-    font-size: 18px;
-    outline: none;
-    border: hidden;
-    border-bottom: 1px solid var(--primary-text);
-    margin-top: 10px;
+  font-family: "Circe";
+  font-style: normal;
+  font-size: 18px;
+  outline: none;
+  border: hidden;
+  border-bottom: 1px solid var(--primary-text);
+  margin-top: 10px;
 }
 
 .order-button {
-    width: 224px;
-    height: 49px;
+  width: 224px;
+  height: 49px;
+  font-size: 17px;
+  margin: 15px 0 0 -15px;
+}
+
+/* for tablets  */
+@media only screen and (max-width: 768px) {
+  .individual-order-section {
+    padding: 0 20px 0;
+  }
+
+  .individual-order--title {
+    font-size: 31px;
+    margin: 18px 0 0 0;
+  }
+
+  .individual-order--subtitle {
+    font-size: 26px;
+    margin: 12px 0 0 0;
+  }
+
+  .individual-order__block {
+    margin: 38px 0 0 0;
+    padding: 0 45px 60px;
+  }
+
+  .individual-order__block--number {
+    font-size: 35px;
+  }
+
+  .individual-order__block--title {
+    margin: -6px 0 0 0;
+    font-size: 20px;
+    line-height: 19px;
+  }
+
+  .fill-container {
+    margin-top: -55px;
+    flex-direction: row;
+    padding: 0 0 0 50px;
+  }
+
+  .fill-image__container {
+    width: 210px;
+    height: 234px;
+    margin: 0px 37px;
+  }
+
+  .fill-image {
+    top: 10px;
+    left: 0;
+    max-width: 445px;
+  }
+
+  .fill-name--text {
+    padding-top: 17px;
+    font-size: 18px;
+  }
+
+  .fill-description--text {
+    font-size: 15px;
+  }
+
+  .fill-price--text {
+    font-family: serif;
+    font-size: 21px;
+    margin: 0px 0 0 0;
+  }
+
+  .fill--button {
+    width: 133px;
+    height: 47px;
+    font-size: 10px;
+    margin: 11px 0 0 0;
+  }
+
+  .cake-counter--text {
+    font-size: 13px;
+  }
+
+  .size-container {
+    width: 100%;
+    padding: 10px 10px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .border-item {
+    padding: 11px;
+    border: 4px dotted var(--primary-text);
+  }
+
+  .kg-1 {
+    padding: 16px;
+  }
+
+  .kg-2 {
+    padding: 26px;
+  }
+
+  .kg-5 {
+    padding: 19px;
+  }
+
+  .button-weight--description {
+    font-size: 13px;
+    margin-top: 6px;
+  }
+
+  .decoration-container {
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    margin: -64px 0 0 0;
+  }
+
+  .decoration--image {
+    max-width: 120px;
+    margin-left: -45px;
+  }
+
+  .decor-image__container {
+    height: 270px;
+  }
+
+  .decor--photo-name {
+    font-size: 15px;
+    margin: 15px 0 0 0;
+  }
+
+  .decor--photo-price {
     font-size: 17px;
+  }
+
+  .decor-image__card {
+    height: 200px;
+  }
+
+  .decor--cake-photo {
+    top: 20px;
+  }
+
+  .order-form__container {
+    padding: 0 45px 40px;
+    margin: -37px auto;
+  }
+
+  .order-form--title {
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .order-form--form {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .order-form--label {
+    font-size: 19px;
+  }
+
+  .order-form__col {
+    width: 15%;
+  }
+
+  .order-form--input {
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    width: 135px;
+    border: 1px solid var(--opasity-50-text);
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+
+  .order-button {
+    width: 121px;
+    height: 45px;
+    font-size: 14px;
     margin: 15px 0 0 -15px;
+  }
 }
-
-
-
-
-
-  /* for tablets  */
-  @media only screen and (max-width:768px) {
-    .individual-order-section {
-        padding: 0 20px 0;
-    }
-
-    .individual-order--title {
-        font-size: 31px;
-        margin: 18px 0 0 0;
-    }
-
-    .individual-order--subtitle {
-        font-size: 26px;
-        margin: 12px 0 0 0;
-    }
-
-    .individual-order__block {
-        margin: 38px 0 0 0;
-        padding: 0 45px 60px;
-    }
-
-    .individual-order__block--number {
-        font-size: 35px;
-    }
-
-    .individual-order__block--title {
-        margin: -6px 0 0 0;
-        font-size: 20px;
-        line-height: 19px;
-    }
-
-    .fill-container {
-        margin-top: -55px;
-        flex-direction: row;
-        padding: 0 0 0 50px;
-    }
-
-    .fill-image__container {
-        width: 210px;
-        height: 234px;
-        margin: 0px 37px;
-    }
-
-    .fill-image {
-        top: 10px;
-        left: 0;
-        max-width: 445px;
-    }
-
-    .fill-name--text {
-        padding-top: 17px;
-        font-size: 18px;
-    }
-
-    .fill-description--text {
-        font-size: 15px;
-    }
-
-    .fill-price--text {
-        font-family: serif;
-        font-size: 21px;
-        margin: 0px 0 0 0;
-    }
-
-    .fill--button {
-        width: 133px;
-        height: 47px;
-        font-size: 10px;
-        margin: 11px 0 0 0;
-    }
-
-    .cake-counter--text {
-        font-size: 13px;
-    }
-
-    .size-container {
-        width: 100%;
-        padding: 10px 10px;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-
-    .border-item {
-        padding: 11px;
-        border: 4px dotted var(--primary-text);
-    }
-
-    .kg-1 {
-        padding: 16px;
-    }
-
-    .kg-2 {
-        padding: 26px;
-    }
-
-    .kg-5 {
-        padding: 19px;
-    }
-
-    .button-weight--description {
-        font-size: 13px;
-        margin-top: 6px;
-    }
-
-    .decoration-container {
-        justify-content: space-between;
-        width: 100%;
-        flex-direction: row;
-        margin: -64px 0 0 0;
-    }
-
-    .decoration--image {
-        max-width: 120px;
-        margin-left: -45px;
-    }
-
-    .decor-image__container {
-        height: 270px;
-    }
-    
-    .decor--photo-name {
-        font-size: 15px;
-        margin: 15px 0 0 0;
-    }
-
-    .decor--photo-price {
-        font-size: 17px;
-    }
-
-    .decor-image__card {
-        height: 200px;
-    }
-
-    .decor--cake-photo {
-        top: 20px;
-    }
-
-    .order-form__container {
-        padding: 0 45px 40px;
-        margin: -37px auto;
-    }
-
-    .order-form--title {
-        font-style: normal;
-        font-size: 20px;
-    }
-
-    .order-form--form {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .order-form--label {
-        font-size: 19px;
-    }
-
-    .order-form__col {
-        width: 15%;
-    }
-
-    .order-form--input {
-        font-size: 13px;
-        padding: 5px;
-        text-align: center;
-        width: 135px;
-        border: 1px solid var(--opasity-50-text);
-        border-radius: 50px; 
-        margin-top: 10px;
-    }
-
-    .order-button {
-        width: 121px;
-        height: 45px;
-        font-size: 14px;
-        margin: 15px 0 0 -15px;
-    }
-}
-
-
-
-
-
 
 /* for mobile  */
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 480px) {
   .individual-order__block {
-        margin: 30px 0 0 0;
-        padding: 0 33px 35px;
-    }
+    margin: 30px 0 0 0;
+    padding: 0 33px 35px;
+  }
 
-    .individual-order--title {
-        font-size: 42px;
-        line-height: 45px;
-        margin: 12px 0 0 0;
-    }
+  .individual-order--title {
+    font-size: 42px;
+    line-height: 45px;
+    margin: 12px 0 0 0;
+  }
 
-    .individual-order--subtitle {
-        font-size: 35px;
-        margin: 23px 0 0 0;
-    }
+  .individual-order--subtitle {
+    font-size: 35px;
+    margin: 23px 0 0 0;
+  }
 
-    .individual-order__block--number {
-        font-size: 35px;
-        float: left;
-    }
+  .individual-order__block--number {
+    font-size: 35px;
+    float: left;
+  }
 
-    .individual-order__block--title {
-        margin: 40px 0 0 50px;
-        font-size: 28px;
-        line-height: 19px;
-        width: 100%;
-    }
+  .individual-order__block--title {
+    margin: 40px 0 0 50px;
+    font-size: 28px;
+    line-height: 19px;
+    width: 100%;
+  }
 
-    .line-gap {
-        display: none;
-    }
+  .line-gap {
+    display: none;
+  }
 
-    .fill-container {
-        padding: 0;
-    }
+  .fill-container {
+    padding: 0;
+  }
 
-    .fill-image__container {
-        width: 370px;
-        height: 175px;
-        margin: 17px auto;
-    }
+  .fill-image__container {
+    width: 370px;
+    height: 175px;
+    margin: 17px auto;
+  }
 
-    .fill-name--text {
-        padding-top: 14px;
-        font-size: 25px;
-    }
+  .fill-name--text {
+    padding-top: 14px;
+    font-size: 25px;
+  }
 
-    .fill-description--text {
-        font-size: 22px;
-        line-height: 27px;
-    }
-    
-    .fill-price--text {
-        text-align: center;
-        font-size: 30px;
-        margin: 16px 0 0 0;
-    }
+  .fill-description--text {
+    font-size: 22px;
+    line-height: 27px;
+  }
 
-    .fill--button {
-        width: 279px;
-        height: 78px;
-        font-size: 20px;
-        margin: 30px 0 0 47px;
-    }
+  .fill-price--text {
+    text-align: center;
+    font-size: 30px;
+    margin: 16px 0 0 0;
+  }
 
-    .cake-counter--text {
-        display: none;
-    }
+  .fill--button {
+    width: 279px;
+    height: 78px;
+    font-size: 20px;
+    margin: 30px 0 0 47px;
+  }
 
-    .size-container {
-        width: 100%;
-        padding: 0;
-        margin: 65px 0 0 0;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
-    .button-weight__container {
-        text-align: center;
-    }
+  .cake-counter--text {
+    display: none;
+  }
 
-    .button-weight {
-        margin: 0 0 60px 0;
-    }
+  .size-container {
+    width: 100%;
+    padding: 0;
+    margin: 65px 0 0 0;
+    justify-content: center;
+    flex-direction: row;
+  }
 
-    .kg-1 {
-        padding: 60px;
-        font-size: 24px;
-    }
+  .button-weight__container {
+    text-align: center;
+  }
 
-    .border-item {
-        padding: 5px;
-    }
+  .button-weight {
+    margin: 0 0 60px 0;
+  }
 
-    .button-weight--description {
-        font-size: 23px;
-        margin-top: 13px;
-        text-align: center;
-    }
+  .kg-1 {
+    padding: 60px;
+    font-size: 24px;
+  }
 
-    .size--button {
-        width: 279px;
-        height: 78px;
-        font-size: 20px;
-        margin: 80px 0 0 0;
-    }
+  .border-item {
+    padding: 5px;
+  }
 
-    .decoration-content__container {
-        width: 100%;
-        height: 600px;
-        align-items: baseline;
-    }
+  .button-weight--description {
+    font-size: 23px;
+    margin-top: 13px;
+    text-align: center;
+  }
 
-    .decor-image__container {
-        width: 100%;
-        height: 270px;
-    }
+  .size--button {
+    width: 279px;
+    height: 78px;
+    font-size: 20px;
+    margin: 80px 0 0 0;
+  }
 
-    .decor-image__card {
-        height: 100%;
-        width: 100%;
-        margin: 0 0 60px 0;
-    }
+  .decoration-content__container {
+    width: 100%;
+    height: 600px;
+    align-items: baseline;
+  }
 
-    .decor--cake-photo {
-        top: -45px;
-        left: 7px;
-        max-width: 100%;
-    }
+  .decor-image__container {
+    width: 100%;
+    height: 270px;
+  }
 
-    .decor--photo-name {
-        font-size: 22px;
-        margin: 20px 0 0 0;
-    }
+  .decor-image__card {
+    height: 100%;
+    width: 100%;
+    margin: 0 0 60px 0;
+  }
 
-    .decor--photo-price {
-        font-size: 31px;
-        margin: 0;
-    }
+  .decor--cake-photo {
+    top: -45px;
+    left: 7px;
+    max-width: 100%;
+  }
 
-    .decor--button {
-        width: 279px;
-        height: 78px;
-        font-size: 20px;
-        margin: 40px 0 0 47px;
-    }
+  .decor--photo-name {
+    font-size: 22px;
+    margin: 20px 0 0 0;
+  }
 
-    .order-form__container {
-        padding: 0 30px 50px;
-        margin: -15px auto;
-    }
+  .decor--photo-price {
+    font-size: 31px;
+    margin: 0;
+  }
 
-    .order-form--title {
-        font-style: normal;
-        font-size: 37px;
-    }
+  .decor--button {
+    width: 279px;
+    height: 78px;
+    font-size: 20px;
+    margin: 40px 0 0 47px;
+  }
 
-    .order-form {
-        width: 100%;
-        margin: 0 auto;
-    }
+  .order-form__container {
+    padding: 0 30px 50px;
+    margin: -15px auto;
+  }
 
-    .order-form--form {
-        flex-direction: column;
-        align-items: center;
-        margin: 10px 0 0 0;
-    }
+  .order-form--title {
+    font-style: normal;
+    font-size: 37px;
+  }
 
-    .order-form__col {
-        width: 100%;
-        text-align: center;
-        margin: 10px 0 0 0;
-    }
+  .order-form {
+    width: 100%;
+    margin: 0 auto;
+  }
 
-    .order-form--label {
-        font-size: 30px;
-    }
+  .order-form--form {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 0 0;
+  }
 
-    .order-form--input {
-        font-size: 23px;
-        padding: 10px;
-        width: 100%;
-        margin: 0;
-    }
+  .order-form__col {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
 
-    .order-button {
-        width: 349px;
-        height: 78px;
-        font-size: 26px;
-        margin: 37px 0 0 0;
-    }
+  .order-form--label {
+    font-size: 30px;
+  }
+
+  .order-form--input {
+    font-size: 23px;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .order-button {
+    width: 349px;
+    height: 78px;
+    font-size: 26px;
+    margin: 37px 0 0 0;
+  }
 }

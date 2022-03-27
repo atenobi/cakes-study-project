@@ -1,202 +1,198 @@
 .section-about-us {
-    padding: 120px 80px 0;
+  padding: 120px 80px 0;
 }
 
 .about-us-title--text {
-    font-size: 43px;
+  font-size: 43px;
 }
 
 .about-us-subtitle--text {
-    font-size: 35px;
-    line-height: 15px;
-    font-weight: inherit;
+  font-size: 35px;
+  line-height: 15px;
+  font-weight: inherit;
 }
 
 .about-us__container {
-    width: 100%;
+  width: 100%;
 }
 
 .about-us-photo__container {
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
-    overflow: hidden;
-    position: relative;
-    float: right;
-    margin-top: -110px;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  float: right;
+  margin-top: -110px;
 }
 
 .about-us-text__container {
-    width: 50%;
-    padding-top: 10px;
+  width: 50%;
+  padding-top: 10px;
 }
 
 .about-us-photo--image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
 }
 
 .about-us-icons__container {
-    max-width: 140px;
-    margin-top: 15px;
+  max-width: 140px;
+  margin-top: 15px;
 }
 
 .quote__container {
-    text-align: center;
+  text-align: center;
 }
 
 .quote--symbol {
-    margin: 25px;
-    font-size: 100px;
-    color: var(--general-white);
-    font-family: "PlayfairDisplay", serif;
-    font-weight: bold;
-
+  margin: 25px;
+  font-size: 100px;
+  color: var(--general-white);
+  font-family: "PlayfairDisplay", serif;
+  font-weight: bold;
 }
 
 .quote--text {
-    width: 50%;
-    margin: 0 auto;
-    color: var(--primary-text);
-    font-size: 26px;
-    font-family: "PlayfairDisplay", serif;
-    font-weight: bold;
-    font-style: italic;
+  width: 50%;
+  margin: 0 auto;
+  color: var(--primary-text);
+  font-size: 26px;
+  font-family: "PlayfairDisplay", serif;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .quote--signature-image {
-    max-width: 100%;
-    margin: 0 auto;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-
-
-
-  /* for tablets  */
-  @media only screen and (max-width:768px) {
-    .section-about-us {
-        padding: 97px 45px 0;
-    }
-
-    .about-us-title--text {
-        font-size: 30px;
-        margin: 20px 0 0 0;
-    }
-
-    .about-us-photo__container {
-        width: 300px;
-        height: 300px;      
-        margin-top: -80px;
-    }
-
-    .about-us-subtitle--text {
-        font-size: 26px;
-        line-height: 16px;
-        font-weight: inherit;
-        margin: 8px 0 0 0;
-    }
-
-    .article--subtitle, .article--text {
-        font-size: 15px;
-        line-height: 15px;
-    }
-
-    .social-icons {
-        padding: 8px;
-        margin: 0 0 0 10px;
-        max-width: 40px;
-    }
-
-    .quote--symbol {
-        margin: 10px 0 0 0;
-        font-size: 60px;
-    }
-
-    .quote--text {
-        width: 58%;
-        margin: -21px auto;  
-        font-size: 16px;
-    }
-    
-    .quote--signature-image {
-        width: 17%;
-        margin: 20px auto 0;
-    }
+/* for tablets  */
+@media only screen and (max-width: 768px) {
+  .section-about-us {
+    padding: 97px 45px 0;
   }
 
+  .about-us-title--text {
+    font-size: 30px;
+    margin: 20px 0 0 0;
+  }
 
+  .about-us-photo__container {
+    width: 300px;
+    height: 300px;
+    margin-top: -80px;
+  }
 
-  /* for mobile  */
-  @media only screen and (max-width:480px) {
-    .section-about-us {
-        padding: 55px 20px 0;
-    }
+  .about-us-subtitle--text {
+    font-size: 26px;
+    line-height: 16px;
+    font-weight: inherit;
+    margin: 8px 0 0 0;
+  }
 
-    .about-us-title--text {
-        text-align: center;
-        font-size: 40px;
-        margin: 10px 0 0 0;
-    }
+  .article--subtitle,
+  .article--text {
+    font-size: 15px;
+    line-height: 15px;
+  }
 
-    .about-us__container {
-        position: relative;
-    }
+  .social-icons {
+    padding: 8px;
+    margin: 0 0 0 10px;
+    max-width: 40px;
+  }
 
-    .about-us-photo__container {
-        width: 243px;
-        height: 243px;
-        margin-top: 24px;
-        float: inherit;
-    }
+  .quote--symbol {
+    margin: 10px 0 0 0;
+    font-size: 60px;
+  }
 
-    .about-us-subtitle--text {
-        font-size: 34px;
-        margin: 30px 0 0 0;
-    }
+  .quote--text {
+    width: 58%;
+    margin: -21px auto;
+    font-size: 16px;
+  }
 
-    .about-us-text__container {
-        width: 100%;
-        padding-top: 25px;
-    }
+  .quote--signature-image {
+    width: 17%;
+    margin: 20px auto 0;
+  }
+}
 
-    .article--subtitle, .article--text {
-        font-size: 23px;
-        line-height: 26px;
-    }
+/* for mobile  */
+@media only screen and (max-width: 480px) {
+  .section-about-us {
+    padding: 55px 20px 0;
+  }
 
-    .about-us-icons__container {
-        height: 210px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        position: absolute;
-        top: 15px;
-        right: 91px;
-    }
+  .about-us-title--text {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0 0 0;
+  }
 
-    .social-icons {
-        padding: 6px 10px;
-        font-size: 28px;
-        margin: 0;
-        box-sizing: initial;
-    }
+  .about-us__container {
+    position: relative;
+  }
 
-    .quote--symbol {
-        margin: 55px 0 0 0;
-        font-size: 70px;
-    }
+  .about-us-photo__container {
+    width: 243px;
+    height: 243px;
+    margin-top: 24px;
+    float: inherit;
+  }
 
-    .quote--text {
-        width: 100%;
-        margin: -27px auto;
-        font-size: 22px;
-        line-height: 24px;
-    }
+  .about-us-subtitle--text {
+    font-size: 34px;
+    margin: 30px 0 0 0;
+  }
 
-    .quote--signature-image {
-        width: 30%;
-        margin: 35px auto 0;
-    }
+  .about-us-text__container {
+    width: 100%;
+    padding-top: 25px;
+  }
+
+  .article--subtitle,
+  .article--text {
+    font-size: 23px;
+    line-height: 26px;
+  }
+
+  .about-us-icons__container {
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 15px;
+    right: 91px;
+  }
+
+  .social-icons {
+    padding: 6px 10px;
+    font-size: 28px;
+    margin: 0;
+    box-sizing: initial;
+  }
+
+  .quote--symbol {
+    margin: 55px 0 0 0;
+    font-size: 70px;
+  }
+
+  .quote--text {
+    width: 100%;
+    margin: -27px auto;
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .quote--signature-image {
+    width: 30%;
+    margin: 35px auto 0;
+  }
 }

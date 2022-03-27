@@ -1,6 +1,6 @@
 .header__container {
-  padding-top: 55px;
   width: 90%;
+  padding-top: 55px;
   margin: 0 auto;
 }
 
@@ -12,12 +12,12 @@
   background-color: #fbebea;
 }
 
-.header__title {
+.main__title {
+  margin: 0px 47px 0 0;
   font-size: 27px;
   line-height: 32px;
-  font-family: 'PlayfairDisplay';
+  font-family: "PlayfairDisplay";
   font-weight: bold;
-  margin: 0px 47px 0 0;
 }
 
 .main_nav_burger-button {
@@ -33,10 +33,10 @@
 }
 
 .nav-link {
+  font-size: 13px;
+  font-family: "Circe";
   text-decoration: none;
   color: var(--primary-text);
-  font-size: 13px;
-  font-family: 'Circe';
 }
 
 .nav-link:hover {
@@ -49,26 +49,26 @@
 }
 
 .telephone-number {
+  margin-left: 20%;
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Circe';
-  margin-left: 20%;
+  font-family: "Circe";
 }
 
 .strawbarry_decorations {
-  max-width: calc(100vw / 3);
   position: absolute;
   top: 90px;
   left: 24%;
   z-index: -1;
+  max-width: calc(100vw / 3);
 }
 
 .main__cake-image {
-  max-width: 100%;
   position: absolute;
   top: 104px;
   left: 41%;
   z-index: -1;
+  max-width: 100%;
 }
 
 .main__content-container {
@@ -81,11 +81,11 @@
 }
 
 .main__title--text {
+  margin-bottom: 0;
   font-size: 98px;
   line-height: 65px;
-  font-family: 'PlayfairDisplay';
+  font-family: "PlayfairDisplay";
   font-weight: bold;
-  margin-bottom: 0;
 }
 
 .main__hand-made--text {
@@ -95,8 +95,8 @@
 .section-main--button {
   width: 200px;
   height: 45px;
-  font-size: 15px;
   margin: 60px 0 0 0px;
+  font-size: 15px;
 }
 
 .main__info {
@@ -121,30 +121,22 @@
 }
 
 .main__info--text {
-  font-family: 'Circe';
+  font-family: "Circe";
   font-weight: bold;
   font-size: 15px;
   margin-left: 20px;
 }
 
-
-
-
-
-
 /* design for desktop (1240px) */
-@media only screen and (max-with:1240){
+@media only screen and (max-with: 1240) {
   .telephone-number {
     margin-left: 0;
   }
 }
 
-
-
-
 /* design for tablets (768 PX) */
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .header__container {
     background-color: var(--general-white);
     padding: 14px 44px;
@@ -152,12 +144,12 @@
     margin: 0 auto;
   }
 
-  .main__header{
+  .main__header {
     background-color: var(--general-white);
     position: relative;
   }
 
-  .header__title {
+  .main__title {
     font-size: 24px;
   }
 
@@ -188,7 +180,7 @@
   .resp-nav-link {
     display: none;
   }
-  
+
   .mobile-menu {
     width: max-content;
     position: absolute;
@@ -227,7 +219,7 @@
   .main__hand-made--text {
     margin: 34px 0 0 0;
     font-size: 37px;
-}
+  }
 
   .section-main--button {
     width: 227px;
@@ -248,12 +240,12 @@
 
 /* design for mobile (480 PX) */
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 480px) {
   .header__container {
     padding: 15px 30px 14px;
   }
-  
-  .header__title {
+
+  .main__title {
     font-size: 28px;
   }
 
@@ -296,7 +288,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
   .main__title--text {
     margin: 203px 0 0 0;
@@ -304,7 +296,7 @@
     font-size: 75px;
     line-height: 52px;
   }
-    
+
   .main__hand-made--text {
     font-size: 35px;
     line-height: 30px;
