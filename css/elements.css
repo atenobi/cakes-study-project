@@ -107,24 +107,24 @@ button {
 @media only screen and (max-width:768px) {
     .mobile--only {
       display: none;
-  }
+    }
 
-  .content-container--img-text-buttons {
-      flex-direction: column;
-      width: 100%;
-  }
+    .content-container--img-text-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
 
-  .mobile-carusel,
-  .mobile-carusel--item {
-  display: none;
-}
+    .mobile-carusel,
+    .mobile-carusel--item {
+    display: none;
+  }
 }
 
 /* for mobile */
 @media only screen and (max-width:480px) {
     .mobile--only {
       display: block;
-}
+  }
 
     .mobile--hidden {
       display: none;
