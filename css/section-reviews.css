@@ -2,9 +2,9 @@
   padding: 120px 65px 0;
   background-image: url(../img/reviews_illustration.png);
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position-x: -65px;
-  background-position-y: -120px;
+  background-size: 120vw;
+  background-position-x: -8vw;
+  background-position-y: -9vw;
   /* background-color: var(--invisible-bg); */
 }
 

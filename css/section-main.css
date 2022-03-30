@@ -13,7 +13,7 @@
 }
 
 .main__title {
-  margin: 0px 47px 0 0;
+  margin: 0 47px 0 0;
   font-size: 27px;
   line-height: 32px;
   font-family: "PlayfairDisplay";
@@ -72,7 +72,7 @@
 }
 
 .main__content-container {
-  padding: 90px 65px 250px;
+  padding: 90px 65px 20%;
   background-repeat: no-repeat;
   background-size: auto;
   background-image: url(../img/main_section_bg_image.png);
@@ -102,7 +102,7 @@
 .main__info {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 38%;
   margin: 80px 0 0;
@@ -128,14 +128,27 @@
 }
 
 /* design for desktop (1240px) */
-@media only screen and (max-with: 1240) {
+@media only screen and (max-width: 1240px) {
+  .main__title {
+    margin: 0 2% 0 0;
+    font-size: 27px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
+
   .telephone-number {
-    margin-left: 0;
+    margin: 0;
+  }
+
+  .main__info {
+    flex-direction: column;
+    align-items: start;
   }
 }
 
 /* design for tablets (768 PX) */
-
 @media only screen and (max-width: 768px) {
   .header__container {
     background-color: var(--general-white);
@@ -207,8 +220,8 @@
   .main__content-container {
     padding: 58px 45px 130px;
     background-size: 97%;
-    background-position-x: 176px;
-    background-position-y: -8px;
+    background-position-x: 40vw;
+    background-position-y: 0;
   }
 
   .main__title--text {
@@ -229,7 +242,9 @@
   }
 
   .main__info {
-    width: 69%;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
     margin: 105px 0 0 0;
   }
 

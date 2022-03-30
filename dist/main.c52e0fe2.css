@@ -276,7 +276,7 @@ button {
 }
 
 .main__title {
-  margin: 0px 47px 0 0;
+  margin: 0 47px 0 0;
   font-size: 27px;
   line-height: 32px;
   font-family: "PlayfairDisplay";
@@ -335,7 +335,7 @@ button {
 }
 
 .main__content-container {
-  padding: 90px 65px 250px;
+  padding: 90px 65px 20%;
   background-repeat: no-repeat;
   background-size: auto;
   background-image: url(/main_section_bg_image.3eeb86dc.png);
@@ -365,7 +365,7 @@ button {
 .main__info {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 38%;
   margin: 80px 0 0;
@@ -391,14 +391,27 @@ button {
 }
 
 /* design for desktop (1240px) */
-@media only screen and (max-with: 1240) {
+@media only screen and (max-width: 1240px) {
+  .main__title {
+    margin: 0 2% 0 0;
+    font-size: 27px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
+
   .telephone-number {
-    margin-left: 0;
+    margin: 0;
+  }
+
+  .main__info {
+    flex-direction: column;
+    align-items: start;
   }
 }
 
 /* design for tablets (768 PX) */
-
 @media only screen and (max-width: 768px) {
   .header__container {
     background-color: var(--general-white);
@@ -470,8 +483,8 @@ button {
   .main__content-container {
     padding: 58px 45px 130px;
     background-size: 97%;
-    background-position-x: 176px;
-    background-position-y: -8px;
+    background-position-x: 40vw;
+    background-position-y: 0;
   }
 
   .main__title--text {
@@ -492,7 +505,9 @@ button {
   }
 
   .main__info {
-    width: 69%;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
     margin: 105px 0 0 0;
   }
 
@@ -635,12 +650,12 @@ button {
 }
 
 .solid-image-wrapper {
-  height: 675px;
+  height: 51vw;
   width: 55%;
 }
 
 .split-image-wrapper {
-  height: 675px;
+  height: 51vw;
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -692,14 +707,12 @@ button {
   }
 
   .solid-image-wrapper {
-    height: 400px;
     width: 56%;
     margin: 30px auto;
     padding: 22px 28px;
   }
 
   .split-image-wrapper {
-    height: 400px;
     margin: 30px auto;
     width: 38%;
     display: flex;
@@ -813,7 +826,7 @@ button {
 
 /* __________ fill __________ */
 .fill-container {
-  margin-top: -90px;
+  margin-top: 20px;
 }
 
 .fill-image__container {
@@ -828,7 +841,7 @@ button {
 
 .fill-image {
   position: absolute;
-  top: 153px;
+  top: 5vw;
   left: 0;
   max-width: 670px;
 }
@@ -859,10 +872,14 @@ button {
 
 /* __________ size __________ */
 .size-container {
-  width: 92%;
-  padding: 0 0 85px 110px;
-  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 85px;
+  justify-content: flex-end;
   align-items: end;
+}
+
+.button-weight__container {
+  margin-left: 3%;
 }
 
 .button-weight {
@@ -886,29 +903,29 @@ button {
 }
 
 .kg-1 {
-  padding: 20px;
+  padding: 1vw;
 }
 
 .kg-2 {
-  padding: 35px;
+  padding: 1.5vw;
 }
 
 .kg-5 {
-  padding: 30px;
+  padding: 1.5vw;
 }
 
 .kg-8 {
-  padding: 8px;
+  padding: 0.5vw;
 }
 
 .border-item {
-  padding: 20px;
+  padding: 1vw;
   border: 5px dotted var(--primary-text);
   border-radius: 50%;
 }
 
 .button-weight--description {
-  font-size: 20px;
+  font-size: 2vw;
   margin-top: 17px;
   font-family: "Circe";
   color: var(--primary-text);
@@ -921,7 +938,7 @@ button {
 }
 
 .decoration--image {
-  max-width: 230px;
+  max-width: 15vw;
 }
 
 .decoration-content__container {
@@ -942,12 +959,12 @@ button {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 250px;
+  height: 20vw;
 }
 
 .decor--cake-photo {
   position: absolute;
-  top: -100px;
+  top: -10%;
   left: 0;
   max-width: 100%;
 }
@@ -1016,6 +1033,22 @@ button {
   height: 49px;
   font-size: 17px;
   margin: 15px 0 0 -15px;
+}
+
+/* 1240px design  */
+@media only screen and (max-width: 1240px) {
+  .button-weight__container {
+    margin-left: 3%;
+  }
+
+  .order-form--form {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .order-form__col {
+    margin-bottom: 15px;
+  }
 }
 
 /* for tablets  */
@@ -1097,12 +1130,17 @@ button {
     width: 100%;
     padding: 10px 10px;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-weight__container {
+    margin-bottom: 10%;
+    text-align: center;
   }
 
   .border-item {
     padding: 11px;
-    border: 4px dotted var(--primary-text);
   }
 
   .kg-1 {
@@ -1126,7 +1164,7 @@ button {
     justify-content: space-between;
     width: 100%;
     flex-direction: row;
-    margin: -64px 0 0 0;
+    margin: 0;
   }
 
   .decoration--image {
@@ -1166,8 +1204,10 @@ button {
   }
 
   .order-form--form {
-    flex-direction: row;
-    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 auto;
   }
 
   .order-form--label {
@@ -1182,7 +1222,7 @@ button {
     font-size: 13px;
     padding: 5px;
     text-align: center;
-    width: 135px;
+    width: 35vw;
     border: 1px solid var(--opasity-50-text);
     border-radius: 50px;
     margin-top: 10px;
@@ -1395,9 +1435,9 @@ button {
   padding: 120px 65px 0;
   background-image: url(/reviews_illustration.2d7e6175.png);
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position-x: -65px;
-  background-position-y: -120px;
+  background-size: 120vw;
+  background-position-x: -8vw;
+  background-position-y: -9vw;
   /* background-color: var(--invisible-bg); */
 }
 
@@ -1796,12 +1836,20 @@ button {
   margin-left: 40px;
 }
 
+/* 1240px design  */
+@media only screen and (max-width: 1240px) {
+  .our-advantages {
+    background-position-x: -20vw;
+  }
+}
+
 /* for tablets */
 @media only screen and (max-width: 768px) {
   .our-advantages {
-    padding: 18px 0px 120px;
-    background-size: 103%;
-    background-position-y: 24px;
+    padding: 5vw 0px 25vw;
+    background-size: 120%;
+    background-position-x: 0;
+    background-position-y: 5vw;
   }
 
   .our-advantages__article {
@@ -1872,14 +1920,21 @@ button {
   margin: 20px 0;
 }
 
+/* 1240px design  */
+@media only screen and (max-width: 1240px) {
+  .customer_care {
+    background-position-x: -10vw;
+  }
+}
+
 /* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
   .customer_care {
     margin-top: -70px;
-    padding: 120px 43px 88px;
-    background-size: 101%;
-    background-position-x: 23px;
-    background-position-y: -29px;
+    padding: 10vw 43px 20vw;
+    background-size: 100%;
+    background-position-x: 10vw;
+    background-position-y: 5vw;
   }
 }
 
@@ -1902,11 +1957,12 @@ button {
 .how-order {
   margin-top: 0px;
   padding: 15px 70px 40px;
+  background: linear-gradient(90deg, #e73840, #d32532);
   background-image: url(/hand_box_card.71b4ab20.png);
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position-y: -82px;
-  background-position-x: -221px;
+  background-size: 150%;
+  background-position-y: -10vw;
+  background-position-x: -25vw;
   color: var(--general-white);
 }
 
@@ -1947,13 +2003,23 @@ button {
   margin-left: 22px;
 }
 
+/* 1240px design  */
+@media only screen and (max-width: 1240px) {
+  .how-order {
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position-y: 0;
+    background-position-x: -30vw;
+  }
+}
+
 /* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
   .how-order {
     padding: 15px 70px 73px;
-    background-size: 148%;
-    background-position-y: -21px;
-    background-position-x: -331px;
+    background-size: 150%;
+    background-position-y: 0;
+    background-position-x: -45vw;
   }
 
   .how-order--title-text {
@@ -2073,8 +2139,17 @@ button {
   margin-right: 30px;
 }
 
-/* design for tablets (768 PX) */
+/* 1240px design  */
+@media only screen and (max-width: 1240px) {
+  .section-contacts {
+    padding: 5% 65px 5%;
+    background-size: contain;
+    background-position-x: 0;
+    background-position-y: 50%;
+  }
+}
 
+/* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
   .section-contacts {
     padding: 0px 45px 105px;

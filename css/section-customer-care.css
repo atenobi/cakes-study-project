@@ -11,14 +11,21 @@
   margin: 20px 0;
 }
 
+/* 1240px design  */
+@media only screen and (max-width: 1240px) {
+  .customer_care {
+    background-position-x: -10vw;
+  }
+}
+
 /* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
   .customer_care {
     margin-top: -70px;
-    padding: 120px 43px 88px;
-    background-size: 101%;
-    background-position-x: 23px;
-    background-position-y: -29px;
+    padding: 10vw 43px 20vw;
+    background-size: 100%;
+    background-position-x: 10vw;
+    background-position-y: 5vw;
   }
 }
 

@@ -29,12 +29,20 @@
   margin-left: 40px;
 }
 
+/* 1240px design  */
+@media only screen and (max-width: 1240px) {
+  .our-advantages {
+    background-position-x: -20vw;
+  }
+}
+
 /* for tablets */
 @media only screen and (max-width: 768px) {
   .our-advantages {
-    padding: 18px 0px 120px;
-    background-size: 103%;
-    background-position-y: 24px;
+    padding: 5vw 0px 25vw;
+    background-size: 120%;
+    background-position-x: 0;
+    background-position-y: 5vw;
   }
 
   .our-advantages__article {

@@ -32,7 +32,7 @@
 
 /* __________ fill __________ */
 .fill-container {
-  margin-top: -90px;
+  margin-top: 20px;
 }
 
 .fill-image__container {
@@ -47,7 +47,7 @@
 
 .fill-image {
   position: absolute;
-  top: 153px;
+  top: 5vw;
   left: 0;
   max-width: 670px;
 }
@@ -78,10 +78,14 @@
 
 /* __________ size __________ */
 .size-container {
-  width: 92%;
-  padding: 0 0 85px 110px;
-  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 85px;
+  justify-content: flex-end;
   align-items: end;
+}
+
+.button-weight__container {
+  margin-left: 3%;
 }
 
 .button-weight {
@@ -105,29 +109,29 @@
 }
 
 .kg-1 {
-  padding: 20px;
+  padding: 1vw;
 }
 
 .kg-2 {
-  padding: 35px;
+  padding: 1.5vw;
 }
 
 .kg-5 {
-  padding: 30px;
+  padding: 1.5vw;
 }
 
 .kg-8 {
-  padding: 8px;
+  padding: 0.5vw;
 }
 
 .border-item {
-  padding: 20px;
+  padding: 1vw;
   border: 5px dotted var(--primary-text);
   border-radius: 50%;
 }
 
 .button-weight--description {
-  font-size: 20px;
+  font-size: 2vw;
   margin-top: 17px;
   font-family: "Circe";
   color: var(--primary-text);
@@ -140,7 +144,7 @@
 }
 
 .decoration--image {
-  max-width: 230px;
+  max-width: 15vw;
 }
 
 .decoration-content__container {
@@ -161,12 +165,12 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 250px;
+  height: 20vw;
 }
 
 .decor--cake-photo {
   position: absolute;
-  top: -100px;
+  top: -10%;
   left: 0;
   max-width: 100%;
 }
@@ -235,6 +239,22 @@
   height: 49px;
   font-size: 17px;
   margin: 15px 0 0 -15px;
+}
+
+/* 1240px design  */
+@media only screen and (max-width: 1240px) {
+  .button-weight__container {
+    margin-left: 3%;
+  }
+
+  .order-form--form {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .order-form__col {
+    margin-bottom: 15px;
+  }
 }
 
 /* for tablets  */
@@ -316,12 +336,17 @@
     width: 100%;
     padding: 10px 10px;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-weight__container {
+    margin-bottom: 10%;
+    text-align: center;
   }
 
   .border-item {
     padding: 11px;
-    border: 4px dotted var(--primary-text);
   }
 
   .kg-1 {
@@ -345,7 +370,7 @@
     justify-content: space-between;
     width: 100%;
     flex-direction: row;
-    margin: -64px 0 0 0;
+    margin: 0;
   }
 
   .decoration--image {
@@ -385,8 +410,10 @@
   }
 
   .order-form--form {
-    flex-direction: row;
-    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 auto;
   }
 
   .order-form--label {
@@ -401,7 +428,7 @@
     font-size: 13px;
     padding: 5px;
     text-align: center;
-    width: 135px;
+    width: 35vw;
     border: 1px solid var(--opasity-50-text);
     border-radius: 50px;
     margin-top: 10px;

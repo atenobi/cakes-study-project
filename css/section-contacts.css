@@ -65,8 +65,17 @@
   margin-right: 30px;
 }
 
-/* design for tablets (768 PX) */
+/* 1240px design  */
+@media only screen and (max-width: 1240px) {
+  .section-contacts {
+    padding: 5% 65px 5%;
+    background-size: contain;
+    background-position-x: 0;
+    background-position-y: 50%;
+  }
+}
 
+/* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
   .section-contacts {
     padding: 0px 45px 105px;

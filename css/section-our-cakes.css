@@ -42,12 +42,12 @@
 }
 
 .solid-image-wrapper {
-  height: 675px;
+  height: 51vw;
   width: 55%;
 }
 
 .split-image-wrapper {
-  height: 675px;
+  height: 51vw;
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -99,14 +99,12 @@
   }
 
   .solid-image-wrapper {
-    height: 400px;
     width: 56%;
     margin: 30px auto;
     padding: 22px 28px;
   }
 
   .split-image-wrapper {
-    height: 400px;
     margin: 30px auto;
     width: 38%;
     display: flex;
