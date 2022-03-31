@@ -1,4 +1,4 @@
-.customer_care {
+.customer-care__section {
   margin-top: -70px;
   padding: 235px 70px 220px;
   background-image: url(../img/cake_bg.png);
@@ -13,14 +13,14 @@
 
 /* 1240px design  */
 @media only screen and (max-width: 1240px) {
-  .customer_care {
+  .customer-care__section {
     background-position-x: -10vw;
   }
 }
 
 /* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
-  .customer_care {
+  .customer-care__section {
     margin-top: -70px;
     padding: 10vw 43px 20vw;
     background-size: 100%;
@@ -31,7 +31,7 @@
 
 /* design for mobile */
 @media only screen and (max-width: 480px) {
-  .customer_care {
+  .customer-care__section {
     margin-top: -70px;
     padding: 87px 16px 265px;
     background-size: 250%;

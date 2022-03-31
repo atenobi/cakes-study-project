@@ -1,12 +1,12 @@
-.individual-order-section {
+.individual-order__section {
   padding: 50px 65px 0;
 }
 
-.individual-order--title {
+.individual-order__title {
   margin: 32px 0 0 0;
 }
 
-.individual-order--subtitle {
+.individual-order__subtitle {
   font-size: 35px;
   margin: 15px 0 0 0;
 }
@@ -17,13 +17,13 @@
   padding: 20px 90px 60px;
 }
 
-.individual-order__block--number {
+.individual-order__block__number {
   font-size: 60px;
   margin: 27px 0 0 0;
   color: var(--secondary-text);
 }
 
-.individual-order__block--title {
+.individual-order__block__title {
   color: var(--secondary-text);
   margin: -10px 0 0 0;
   font-size: 30px;
@@ -99,12 +99,10 @@
 }
 
 .button-weight:hover {
-  /* box-shadow: 0px 5px 14px var(--button-size-shadow); */
   box-shadow: 0px 5px 14px var(--button-shadow);
 }
 
 .button-weight:focus {
-  /* box-shadow: 0px 5px 14px var(--button-size-shadow); */
   box-shadow: 0px 5px 14px var(--button-shadow);
 }
 
@@ -259,16 +257,16 @@
 
 /* for tablets  */
 @media only screen and (max-width: 768px) {
-  .individual-order-section {
+  .individual-order__section {
     padding: 0 20px 0;
   }
 
-  .individual-order--title {
+  .individual-order__title {
     font-size: 31px;
     margin: 18px 0 0 0;
   }
 
-  .individual-order--subtitle {
+  .individual-order__subtitle {
     font-size: 26px;
     margin: 12px 0 0 0;
   }
@@ -278,11 +276,11 @@
     padding: 0 45px 60px;
   }
 
-  .individual-order__block--number {
+  .individual-order__block__number {
     font-size: 35px;
   }
 
-  .individual-order__block--title {
+  .individual-order__block__title {
     margin: -6px 0 0 0;
     font-size: 20px;
     line-height: 19px;
@@ -449,23 +447,23 @@
     padding: 0 33px 35px;
   }
 
-  .individual-order--title {
+  .individual-order__title {
     font-size: 37px;
     line-height: 45px;
     margin: 12px 0 0 0;
   }
 
-  .individual-order--subtitle {
+  .individual-order__subtitle {
     font-size: 35px;
     margin: 23px 0 0 0;
   }
 
-  .individual-order__block--number {
+  .individual-order__block__number {
     font-size: 35px;
     float: left;
   }
 
-  .individual-order__block--title {
+  .individual-order__block__title {
     margin: 40px 0 0 50px;
     font-size: 28px;
     line-height: 19px;

@@ -606,16 +606,16 @@ button {
   }
 }
 
-.our-cakes-section {
+.our-cakes__section {
   padding: 0 65px;
 }
 
-.our-cakes__title--text {
+.our-cakes__title__text {
   font-size: 45px;
   margin: -58px 0 0 4px;
 }
 
-.gallery-container {
+.our-cakes__gallery-container {
   padding: 40px 0 0;
   display: flex;
   justify-content: space-between;
@@ -713,17 +713,17 @@ button {
 
 /* for tablets  */
 @media only screen and (max-width: 768px) {
-  .our-cakes-section {
+  .our-cakes__section {
     padding: 0 15px;
   }
 
-  .our-cakes__title--text {
+  .our-cakes__title__text {
     font-size: 32px;
     text-align: start;
     margin: -42px 0 0 0px;
   }
 
-  .gallery-container {
+  .our-cakes__gallery-container {
     padding: 0;
     flex-direction: row;
   }
@@ -759,18 +759,18 @@ button {
 
 /* media for mobile */
 @media only screen and (max-width: 480px) {
-  .our-cakes-section {
+  .our-cakes__section {
     padding: 0 23px;
     margin: 35px 0 0 0;
   }
 
-  .our-cakes__title--text {
+  .our-cakes__title__text {
     font-size: 42px;
     text-align: center;
     margin: 0;
   }
 
-  .gallery-container {
+  .our-cakes__gallery-container {
     flex-direction: column;
   }
 
@@ -818,15 +818,15 @@ button {
   }
 }
 
-.individual-order-section {
+.individual-order__section {
   padding: 50px 65px 0;
 }
 
-.individual-order--title {
+.individual-order__title {
   margin: 32px 0 0 0;
 }
 
-.individual-order--subtitle {
+.individual-order__subtitle {
   font-size: 35px;
   margin: 15px 0 0 0;
 }
@@ -837,13 +837,13 @@ button {
   padding: 20px 90px 60px;
 }
 
-.individual-order__block--number {
+.individual-order__block__number {
   font-size: 60px;
   margin: 27px 0 0 0;
   color: var(--secondary-text);
 }
 
-.individual-order__block--title {
+.individual-order__block__title {
   color: var(--secondary-text);
   margin: -10px 0 0 0;
   font-size: 30px;
@@ -919,12 +919,10 @@ button {
 }
 
 .button-weight:hover {
-  /* box-shadow: 0px 5px 14px var(--button-size-shadow); */
   box-shadow: 0px 5px 14px var(--button-shadow);
 }
 
 .button-weight:focus {
-  /* box-shadow: 0px 5px 14px var(--button-size-shadow); */
   box-shadow: 0px 5px 14px var(--button-shadow);
 }
 
@@ -1079,16 +1077,16 @@ button {
 
 /* for tablets  */
 @media only screen and (max-width: 768px) {
-  .individual-order-section {
+  .individual-order__section {
     padding: 0 20px 0;
   }
 
-  .individual-order--title {
+  .individual-order__title {
     font-size: 31px;
     margin: 18px 0 0 0;
   }
 
-  .individual-order--subtitle {
+  .individual-order__subtitle {
     font-size: 26px;
     margin: 12px 0 0 0;
   }
@@ -1098,11 +1096,11 @@ button {
     padding: 0 45px 60px;
   }
 
-  .individual-order__block--number {
+  .individual-order__block__number {
     font-size: 35px;
   }
 
-  .individual-order__block--title {
+  .individual-order__block__title {
     margin: -6px 0 0 0;
     font-size: 20px;
     line-height: 19px;
@@ -1269,23 +1267,23 @@ button {
     padding: 0 33px 35px;
   }
 
-  .individual-order--title {
+  .individual-order__title {
     font-size: 37px;
     line-height: 45px;
     margin: 12px 0 0 0;
   }
 
-  .individual-order--subtitle {
+  .individual-order__subtitle {
     font-size: 35px;
     margin: 23px 0 0 0;
   }
 
-  .individual-order__block--number {
+  .individual-order__block__number {
     font-size: 35px;
     float: left;
   }
 
-  .individual-order__block--title {
+  .individual-order__block__title {
     margin: 40px 0 0 50px;
     font-size: 28px;
     line-height: 19px;
@@ -1463,7 +1461,7 @@ button {
   }
 }
 
-.reviews-section {
+.reviews__section {
   padding: 120px 65px 0;
   background-image: url(/reviews_illustration.2d7e6175.png);
   background-repeat: no-repeat;
@@ -1473,13 +1471,13 @@ button {
   /* background-color: var(--invisible-bg); */
 }
 
-.reviews-title--text {
+.reviews__title__text {
   font-size: 45px;
   margin: 0;
   text-align: center;
 }
 
-.reviews-container {
+.reviews__container {
   width: 70%;
   margin: 30px auto 0;
 }
@@ -1534,20 +1532,20 @@ button {
 
 /* for tablets  */
 @media only screen and (max-width: 768px) {
-  .reviews-section {
+  .reviews__section {
     padding: 70px 90px 0;
     background-size: 105%;
     background-position-x: 0;
     background-position-y: -47px;
   }
 
-  .reviews-container {
+  .reviews__container {
     flex-direction: row;
     width: 100%;
     margin: 30px 0 0;
   }
 
-  .reviews-title--text {
+  .reviews__title__text {
     font-size: 32px;
   }
 
@@ -1584,18 +1582,18 @@ button {
 
 /* for mobile  */
 @media only screen and (max-width: 480px) {
-  .reviews-section {
+  .reviews__section {
     padding: 75px 35px 0;
     background-size: 105%;
     background-position-x: 0;
     background-position-y: -47px;
   }
 
-  .reviews-title--text {
+  .reviews__title__text {
     font-size: 40px;
   }
 
-  .reviews-container {
+  .reviews__container {
     margin: 0;
   }
 
@@ -1638,15 +1636,15 @@ button {
   }
 }
 
-.section-about-us {
+.about-us__section {
   padding: 120px 80px 0;
 }
 
-.about-us-title--text {
+.about-us__title__text {
   font-size: 43px;
 }
 
-.about-us-subtitle--text {
+.about-us__subtitle__text {
   font-size: 35px;
   line-height: 15px;
   font-weight: inherit;
@@ -1712,11 +1710,11 @@ button {
 
 /* for tablets  */
 @media only screen and (max-width: 768px) {
-  .section-about-us {
+  .about-us__section {
     padding: 97px 45px 0;
   }
 
-  .about-us-title--text {
+  .about-us__title__text {
     font-size: 30px;
     margin: 20px 0 0 0;
   }
@@ -1727,7 +1725,7 @@ button {
     margin-top: -80px;
   }
 
-  .about-us-subtitle--text {
+  .about-us__subtitle__text {
     font-size: 26px;
     line-height: 16px;
     font-weight: inherit;
@@ -1765,11 +1763,11 @@ button {
 
 /* for mobile  */
 @media only screen and (max-width: 480px) {
-  .section-about-us {
+  .about-us__section {
     padding: 55px 20px 0;
   }
 
-  .about-us-title--text {
+  .about-us__title__text {
     text-align: center;
     font-size: 40px;
     margin: 10px 0 0 0;
@@ -1786,7 +1784,7 @@ button {
     float: inherit;
   }
 
-  .about-us-subtitle--text {
+  .about-us__subtitle__text {
     font-size: 34px;
     margin: 30px 0 0 0;
   }
@@ -1837,7 +1835,7 @@ button {
   }
 }
 
-.our-advantages {
+.our-advantages__section {
   padding: 50px 0px 120px;
   background-image: url(/berry_bg.763b6145.png);
   background-repeat: no-repeat;
@@ -1870,14 +1868,14 @@ button {
 
 /* 1240px design  */
 @media only screen and (max-width: 1240px) {
-  .our-advantages {
+  .our-advantages__section {
     background-position-x: -20vw;
   }
 }
 
 /* for tablets */
 @media only screen and (max-width: 768px) {
-  .our-advantages {
+  .our-advantages__section {
     padding: 5vw 0px 25vw;
     background-size: 120%;
     background-position-x: 0;
@@ -1899,20 +1897,20 @@ button {
 
 /* for mobile */
 @media only screen and (max-width: 480px) {
-  .our-advantages {
+  .our-advantages__section {
     padding: 22px 0px 0px;
     background-size: 0;
     background-color: var(--general-white);
     background-position-y: 24px;
   }
 
-  .about-us-title--text {
+  .about-us__title__text {
     text-align: center;
     font-size: 40px;
     margin: 15px 0 0 0;
   }
 
-  .about-us-subtitle--text {
+  .about-us__subtitle__text {
     font-size: 35px;
     margin: 18px 0 0 0;
   }
@@ -1939,7 +1937,7 @@ button {
   }
 }
 
-.customer_care {
+.customer-care__section {
   margin-top: -70px;
   padding: 235px 70px 220px;
   background-image: url(/cake_bg.07cd8b90.png);
@@ -1954,14 +1952,14 @@ button {
 
 /* 1240px design  */
 @media only screen and (max-width: 1240px) {
-  .customer_care {
+  .customer-care__section {
     background-position-x: -10vw;
   }
 }
 
 /* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
-  .customer_care {
+  .customer-care__section {
     margin-top: -70px;
     padding: 10vw 43px 20vw;
     background-size: 100%;
@@ -1972,7 +1970,7 @@ button {
 
 /* design for mobile */
 @media only screen and (max-width: 480px) {
-  .customer_care {
+  .customer-care__section {
     margin-top: -70px;
     padding: 87px 16px 265px;
     background-size: 250%;
@@ -1986,7 +1984,7 @@ button {
   }
 }
 
-.how-order {
+.how-order__section {
   margin-top: 0px;
   padding: 15px 70px 40px;
   background: linear-gradient(90deg, #e73840, #d32532);
@@ -1998,7 +1996,7 @@ button {
   color: var(--general-white);
 }
 
-.how-order--title-text {
+.how-order__title__text {
   width: 40%;
   margin: 5% 0 0 62%;
 }
@@ -2037,7 +2035,7 @@ button {
 
 /* 1240px design  */
 @media only screen and (max-width: 1240px) {
-  .how-order {
+  .how-order__section {
     background-repeat: no-repeat;
     background-size: 150%;
     background-position-y: 0;
@@ -2047,14 +2045,14 @@ button {
 
 /* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
-  .how-order {
+  .how-order__section {
     padding: 15px 70px 73px;
     background-size: 150%;
     background-position-y: 0;
     background-position-x: -45vw;
   }
 
-  .how-order--title-text {
+  .how-order__title__text {
     width: 45%;
     margin: 26px 0 0 253px;
     font-size: 31px;
@@ -2074,7 +2072,7 @@ button {
 
 /* design for mobile */
 @media only screen and (max-width: 480px) {
-  .how-order {
+  .how-order__section {
     padding: 15px 70px 235px;
     background-size: 151%;
     background-color: #e73940;
@@ -2082,7 +2080,7 @@ button {
     background-position-x: -28px;
   }
 
-  .how-order--title-text {
+  .how-order__title__text {
     width: 100%;
     margin: 24px 0 0 0;
     font-size: 41px;
@@ -2104,7 +2102,7 @@ button {
   }
 }
 
-.section-contacts {
+.contacts__section {
   padding: 35px 65px 250px;
   background-image: url(/contacts-strawberry-bg.5d2fc26c.png);
   background-repeat: no-repeat;
@@ -2119,13 +2117,13 @@ button {
   flex-direction: row;
 }
 
-.contacts--form {
+.contacts__form {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
 
-.contacts-form--input {
+.contacts__form__input {
   outline: none;
   float: left;
   border: hidden;
@@ -2135,7 +2133,7 @@ button {
   margin-top: 70px;
 }
 
-.contacts__form--button {
+.contacts__form__button {
   margin: 86px 0 0 8px;
   width: 179px;
   height: 50px;
@@ -2173,7 +2171,7 @@ button {
 
 /* 1240px design  */
 @media only screen and (max-width: 1240px) {
-  .section-contacts {
+  .contacts__section {
     padding: 5% 65px 5%;
     background-size: contain;
     background-position-x: 0;
@@ -2183,19 +2181,19 @@ button {
 
 /* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
-  .section-contacts {
+  .contacts__section {
     padding: 0px 45px 105px;
     background-size: 117%;
     background-position-y: 102px;
     background-position-x: -29px;
   }
 
-  .contacts--title-text {
+  .contacts__title__text {
     font-size: 31px;
     margin: 38px 0 0 0;
   }
 
-  .contacts--subtitle-text {
+  .contacts__subtitle__text {
     font-size: 22px;
     margin: 7px 0 0 0;
   }
@@ -2205,14 +2203,14 @@ button {
     width: 100%;
   }
 
-  .contacts-form--input {
+  .contacts__form__input {
     margin-top: 15px;
     padding: 15px;
     border-bottom: none;
     background-color: var(--general-white);
   }
 
-  .contacts__form--button {
+  .contacts__form__button {
     margin: 92px 0 0 0;
     width: 160px;
     height: 45px;
@@ -2233,18 +2231,18 @@ button {
 /* design for mobile */
 
 @media only screen and (max-width: 480px) {
-  .section-contacts {
+  .contacts__section {
     padding: 0px 22px 115px;
     background-size: 0;
   }
 
-  .contacts--title-text {
+  .contacts__title__text {
     text-align: center;
     font-size: 40px;
     margin: 49px 0 0 0;
   }
 
-  .contacts--subtitle-text {
+  .contacts__subtitle__text {
     font-size: 34px;
     margin: 17px 0 0 0;
   }
@@ -2253,16 +2251,16 @@ button {
     flex-direction: column;
   }
 
-  .contacts--form {
+  .contacts__form {
     width: 100%;
   }
 
-  .contacts-form--input {
+  .contacts__form__input {
     margin-top: 20px;
     font-size: 20px;
   }
 
-  .contacts__form--button {
+  .contacts__form__button {
     margin: 112px auto 0;
     width: 280px;
     height: 80px;
@@ -2281,8 +2279,8 @@ button {
   }
 }
 
-.section-footer,
-.footer-header {
+.footer__section,
+.footer__header {
   background-color: var(--footer-color);
 }
 
@@ -2309,8 +2307,8 @@ button {
   background-color: var(--invisible-bg);
 }
 
-.footer--line,
-.footer--copiright {
+.footer__line,
+.footer__copiright {
   color: var(--opasity-50-text);
 }
 
@@ -2320,9 +2318,9 @@ button {
 
 /* for tablets */
 @media only screen and (max-width: 768px) {
-  .section-footer,
+  .footer__section,
   .footer__container,
-  .footer-header {
+  .footer__header {
     background-color: var(--footer-tablet-color);
     color: var(--general-white);
   }
@@ -2354,7 +2352,7 @@ button {
     display: none;
   }
 
-  .footer--copiright {
+  .footer__copiright {
     color: var(--general-white);
     background-color: var(--invisible-bg);
   }
@@ -2371,9 +2369,9 @@ button {
 
 /* for mobile */
 @media only screen and (max-width: 480px) {
-  .section-footer,
+  .footer__section,
   .footer__container,
-  .footer-header {
+  .footer__header {
     background-color: var(--footer-tablet-color);
     color: var(--general-white);
   }
@@ -2386,7 +2384,7 @@ button {
     flex-direction: column;
   }
 
-  .footer--title {
+  .footer__title {
     font-size: 49px;
     width: 100%;
   }

@@ -1,13 +1,13 @@
-.our-cakes-section {
+.our-cakes__section {
   padding: 0 65px;
 }
 
-.our-cakes__title--text {
+.our-cakes__title__text {
   font-size: 45px;
   margin: -58px 0 0 4px;
 }
 
-.gallery-container {
+.our-cakes__gallery-container {
   padding: 40px 0 0;
   display: flex;
   justify-content: space-between;
@@ -105,17 +105,17 @@
 
 /* for tablets  */
 @media only screen and (max-width: 768px) {
-  .our-cakes-section {
+  .our-cakes__section {
     padding: 0 15px;
   }
 
-  .our-cakes__title--text {
+  .our-cakes__title__text {
     font-size: 32px;
     text-align: start;
     margin: -42px 0 0 0px;
   }
 
-  .gallery-container {
+  .our-cakes__gallery-container {
     padding: 0;
     flex-direction: row;
   }
@@ -151,18 +151,18 @@
 
 /* media for mobile */
 @media only screen and (max-width: 480px) {
-  .our-cakes-section {
+  .our-cakes__section {
     padding: 0 23px;
     margin: 35px 0 0 0;
   }
 
-  .our-cakes__title--text {
+  .our-cakes__title__text {
     font-size: 42px;
     text-align: center;
     margin: 0;
   }
 
-  .gallery-container {
+  .our-cakes__gallery-container {
     flex-direction: column;
   }
 

@@ -1,4 +1,4 @@
-.how-order {
+.how-order__section {
   margin-top: 0px;
   padding: 15px 70px 40px;
   background: linear-gradient(90deg, #e73840, #d32532);
@@ -10,7 +10,7 @@
   color: var(--general-white);
 }
 
-.how-order--title-text {
+.how-order__title__text {
   width: 40%;
   margin: 5% 0 0 62%;
 }
@@ -49,7 +49,7 @@
 
 /* 1240px design  */
 @media only screen and (max-width: 1240px) {
-  .how-order {
+  .how-order__section {
     background-repeat: no-repeat;
     background-size: 150%;
     background-position-y: 0;
@@ -59,14 +59,14 @@
 
 /* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
-  .how-order {
+  .how-order__section {
     padding: 15px 70px 73px;
     background-size: 150%;
     background-position-y: 0;
     background-position-x: -45vw;
   }
 
-  .how-order--title-text {
+  .how-order__title__text {
     width: 45%;
     margin: 26px 0 0 253px;
     font-size: 31px;
@@ -86,7 +86,7 @@
 
 /* design for mobile */
 @media only screen and (max-width: 480px) {
-  .how-order {
+  .how-order__section {
     padding: 15px 70px 235px;
     background-size: 151%;
     background-color: #e73940;
@@ -94,7 +94,7 @@
     background-position-x: -28px;
   }
 
-  .how-order--title-text {
+  .how-order__title__text {
     width: 100%;
     margin: 24px 0 0 0;
     font-size: 41px;

@@ -1,12 +1,12 @@
-.section-about-us {
+.about-us__section {
   padding: 120px 80px 0;
 }
 
-.about-us-title--text {
+.about-us__title__text {
   font-size: 43px;
 }
 
-.about-us-subtitle--text {
+.about-us__subtitle__text {
   font-size: 35px;
   line-height: 15px;
   font-weight: inherit;
@@ -72,11 +72,11 @@
 
 /* for tablets  */
 @media only screen and (max-width: 768px) {
-  .section-about-us {
+  .about-us__section {
     padding: 97px 45px 0;
   }
 
-  .about-us-title--text {
+  .about-us__title__text {
     font-size: 30px;
     margin: 20px 0 0 0;
   }
@@ -87,7 +87,7 @@
     margin-top: -80px;
   }
 
-  .about-us-subtitle--text {
+  .about-us__subtitle__text {
     font-size: 26px;
     line-height: 16px;
     font-weight: inherit;
@@ -125,11 +125,11 @@
 
 /* for mobile  */
 @media only screen and (max-width: 480px) {
-  .section-about-us {
+  .about-us__section {
     padding: 55px 20px 0;
   }
 
-  .about-us-title--text {
+  .about-us__title__text {
     text-align: center;
     font-size: 40px;
     margin: 10px 0 0 0;
@@ -146,7 +146,7 @@
     float: inherit;
   }
 
-  .about-us-subtitle--text {
+  .about-us__subtitle__text {
     font-size: 34px;
     margin: 30px 0 0 0;
   }

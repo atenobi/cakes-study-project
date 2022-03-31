@@ -1,4 +1,4 @@
-.our-advantages {
+.our-advantages__section {
   padding: 50px 0px 120px;
   background-image: url(../img/berry_bg.png);
   background-repeat: no-repeat;
@@ -31,14 +31,14 @@
 
 /* 1240px design  */
 @media only screen and (max-width: 1240px) {
-  .our-advantages {
+  .our-advantages__section {
     background-position-x: -20vw;
   }
 }
 
 /* for tablets */
 @media only screen and (max-width: 768px) {
-  .our-advantages {
+  .our-advantages__section {
     padding: 5vw 0px 25vw;
     background-size: 120%;
     background-position-x: 0;
@@ -60,20 +60,20 @@
 
 /* for mobile */
 @media only screen and (max-width: 480px) {
-  .our-advantages {
+  .our-advantages__section {
     padding: 22px 0px 0px;
     background-size: 0;
     background-color: var(--general-white);
     background-position-y: 24px;
   }
 
-  .about-us-title--text {
+  .about-us__title__text {
     text-align: center;
     font-size: 40px;
     margin: 15px 0 0 0;
   }
 
-  .about-us-subtitle--text {
+  .about-us__subtitle__text {
     font-size: 35px;
     margin: 18px 0 0 0;
   }

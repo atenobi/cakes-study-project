@@ -1,4 +1,4 @@
-.section-contacts {
+.contacts__section {
   padding: 35px 65px 250px;
   background-image: url(../img/contacts-strawberry-bg.png);
   background-repeat: no-repeat;
@@ -13,13 +13,13 @@
   flex-direction: row;
 }
 
-.contacts--form {
+.contacts__form {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
 
-.contacts-form--input {
+.contacts__form__input {
   outline: none;
   float: left;
   border: hidden;
@@ -29,7 +29,7 @@
   margin-top: 70px;
 }
 
-.contacts__form--button {
+.contacts__form__button {
   margin: 86px 0 0 8px;
   width: 179px;
   height: 50px;
@@ -67,7 +67,7 @@
 
 /* 1240px design  */
 @media only screen and (max-width: 1240px) {
-  .section-contacts {
+  .contacts__section {
     padding: 5% 65px 5%;
     background-size: contain;
     background-position-x: 0;
@@ -77,19 +77,19 @@
 
 /* design for tablets (768 PX) */
 @media only screen and (max-width: 768px) {
-  .section-contacts {
+  .contacts__section {
     padding: 0px 45px 105px;
     background-size: 117%;
     background-position-y: 102px;
     background-position-x: -29px;
   }
 
-  .contacts--title-text {
+  .contacts__title__text {
     font-size: 31px;
     margin: 38px 0 0 0;
   }
 
-  .contacts--subtitle-text {
+  .contacts__subtitle__text {
     font-size: 22px;
     margin: 7px 0 0 0;
   }
@@ -99,14 +99,14 @@
     width: 100%;
   }
 
-  .contacts-form--input {
+  .contacts__form__input {
     margin-top: 15px;
     padding: 15px;
     border-bottom: none;
     background-color: var(--general-white);
   }
 
-  .contacts__form--button {
+  .contacts__form__button {
     margin: 92px 0 0 0;
     width: 160px;
     height: 45px;
@@ -127,18 +127,18 @@
 /* design for mobile */
 
 @media only screen and (max-width: 480px) {
-  .section-contacts {
+  .contacts__section {
     padding: 0px 22px 115px;
     background-size: 0;
   }
 
-  .contacts--title-text {
+  .contacts__title__text {
     text-align: center;
     font-size: 40px;
     margin: 49px 0 0 0;
   }
 
-  .contacts--subtitle-text {
+  .contacts__subtitle__text {
     font-size: 34px;
     margin: 17px 0 0 0;
   }
@@ -147,16 +147,16 @@
     flex-direction: column;
   }
 
-  .contacts--form {
+  .contacts__form {
     width: 100%;
   }
 
-  .contacts-form--input {
+  .contacts__form__input {
     margin-top: 20px;
     font-size: 20px;
   }
 
-  .contacts__form--button {
+  .contacts__form__button {
     margin: 112px auto 0;
     width: 280px;
     height: 80px;
