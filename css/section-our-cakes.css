@@ -34,11 +34,18 @@
   z-index: 1;
 }
 
-.cake-image {
-  width: -webkit-fill-available;
+.cake-image--big {
+  max-width: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 10%;
+  right: 10%;
+}
+
+.cake-image--little {
+  max-width: 100%;
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
 }
 
 .solid-image-wrapper {
@@ -79,6 +86,21 @@
 
 .look-button:hover {
   color: var(--secondary-text);
+}
+
+/* 1240px */
+@media only screen and (max-width: 1240px) {
+  .cake-image--big {
+    max-width: 85%;
+    bottom: 10%;
+    right: 10%;
+  }
+
+  .cake-image--little {
+    max-width: 45%;
+    bottom: 10%;
+    right: 20%;
+  }
 }
 
 /* for tablets  */
@@ -173,10 +195,14 @@
     margin-bottom: 0;
   }
 
-  .cake-image {
-    max-width: 100%;
-    top: -25px;
-    left: 20px;
+  .cake-image--big {
+    max-width: 40%;
+    right: 15%;
+  }
+
+  .cake-image--little {
+    max-width: 40%;
+    right: 15%;
   }
 
   .look-button {

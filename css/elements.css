@@ -50,11 +50,11 @@ button {
 }
 /* ___________________________________ */
 
-.section-title--text {
+.section__title-text {
   font-size: 44px;
 }
 
-.section-subtitle--text {
+.section__subtitle-text {
   font-size: 40px;
   line-height: 14px;
   font-family: "IntroScriptR";
@@ -95,7 +95,7 @@ button {
 }
 
 .mobile-carusel,
-.mobile-carusel--item {
+.mobile-carusel__item {
   display: none;
 }
 
@@ -115,7 +115,7 @@ button {
   }
 
   .mobile-carusel,
-  .mobile-carusel--item {
+  .mobile-carusel__item {
     display: none;
   }
 }
@@ -154,7 +154,7 @@ button {
     text-align: center;
   }
 
-  .mobile-carusel--item {
+  .mobile-carusel__item {
     margin: 0 2px 0;
     padding: 5px;
     font-size: 1px;
@@ -165,11 +165,11 @@ button {
     display: inline;
   }
 
-  .mobile-carusel--item:hover {
+  .mobile-carusel__item:hover {
     background-color: var(--secondary-text);
   }
 
-  .mobile-carusel--item:focus {
+  .mobile-carusel__item:focus {
     background-color: var(--secondary-text);
   }
 }
