@@ -55,9 +55,9 @@
   src: url("/icomoon.b16e6fba.woff?iefix") format("woff");
 }
 
-div[class^="col-"] {
+/* div[class^="col-"] {
   float: left;
-}
+} */
 
 .col-lg {
   width: 100%;
@@ -560,8 +560,8 @@ button {
     width: 100%;
     padding: 0;
     background-size: 160%;
-    background-position-x: -210px;
-    background-position-y: -360px;
+    background-position-x: 75%;
+    background-position-y: -85vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -583,7 +583,7 @@ button {
   }
 
   .section-main--button {
-    width: 341px;
+    width: 70vw;
     height: 77px;
     font-size: 20px;
     margin: 40px 0 0 0;
@@ -1244,7 +1244,7 @@ button {
   }
 
   .individual-order--title {
-    font-size: 42px;
+    font-size: 37px;
     line-height: 45px;
     margin: 12px 0 0 0;
   }
@@ -1272,12 +1272,18 @@ button {
 
   .fill-container {
     padding: 0;
+    margin: 20px auto;
+    max-width: -webkit-fill-available;
   }
 
   .fill-image__container {
-    width: 370px;
+    width: 85vw;
     height: 175px;
     margin: 17px auto;
+  }
+
+  .fill-image {
+    max-width: 100%;
   }
 
   .fill-name--text {
@@ -1300,7 +1306,7 @@ button {
     width: 279px;
     height: 78px;
     font-size: 20px;
-    margin: 30px 0 0 47px;
+    margin: 30px 0 0 5vw;
   }
 
   .cake-counter--text {
@@ -1379,10 +1385,10 @@ button {
   }
 
   .decor--button {
-    width: 279px;
+    width: 70vw;
     height: 78px;
     font-size: 20px;
-    margin: 40px 0 0 47px;
+    margin: 40px auto;
   }
 
   .order-form__container {
@@ -1424,7 +1430,7 @@ button {
   }
 
   .order-button {
-    width: 349px;
+    width: 70vw;
     height: 78px;
     font-size: 26px;
     margin: 37px 0 0 0;
@@ -1626,8 +1632,8 @@ button {
 
 .about-us-photo__container {
   border-radius: 50%;
-  width: 500px;
-  height: 500px;
+  width: 35vw;
+  height: 35vw;
   overflow: hidden;
   position: relative;
   float: right;
@@ -1748,8 +1754,8 @@ button {
   }
 
   .about-us-photo__container {
-    width: 243px;
-    height: 243px;
+    width: 50vw;
+    height: 50vw;
     margin-top: 24px;
     float: inherit;
   }
@@ -1776,8 +1782,8 @@ button {
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    top: 15px;
-    right: 91px;
+    top: 0;
+    right: 10vw;
   }
 
   .social-icons {
@@ -1944,7 +1950,7 @@ button {
     margin-top: -70px;
     padding: 87px 16px 265px;
     background-size: 250%;
-    background-position-x: -620px;
+    background-position-x: 86%;
     background-position-y: 300px;
   }
 

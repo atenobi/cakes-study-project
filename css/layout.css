@@ -1,6 +1,6 @@
-div[class^="col-"] {
+/* div[class^="col-"] {
   float: left;
-}
+} */
 
 .col-lg {
   width: 100%;

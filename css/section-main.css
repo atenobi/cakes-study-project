@@ -297,8 +297,8 @@
     width: 100%;
     padding: 0;
     background-size: 160%;
-    background-position-x: -210px;
-    background-position-y: -360px;
+    background-position-x: 75%;
+    background-position-y: -85vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -320,7 +320,7 @@
   }
 
   .section-main--button {
-    width: 341px;
+    width: 70vw;
     height: 77px;
     font-size: 20px;
     margin: 40px 0 0 0;
