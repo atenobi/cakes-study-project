@@ -1,31 +1,29 @@
-
-div[class^="col-"] {
-    float: left;
-}
+/* div[class^="col-"] {
+  float: left;
+} */
 
 .col-lg {
-    width: 100%;
+  width: 100%;
 }
 
 .col-80-lg {
-    width: 80%;
+  width: 80%;
 }
 
 .col-md {
-    width: 59%;
+  width: 59%;
 }
 
 .col-sm {
-    width: 39%;
+  width: 39%;
 }
 
 .col-20-sm {
-    width: 20%;
+  width: 20%;
 }
 
-@media only screen and (max-width:480px){
-    div[class^="col-"] {
-        width: 100%;
-    }
+@media only screen and (max-width: 480px) {
+  div[class^="col-"] {
+    width: 100%;
+  }
 }
-

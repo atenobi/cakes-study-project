@@ -13,7 +13,8 @@
   },
   "devDependencies": {
     "csscomb": "^4.3.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "prettier": "2.6.0"
   },
   "dependencies": {
     "fonts.css": "^2.0.0",

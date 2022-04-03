@@ -1,130 +1,123 @@
-.section-footer,
-.footer-header {
-    background-color: var(--footer-color);
+.footer__section,
+.footer__header {
+  background-color: var(--footer-color);
 }
 
 .footer__container {
-    padding-top: 55px;
-    width: 90%;
-    margin: 0 auto;
-  }
+  padding-top: 55px;
+  width: 90%;
+  margin: 0 auto;
+}
 
 .footer__nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 
 .footer-social-link__container {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
 .footer--icon {
-    color: var(--opasity-50-text);
-    background-color: var(--invisible-bg);
+  color: var(--opasity-50-text);
+  background-color: var(--invisible-bg);
 }
 
-.footer--line,
-.footer--copiright {
-    color: var(--opasity-50-text);
+.footer__line,
+.footer__copiright {
+  color: var(--opasity-50-text);
 }
 
 .footer__social-web--icon {
-    display: none;
+  display: none;
 }
-
-
-
 
 /* for tablets */
-@media only screen and (max-width:768px) {
-    .section-footer,
-    .footer__container,
-    .footer-header {
-        background-color: var(--footer-tablet-color);
-        color: var(--general-white);
-    }
+@media only screen and (max-width: 768px) {
+  .footer__section,
+  .footer__container,
+  .footer__header {
+    background-color: var(--footer-tablet-color);
+    color: var(--general-white);
+  }
 
-    .footer__container {
-        padding: 20px 15px;
-        width: 100%;
-        margin: 0 auto;
-    }
+  .footer__container {
+    padding: 20px 15px;
+    width: 100%;
+    margin: 0 auto;
+  }
 
-    .footer__nav {
-        flex-direction: row;
-        width: 83%;
-    }
+  .footer__nav {
+    flex-direction: row;
+    width: 83%;
+  }
 
-    .footer-nav-link {
-        display: inline;
-        color: var(--general-white);
-    }
+  .footer-nav-link {
+    color: var(--general-white);
+  }
 
-    .footer-nav-link:hover {
-        color: var(--background);
-    }
+  .footer-nav-link:hover {
+    color: var(--background);
+  }
 
-    .footer-nav-link:active {
-        color: var(--background);
-    }
+  .footer-nav-link:active {
+    color: var(--background);
+  }
 
-    .footer-social-link__container {
-        display: none;
-    }
+  .footer-social-link__container {
+    display: none;
+  }
 
-    .footer--copiright {
-        color: var(--general-white);
-        background-color: var(--invisible-bg);
-    }
+  .footer__copiright {
+    color: var(--general-white);
+    background-color: var(--invisible-bg);
+  }
 
-    .footer__social-web--icon {
-        display: inline;
-        font-size: 30px;
-        font-family: "icomoon";
-        color: var(--general-white);
-        background-color: var(--invisible-bg);
-        margin: 0 0 0 25px;
-    }
+  .footer__social-web--icon {
+    display: inline;
+    font-size: 30px;
+    font-family: "icomoon";
+    color: var(--general-white);
+    background-color: var(--invisible-bg);
+    margin: 0 0 0 25px;
+  }
 }
 
-
-
-
 /* for mobile */
-@media only screen and (max-width:480px) {
-    .section-footer,
-    .footer__container,
-    .footer-header {
-        background-color: var(--footer-tablet-color);
-        color: var(--general-white);
-    }
+@media only screen and (max-width: 480px) {
+  .footer__section,
+  .footer__container,
+  .footer__header {
+    background-color: var(--footer-tablet-color);
+    color: var(--general-white);
+  }
 
-    .footer__container {
-        padding: 70px 25px;
-    }
+  .footer__container {
+    padding: 70px 25px;
+  }
 
-    .footer-header {
-       flex-direction: column;
-    }
+  .footer-header {
+    flex-direction: column;
+  }
 
-    .footer--title {
-        font-size: 49px;
-        width: 100%;
-    }
+  .footer__title {
+    font-size: 49px;
+    width: 100%;
+  }
 
-    .footer__nav {
-        flex-direction: column;
-        width: 100%;
-        margin: 30px 0 0 0;
-        align-items: baseline;
-    }
+  .footer__nav {
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0 0 0;
+    align-items: baseline;
+  }
 
-    .footer-nav-link {
-        font-size: 25px;
-        line-height: 50px;
-        margin: 0;
-    }
+  .footer-nav-link {
+    font-size: 25px;
+    line-height: 50px;
+    margin: 0;
+  }
 }

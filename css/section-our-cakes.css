@@ -1,186 +1,211 @@
-.our-cakes-section {
-   padding: 0 65px;
+.our-cakes__section {
+  padding: 0 65px;
 }
 
-.our-cakes__title--text {
-    font-size: 45px;
-    margin: -58px 0 0 4px;
+.our-cakes__title__text {
+  font-size: 45px;
+  margin: -58px 0 0 4px;
 }
 
-.gallery-container {
-    padding: 40px 0 0;
-    display: flex;
-    justify-content: space-between;
+.our-cakes__gallery-container {
+  padding: 40px 0 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .image-card {
-    padding: 60px 0px 0 46px;
-    font-size: 30px;
+  padding: 60px 0px 0 46px;
+  font-size: 30px;
 }
 
 .cake-name-text {
-    font-family: "Circe";
-    font-size: 24px;
-    line-height: 37px;
-    position: relative;
-    z-index: 1;
+  font-family: "Circe";
+  font-size: 24px;
+  line-height: 37px;
+  position: relative;
+  z-index: 1;
 }
 
 .cake-counter-text {
-    font-family: 'Circe';
-    font-size: 21px;
-    line-height: 17px;
-    position: relative;
-    z-index: 1;  
+  font-family: "Circe";
+  font-size: 21px;
+  line-height: 17px;
+  position: relative;
+  z-index: 1;
 }
 
-.cake-image {
-    width: -webkit-fill-available;
-    position: absolute;
-    top: 0;
-    left: 0;
+.cake-image--big {
+  max-width: 100%;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.cake-image--little {
+  max-width: 100%;
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
 }
 
 .solid-image-wrapper {
-    height: 675px;
-    width: 55%;
+  height: 51vw;
+  width: 55%;
 }
 
 .split-image-wrapper {
-    height: 675px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 51vw;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .splited-image-card {
-    height: 47%;
+  height: 47%;
 }
 
-.solid-image-wrapper, .splited-image-card {
-    overflow: hidden;
-    position: relative;
-    background-color: var(--general-white);
+.solid-image-wrapper,
+.splited-image-card {
+  overflow: hidden;
+  position: relative;
+  background-color: var(--general-white);
 }
 
 .look-button {
-    font-family: 'Circe';
-    position: absolute;
-    bottom: 35px;
-    right: 70px;
-    font-size: 20px;
-    background-color: var(--invisible-bg);
-    backface-visibility: hidden;
-    border: hidden;
-    outline: none;
+  font-family: "Circe";
+  position: absolute;
+  bottom: 35px;
+  right: 70px;
+  font-size: 20px;
+  background-color: var(--invisible-bg);
+  backface-visibility: hidden;
+  border: hidden;
+  outline: none;
 }
 
 .look-button:hover {
-    color: var(--secondary-text);
+  color: var(--secondary-text);
 }
 
- /* for tablets  */
- @media only screen and (max-width:768px) {
-    .our-cakes-section {
-        padding: 0 15px;
-    }
+/* 1240px */
+@media only screen and (max-width: 1240px) {
+  .cake-image--big {
+    max-width: 85%;
+    bottom: 10%;
+    right: 10%;
+  }
 
-    .our-cakes__title--text {
-        font-size: 32px;
-        text-align: start;
-        margin: -42px 0 0 0px;
-    }
+  .cake-image--little {
+    max-width: 45%;
+    bottom: 10%;
+    right: 20%;
+  }
+}
 
-    .gallery-container {
-        padding: 0;
-        flex-direction: row;
-    }
+/* for tablets  */
+@media only screen and (max-width: 768px) {
+  .our-cakes__section {
+    padding: 0 15px;
+  }
 
-    .solid-image-wrapper {
-        height: 400px;
-        width: 56%;
-        margin: 30px auto;
-        padding: 22px 28px;
-    }
+  .our-cakes__title__text {
+    font-size: 32px;
+    text-align: start;
+    margin: -42px 0 0 0px;
+  }
 
-    .split-image-wrapper {
-        height: 400px;
-        margin: 30px auto;
-        width: 38%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+  .our-cakes__gallery-container {
+    padding: 0;
+    flex-direction: row;
+  }
 
-    .cake-name-text {
-        font-size: 14px;
-        line-height: 14px;
-    }
+  .solid-image-wrapper {
+    width: 56%;
+    margin: 30px auto;
+    padding: 22px 28px;
+  }
 
-    .cake-counter-text {
-        font-size: 14px;
-        line-height: 17px;
-    }
+  .split-image-wrapper {
+    margin: 30px auto;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-    .image-card {
-        padding: 20px 0px 0 23px;
-    }
- }
+  .cake-name-text {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .cake-counter-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .image-card {
+    padding: 20px 0px 0 23px;
+  }
+}
 
 /* media for mobile */
-@media only screen and (max-width:480px) {
-    .our-cakes-section {
-        padding: 0 23px;
-        margin: 35px 0 0 0;
-    }
+@media only screen and (max-width: 480px) {
+  .our-cakes__section {
+    padding: 0 23px;
+    margin: 35px 0 0 0;
+  }
 
-    .our-cakes__title--text {
-        font-size: 42px;
-        text-align: center;
-        margin: 0;
-    }
+  .our-cakes__title__text {
+    font-size: 42px;
+    text-align: center;
+    margin: 0;
+  }
 
-    .gallery-container {
-        flex-direction: column;
-    }
+  .our-cakes__gallery-container {
+    flex-direction: column;
+  }
 
-    .solid-image-wrapper {
-        height: 200px;
-        width: 100%;
-        margin: 30px auto;
-        padding: 30px 25px;
-    }
+  .solid-image-wrapper {
+    height: 200px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 30px 25px;
+  }
 
-    .cake-name-text {
-        font-size: 22px;
-        line-height: 20px;
-    }
+  .cake-name-text {
+    font-size: 22px;
+    line-height: 20px;
+  }
 
-    .cake-counter-text {
-        font-size: 19px;
-        line-height: 19px;
-        margin: 8px 0 0 0;
-    }
+  .cake-counter-text {
+    font-size: 19px;
+    line-height: 19px;
+    margin: 8px 0 0 0;
+  }
 
-    .split-image-wrapper {
-        width: 100%;
-        height: 420px;
-        margin: 0 auto 10px;
-    }
+  .split-image-wrapper {
+    width: 100%;
+    height: 420px;
+    margin: 0 auto 10px;
+  }
 
-    .splited-image-card {
-        height: 49%;
-        margin-bottom: 0;
-    }
+  .splited-image-card {
+    height: 49%;
+    margin-bottom: 0;
+  }
 
-    .cake-image {
-        max-width: 100%;
-        top: -25px;
-        left: 20px;
-    }
+  .cake-image--big {
+    max-width: 40%;
+    right: 15%;
+  }
 
-    .look-button {
-       display: none;
-    }
+  .cake-image--little {
+    max-width: 40%;
+    right: 15%;
+  }
+
+  .look-button {
+    display: none;
+  }
 }

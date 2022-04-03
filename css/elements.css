@@ -9,23 +9,23 @@ button {
 
 /* main button */
 .main__button {
-    background-color: var(--secondary-text);
-    color: var(--general-white);
-    font-family: 'Circe';
-    font-weight: normal;
-    border: hidden;
-    border-radius: 50px;
-    transition: 500ms;
-  }
-  
-  .main__button:hover {
-    box-shadow: 0 5px 10px var(--button-shadow);
-  }
-  
-  .main__button:focus {
-    box-shadow: 0 5px 10px var(--button-shadow);
-    outline: none;
-  }
+  background-color: var(--secondary-text);
+  color: var(--general-white);
+  font-family: "Circe";
+  font-weight: normal;
+  border: hidden;
+  border-radius: 50px;
+  transition: 500ms;
+}
+
+.main__button:hover {
+  box-shadow: 0 5px 10px var(--button-shadow);
+}
+
+.main__button:focus {
+  box-shadow: 0 5px 10px var(--button-shadow);
+  outline: none;
+}
 /* ___________________________________ */
 
 /* icon social web */
@@ -46,33 +46,33 @@ button {
 }
 
 .social-icons:focus {
-  background-color: var(--background); 
+  background-color: var(--background);
 }
 /* ___________________________________ */
 
-  .section-title--text {
-      font-size: 44px;
-  }
+.section__title-text {
+  font-size: 44px;
+}
 
-  .section-subtitle--text {
-    font-size: 40px;
-    line-height: 14px;
-    font-family: 'IntroScriptR';
-    font-style: normal;
-  }
+.section__subtitle-text {
+  font-size: 40px;
+  line-height: 14px;
+  font-family: "IntroScriptR";
+  font-style: normal;
+}
 
 .article--subtitle,
 .article--text {
-    font-size: 20px;
-    font-family: "Circe";
+  font-size: 20px;
+  font-family: "Circe";
 }
 
-  /* container for image and description ( < image name description > ) */
-  .content-container--img-text-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+/* container for image and description ( < image name description > ) */
+.content-container--img-text-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /* arrow svg button */
@@ -91,11 +91,11 @@ button {
 .cake-counter--text {
   text-align: end;
   font-size: 18px;
-  font-family: 'Circe';
+  font-family: "Circe";
 }
 
 .mobile-carusel,
-.mobile-carusel--item {
+.mobile-carusel__item {
   display: none;
 }
 
@@ -103,47 +103,47 @@ button {
   display: none;
 }
 
-  /* for tablets  */
-@media only screen and (max-width:768px) {
-    .mobile--only {
-      display: none;
+/* for tablets  */
+@media only screen and (max-width: 768px) {
+  .mobile--only {
+    display: none;
   }
 
   .content-container--img-text-buttons {
-      flex-direction: column;
-      width: 100%;
+    flex-direction: column;
+    width: 100%;
   }
 
   .mobile-carusel,
-  .mobile-carusel--item {
-  display: none;
-}
+  .mobile-carusel__item {
+    display: none;
+  }
 }
 
 /* for mobile */
-@media only screen and (max-width:480px) {
-    .mobile--only {
-      display: block;
+@media only screen and (max-width: 480px) {
+  .mobile--only {
+    display: block;
   }
 
   .mobile--hidden {
     display: none;
-}
+  }
 
   .content-container {
     display: flex;
     flex-direction: column;
   }
-  
+
   .main__button {
     margin: 25px auto;
- }
+  }
 
   .article--subtitle,
   .article--text {
     font-size: 10px;
     font-family: "Circe";
-}
+  }
 
   .button-arow {
     display: none;
@@ -154,7 +154,7 @@ button {
     text-align: center;
   }
 
-  .mobile-carusel--item {
+  .mobile-carusel__item {
     margin: 0 2px 0;
     padding: 5px;
     font-size: 1px;
@@ -163,13 +163,13 @@ button {
     background-color: var(--mobile-carusel);
     border-radius: 50%;
     display: inline;
-}
+  }
 
-  .mobile-carusel--item:hover {
+  .mobile-carusel__item:hover {
     background-color: var(--secondary-text);
   }
 
-  .mobile-carusel--item:focus {
+  .mobile-carusel__item:focus {
     background-color: var(--secondary-text);
   }
 }

@@ -32,13 +32,13 @@
 <main class="section"> 
   <div class="header__container">
     <header class="main__header">
-        <h1 class="header__title">Cakes</h1>
+        <h1 class="main__title">Cakes</h1>
     <!-- menu button (burger) it`s invisible in desktop, anabled in mobile version -->
       <button class="main_nav_burger-button" id="js-responsive-menu-button">&#8801;</button>  
 
         <nav class="main__header__nav nav" id="js-nav-menu">
           <!-- in this section I have added descriptions of each link, for better accessibility  -->
-          <a  href="#our-cakes" class="nav-link resp-nav-link" itemprop="our cakes">НАШИ ТОРТЫ</a>
+          <a href="#our-cakes" class="nav-link resp-nav-link" itemprop="our cakes">НАШИ ТОРТЫ</a>
           <a href="#individual-order" class="nav-link resp-nav-link" itemprop="individual order">ИНДИВИДУАЛЬНЫЙ ЗАКАЗ</a>
           <a href="#reviews" class="nav-link resp-nav-link" itemprop="reviews">ОТЗЫВЫ</a>
           <a href="#about-us" class="nav-link resp-nav-link" itemprop="about us">О НАС</a>
@@ -52,21 +52,21 @@
 
     <div class="content-container main__content-container">
    
-      <h1 class="main__title--text">Торты <br> на заказ</h1>
-      <p class="section-subtitle--text main__hand-made--text">Ручная работа</p>
+      <h1 class="main__title-text">Торты <br> на заказ</h1>
+      <p class="section__subtitle-text main__hand-made__text">Ручная работа</p>
    
     <!-- button -->
-    <button class="main__button section-main--button" itemprop="select cake button">ВЫБРАТЬ ТОРТ</button>
+    <button class="main__button section-main__button" itemprop="select cake button">ВЫБРАТЬ ТОРТ</button>
     
-    <div class="main__info">
-      <div class="main__info--item">
+    <div class="section-main__info">
+      <div class="section-main__info__item">
         <svg class="svg_item svg_plant"><use href="#plant"></use></svg>
-        <p class="main__info--text">Натуральные <br> ингредиенты</p>
+        <p class="section-main__info__text">Натуральные <br> ингредиенты</p>
       </div>
       
-      <div class="main__info--item">
+      <div class="section-main__info__item">
         <svg class="svg_item svg_gift_box"><use href="#gift_box"></use></svg>
-        <p class="main__info--text">Доставка бесплатно <br> при заказе от 2000 рублей*</p>
+        <p class="section-main__info__text">Доставка бесплатно <br> при заказе от 2000 рублей*</p>
       </div> 
 
       </div>
@@ -80,16 +80,16 @@
 
 
 
-<section id="our-cakes" class="section our-cakes-section">
+<section id="our-cakes" class="section our-cakes__section">
   <div class="content-container">
-    <h1 class="section--title-text our-cakes__title--text">Наши торты</h1>
+    <h1 class="section__title-text our-cakes__title__text">Наши торты</h1>
 
-    <div class="gallery-container">
+    <div class="our-cakes__gallery-container">
       <!-- big image -->
       <div class="image-card solid-image-wrapper">
         <p class="cake-name-text">Классические</p>
         <p class="cake-counter-text">24 вида</p>
-        <img class="cake-image" src="./img/classic_cake.png" alt="classic cake">
+        <img class="cake-image--big" src="./img/content_images/classic_cake.png" alt="classic cake">
         <button class="look-button">Смотреть &rarr;</button>
       </div>
   
@@ -98,33 +98,33 @@
         <div class="col-lg image-card splited-image-card">
           <p class="cake-name-text">Муссовые</p>
           <p class="cake-counter-text">12 видов</p>
-          <img class="cake-image" src="./img/myss_cake.png" alt="myss cake">
+          <img class="cake-image--little" src="./img/content_images/myss_cake.png" alt="myss cake">
           <button class="look-button">&rarr;</button>
         </div>
   
         <div class="col-lg image-card splited-image-card">
           <p class="cake-name-text">Свадебные</p>
           <p class="cake-counter-text">20 видов</p>
-          <img class="cake-image" src="./img/wednes_day_cake.png" alt="wedness-day cake">
+          <img class="cake-image--little" src="./img/content_images/wednes_day_cake.png" alt="wedness-day cake">
           <button class="look-button">&rarr;</button>
         </div>
       </div>
     </div>
 
-    <div class="gallery-container">
+    <div class="our-cakes__gallery-container">
       <div class="col-sm split-image-wrapper">
         <!-- 2 little images -->
         <div class="col-lg image-card splited-image-card">
           <p class="cake-name-text">Мужчинам</p>
           <p class="cake-counter-text">12 видов</p>
-          <img class="cake-image medium-image" src="./img/mans_cake.png" alt="mans cake">
+          <img class="cake-image--little" src="./img/content_images/mans_cake.png" alt="mans cake">
           <button class="look-button">&rarr;</button>
         </div>
   
         <div class="col-lg image-card splited-image-card">
           <p class="cake-name-text">Женщинам</p>
           <p class="cake-counter-text">16 видов</p>
-          <img class="cake-image medium-image" src="./img/womans_cake.png" alt="womans cake">
+          <img class="cake-image--little" src="./img/content_images/womans_cake.png" alt="womans cake">
           <button class="look-button">&rarr;</button>
         </div>
       </div>
@@ -133,7 +133,7 @@
         <!-- big image -->
         <p class="cake-name-text">Детские</p>
         <p class="cake-counter-text">18 видов</p>
-        <img class="cake-image big-image" src="./img/childrens_cake.png" alt="childrens cake">
+        <img class="cake-image--big" src="./img/content_images/childrens_cake.png" alt="childrens cake">
         <button class="look-button">&rarr;</button>
       </div>
     </div>
@@ -145,16 +145,16 @@
  <!-- 3 section individual order -->
 
 
-<section id="individual-order" class="section individual-order-section">
+<section id="individual-order" class="section individual-order__section">
   <div class="content-container">
-    <h1 class="section-title--text text-center individual-order--title">Индивидуальный заказ</h1>
-    <p class="section-subtitle--text text-center individual-order--subtitle">Соберите торт в 3 шага</p>
+    <h1 class="section__title-text text-center individual-order__title">Индивидуальный заказ</h1>
+    <p class="section__subtitle-text text-center individual-order__subtitle">Соберите торт в 3 шага</p>
 
 
     <!-- -----------------  filling ----------------- -->
     <div class="col-lg individual-order__block">
-      <h1 class="individual-order__block--number">01</h1>
-      <h1 class="individual-order__block--title">Выберите <br class="line-gap"/> начинку</h1>
+      <h1 class="individual-order__block__number">01</h1>
+      <h1 class="individual-order__block__title">Выберите <br class="line-gap"/> начинку</h1>
 
       <div class="content-container--img-text-buttons fill-container">
 
@@ -165,18 +165,18 @@
   
         <figure>
           <div class="fill-image__container">
-            <img src="./img/chocolate_fill_photo.png"
+            <img src="./img/content_images/chocolate_fill_photo.png"
             alt="chocolate fill photo"
             class="fill-image">
           </div>
           
           <!-- carusel for mobile devises -->
           <p class="mobile-carusel">
-            <span class="mobile-carusel--item">.</span>
-            <span class="mobile-carusel--item">.</span>
-            <span class="mobile-carusel--item">.</span>
-            <span class="mobile-carusel--item">.</span>
-            <span class="mobile-carusel--item">.</span>
+            <span class="mobile-carusel__item">.</span>
+            <span class="mobile-carusel__item">.</span>
+            <span class="mobile-carusel__item">.</span>
+            <span class="mobile-carusel__item">.</span>
+            <span class="mobile-carusel__item">.</span>
           </p>
 
           <h3 class="fill-name--text">Шоколадный ганаш</h3>
@@ -202,8 +202,8 @@
     <!-- -----------------  size -----------------  -->
     <div class="col-lg individual-order__block">
 
-      <h1 class="individual-order__block--number">02</h1>
-      <h1 class="individual-order__block--title">Размер</h1>
+      <h1 class="individual-order__block__number">02</h1>
+      <h1 class="individual-order__block__title">Размер</h1>
       
       <div class="content-container--img-text-buttons size-container">
         <div class="button-weight__container">
@@ -215,11 +215,11 @@
 
           <!-- carusel for mobile devises -->
           <p class="mobile-carusel">
-            <span class="mobile-carusel--item">.</span>
-            <span class="mobile-carusel--item">.</span>
-            <span class="mobile-carusel--item">.</span>
-            <span class="mobile-carusel--item">.</span>
-            <span class="mobile-carusel--item">.</span>
+            <span class="mobile-carusel__item">.</span>
+            <span class="mobile-carusel__item">.</span>
+            <span class="mobile-carusel__item">.</span>
+            <span class="mobile-carusel__item">.</span>
+            <span class="mobile-carusel__item">.</span>
           </p>
 
           <p class="button-weight--description">17-18 см</br>(1кг - 6 персон)</p>
@@ -267,8 +267,8 @@
     <!-- -----------------  decoration -----------------  -->
     <div class="col-lg individual-order__block">
 
-      <h1 class="individual-order__block--number">03</h1>
-      <h1 class="individual-order__block--title">Оформление</h1>
+      <h1 class="individual-order__block__number">03</h1>
+      <h1 class="individual-order__block__title">Оформление</h1>
 
       <div class="content-container--img-text-buttons decoration-container">
         <img src="./img/decoration_ilusration.png" alt="decoration peace of cake" class="decoration--image mobile--hidden">
@@ -281,7 +281,7 @@
 
           <div class="decor-image__container mobile--hidden">
             <div class="decor-image__card">
-              <img src="./img/berry-cake.png" alt="berry assorty cake" class="decor--cake-photo">
+              <img src="./img/content_images/berry-cake.png" alt="berry assorty cake" class="decor--cake-photo">
             </div>
             <p class="decor--photo-name">Ягодное ассорти</p>
             <h4 class="decor--photo-price">700 руб/кг</h4>
@@ -289,16 +289,16 @@
                   
           <div class="decor-image__container">
             <div class="decor-image__card">
-              <img src="./img/marshmalow_cake.png" alt="marshmallow cake" class="decor--cake-photo">
+              <img src="./img/content_images/marshmalow_cake.png" alt="marshmallow cake" class="decor--cake-photo">
             </div>
 
             <!-- carusel for mobile devises -->
             <p class="mobile-carusel">
-              <span class="mobile-carusel--item">.</span>
-              <span class="mobile-carusel--item">.</span>
-              <span class="mobile-carusel--item">.</span>
-              <span class="mobile-carusel--item">.</span>
-              <span class="mobile-carusel--item">.</span>
+              <span class="mobile-carusel__item">.</span>
+              <span class="mobile-carusel__item">.</span>
+              <span class="mobile-carusel__item">.</span>
+              <span class="mobile-carusel__item">.</span>
+              <span class="mobile-carusel__item">.</span>
             </p>
 
               <p class="decor--photo-name">Маршмэллоу</p>
@@ -324,23 +324,23 @@
     <h2 class="order-form--title">Ваш выбор</h2>
 
     <div class="order-form">
-      <form class="order-form--form">
-        <div class="order-form__col">
-          <label for="cake-fill" class="order-form--label">Начинка</label>
-          <input id="cake-fill" type="text" placeholder="Шоколадный ганаш" class="order-form--input">
+      <form class="order-form__form">
+        <div class="order-form__form__col">
+          <label for="cake-fill" class="order-form__label">Начинка</label>
+          <input id="cake-fill" type="text" placeholder="Шоколадный ганаш" class="order-form__input">
         </div>
   
-        <div class="order-form__col">
-          <label for="cake-size" class="order-form--label">Размер</label>
-          <input id="cake-size" type="text" placeholder="2 кг" class="order-form--input">
+        <div class="order-form__form__col">
+          <label for="cake-size" class="order-form__label">Размер</label>
+          <input id="cake-size" type="text" placeholder="2 кг" class="order-form__input">
         </div>
   
-        <div class="order-form__col">
-          <label for="cake-decor" class="order-form--label">Оформление</label>
-          <input id="cake-decor" type="text" placeholder="Маршмеллоу" class="order-form--input">
+        <div class="order-form__form__col">
+          <label for="cake-decor" class="order-form__label">Оформление</label>
+          <input id="cake-decor" type="text" placeholder="Маршмеллоу" class="order-form__input">
         </div>
   
-        <div class="order-form__col">
+        <div class="order-form__form__col">
           <button type="submit" class="main__button order-button">заказать торт</button>
         </div>
       </form>
@@ -351,11 +351,11 @@
 
 <!--  4 section reviews -->
 
-<section id="reviews" class="section reviews-section">
+<section id="reviews" class="section reviews__section">
   <div class="content-container">
-    <h1 class="reviews-title--text">Отзывы</h1>
+    <h1 class="reviews__title__text">Отзывы</h1>
 
-    <div class="content-container--img-text-buttons reviews-container">
+    <div class="content-container--img-text-buttons reviews__container">
 
       <button class="button-arow">
         <!-- previous button -->
@@ -366,7 +366,7 @@
       <!-- review from users -->
       <article class="reviews__article">
         <div class="person-photo__container">
-          <img src="./img/Maria_photo.png"
+          <img src="./img/users_photo/Maria_photo.png"
           alt="user photo: Maria"
           class="pesson-photo--image">
         </div>
@@ -381,11 +381,11 @@
 
          <!-- carusel for mobile devises -->
          <p class="mobile-carusel">
-          <span class="mobile-carusel--item">.</span>
-          <span class="mobile-carusel--item">.</span>
-          <span class="mobile-carusel--item">.</span>
-          <span class="mobile-carusel--item">.</span>
-          <span class="mobile-carusel--item">.</span>
+          <span class="mobile-carusel__item">.</span>
+          <span class="mobile-carusel__item">.</span>
+          <span class="mobile-carusel__item">.</span>
+          <span class="mobile-carusel__item">.</span>
+          <span class="mobile-carusel__item">.</span>
         </p>
       </article>
 
@@ -403,10 +403,10 @@
 
 <!--  5 section about us -->
 
-<section id="about-us" class="section section-about-us">
-  <div class="content__container">
-    <h1 class="about-us-title--text">О нас</h1>
-    <h2 class="section-subtitle--text about-us-subtitle--text mobile--hidden">О кондитере</h2>
+<section id="about-us" class="section about-us__section">
+  <div class="content-container">
+    <h1 class="about-us__title__text">О нас</h1>
+    <h2 class="section__subtitle-text about-us__subtitle__text mobile--hidden">О кондитере</h2>
 
     <div class="content-container--img-text-buttons">
 
@@ -419,7 +419,7 @@
           class="about-us-photo--image">
         </div>
 
-        <h2 class="section-subtitle--text about-us-subtitle--text mobile--only">О кондитере</h2>
+        <h2 class="section__subtitle-text about-us__subtitle__text mobile--only">О кондитере</h2>
         <!-- text container -->
         <div class="about-us-text__container">
             <strong class="article--subtitle">Кондитер - как призвание</strong>
@@ -461,10 +461,10 @@
 
  <!--  6 section our advantages -->
 
- <section class="section our-advantages">
+ <section class="section our-advantages__section">
   <div class="content__container">
-    <h1 class="about-us-title--text text-center">Наши преимущества</h1>
-    <h2 class="section-subtitle--text about-us-subtitle--text text-center">Почему нас выбирают?</h2>
+    <h1 class="about-us__title__text text-center">Наши преимущества</h1>
+    <h2 class="section__subtitle-text about-us__subtitle__text text-center">Почему нас выбирают?</h2>
 
     <div class="content-container--img-text-buttons our-advantages__content-container">
 
@@ -501,10 +501,10 @@
 
 <!-- 7 section customer care -->
 
-<section class="section customer_care">
+<section class="section customer-care__section">
   <div class="content__container">
-    <h1 class="about-us-title--text">Забота о клиентах</h1>
-    <h2 class="section-subtitle--text about-us-subtitle--text">Для нас важно</h2>
+    <h1 class="about-us__title__text">Забота о клиентах</h1>
+    <h2 class="section__subtitle__text about-us__subtitle__text">Для нас важно</h2>
     <p class="customer_care--text article--text">
       Нам важно чтобы каждый торт был безупречным,
       как внутри, так и снаружи, чтобы он был создан 
@@ -516,9 +516,9 @@
 
 <!-- 8 section how order -->
 
-<section id="how-order" class="section how-order">
+<section id="how-order" class="section how-order__section">
   <div class="content__container">
-    <h1 class="section-title--text how-order--title-text">Как заказать</h1>
+    <h1 class="section__title__text how-order__title__text">Как заказать</h1>
 
     <div class="content-container--img-text-buttons how-order__content-container">
 
@@ -565,19 +565,19 @@
 
 <!-- 8 section contacts -->
 
-<section id="contacts" class="section section-contacts">
-  <div class="content__container">
-    <h1 class="section-title--text contacts--title-text">Контакты</h1>
-    <h1 class="section-subtitle--text contacts--subtitle-text">Остались вопросы?</h1>
+<section id="contacts" class="section contacts__section">
+  <div class="content-container">
+    <h1 class="section__title-text contacts__title__text">Контакты</h1>
+    <h1 class="section__subtitle-text contacts__subtitle__text">Остались вопросы?</h1>
     
 
     <div class="content-container--img-text-buttons contacts__content-container">
-      <form action="submit" class="contacts--form">
+      <form action="submit" class="contacts__form">
         <p class="article--text contacts-text">Заполните форму ниже и наш кондитер свяжется с Вами</p>
-        <input type="text" placeholder="Ваше имя" class="contacts-form--input">
-        <input type="text" placeholder="Email адресс" class="contacts-form--input">
-        <input type="text" placeholder="Ваш вопрос" class="contacts-form--input">  <!-- here need to reformat to text area? -->
-        <button type="submit" class="main__button contacts__form--button">Отправить</button>
+        <input type="text" placeholder="Ваше имя" class="contacts__form__input">
+        <input type="text" placeholder="Email адресс" class="contacts__form__input">
+        <input type="text" placeholder="Ваш вопрос" class="contacts__form__input">  <!-- here need to reformat to text area? -->
+        <button type="submit" class="main__button contacts__form__button">Отправить</button>
       </form>
 
       <div class="contacts-link__container">
@@ -609,15 +609,15 @@
 
 <!-- footer -->
 
-<footer class="section section-footer">
+<footer class="section footer__section">
   <div class="footer__container">
-    <header class="main__header footer-header">
-        <h1 class="header__title footer--title">Cakes</h1>
+    <header class="main__header footer__header">
+        <h1 class="main__title footer__title">Cakes</h1>
     <!-- menu button (burger) it`s invisible in desktop, anabled in mobile version -->
 
         <nav class="footer__nav nav">
           <!-- in this section I have added descriptions of each link, for better accessibility  -->
-          <a  href="#our-cakes" class="nav-link footer-nav-link" itemprop="our cakes">Наши торты</a>
+          <a href="#our-cakes" class="nav-link footer-nav-link" itemprop="our cakes">Наши торты</a>
           <a href="#individual-order" class="nav-link footer-nav-link" itemprop="individual order">Индивидуальный заказ</a>
           <a href="#reviews" class="nav-link footer-nav-link" itemprop="reviews">Отзывы</a>
           <a href="#about-us" class="nav-link footer-nav-link" itemprop="about us">О нас</a>
@@ -639,8 +639,8 @@
           </div>
         </nav>
       </header>
-    <hr class="footer--line">
-    <p class="footer--copiright text-center article--text">&copy;  2018 Cakes
+    <hr class="footer__line">
+    <p class="footer__copiright text-center article--text">&copy;  2018 Cakes
     
       <!-- insta -->
       <span class="footer__social-web--icon"></span>

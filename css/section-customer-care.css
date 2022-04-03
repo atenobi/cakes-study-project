@@ -1,47 +1,46 @@
-.customer_care {
-    margin-top: -70px;
-    padding: 235px 70px 220px;
-    background-image: url(../img/cake_bg.png);
-    background-repeat: no-repeat;
-    background-size: auto;
+.customer-care__section {
+  margin-top: -70px;
+  padding: 235px 70px 220px;
+  background-image: url(../img/cake_bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .customer_care--text {
-    width: 40%;
-    margin: 20px 0;
+  width: 40%;
+  margin: 20px 0;
 }
 
-
-
-
-
+/* 1240px design  */
+@media only screen and (max-width: 1240px) {
+  .customer-care__section {
+    background-position-x: -10vw;
+  }
+}
 
 /* design for tablets (768 PX) */
-@media only screen and (max-width:768px) {
-    .customer_care {
-        margin-top: -70px;
-        padding: 120px 43px 88px;
-        background-size: 101%;
-        background-position-x: 23px;
-        background-position-y: -29px;
-    }
+@media only screen and (max-width: 768px) {
+  .customer-care__section {
+    margin-top: -70px;
+    padding: 10vw 43px 20vw;
+    background-size: 100%;
+    background-position-x: 10vw;
+    background-position-y: 5vw;
+  }
 }
 
-
-
-
 /* design for mobile */
-@media only screen and (max-width:480px) {
-    .customer_care {
-        margin-top: -70px;
-        padding: 87px 16px 265px;
-        background-size: 250%;
-        background-position-x: -620px;
-        background-position-y: 300px;
-    }
+@media only screen and (max-width: 480px) {
+  .customer-care__section {
+    margin-top: -70px;
+    padding: 87px 16px 265px;
+    background-size: 250%;
+    background-position-x: 86%;
+    background-position-y: 300px;
+  }
 
-    .customer_care--text {
-        width: 100%;
-        margin: 10px 0 0;
-    }
+  .customer_care--text {
+    width: 100%;
+    margin: 10px 0 0;
+  }
 }

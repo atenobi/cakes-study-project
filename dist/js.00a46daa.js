@@ -122,7 +122,7 @@ var burgerButtonEl = document.getElementById('js-responsive-menu-button');
 var mobileMenuEl = document.getElementById('js-nav-menu');
 
 var showMenuFunc = function showMenuFunc() {
-  mobileMenuEl.classList.toggle('mobile-menu');
+  return mobileMenuEl.classList.toggle('mobile-menu');
 };
 
 burgerButtonEl.addEventListener('click', showMenuFunc);
@@ -154,7 +154,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51015" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64889" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
